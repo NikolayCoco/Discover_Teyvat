@@ -1,0 +1,180 @@
+﻿is_adventurer_guild = {
+    OR = {
+        tag = AG0
+        tag = AG1
+        tag = AG2
+        tag = AG3
+        tag = AG4
+        tag = AG5
+        tag = AG6
+    }
+}
+DvT_2D_portrait_trigger = {
+    has_global_variable = DvT_2D_portrait_enabled
+    OR = {
+        has_character_modifier = DvT_character_base_modifier
+        has_character_modifier = DvT_character_base_modifier_immortal
+        has_character_modifier = DvT_character_base_modifier_marriage
+        has_character_modifier = DvT_character_base_modifier_marriage_immortal
+    }
+}
+DvT_CI_Outfit_allow = {
+    custom_tooltip = {
+        text = DvT_CI_Outfit_allow_text
+        OR = {
+            has_trait = DvT_lisha_01_trait_leader
+            has_trait = DvT_fichel_01_trait_leader
+            has_trait = DvT_babala_01_trait_leader
+            has_trait = DvT_bannite_01_trait_leader
+            has_trait = DvT_kaiya_01_trait_leader
+            has_trait = DvT_qin_01_trait_leader
+            has_trait = DvT_diluke_01_trait_leader
+            has_trait = DvT_keli_01_trait_leader
+            has_trait = DvT_ningguang_01_trait_leader
+            has_trait = DvT_xingqiu_01_trait_leader
+            has_trait = DvT_xiangling_01_trait_leader
+            has_trait = DvT_keqing_01_trait_leader
+            has_trait = DvT_ganyu_01_trait_leader
+            has_trait = DvT_hutao_01_trait_leader
+            has_trait = DvT_shenhe_01_trait_leader
+            has_trait = DvT_yelan_01_trait_leader
+            has_trait = DvT_yaoyao_01_trait_leader
+            has_trait = DvT_linghua_01_trait_leader
+            has_trait = DvT_leishen_01_trait_leader
+            has_trait = DvT_kirara_01_trait_leader
+            has_trait = DvT_nilu_01_trait_leader
+            has_trait = DvT_bengbeng_01_trait_leader
+            has_trait = DvT_nawei_01_trait_leader
+            has_trait = DvT_gongzi_01_trait_leader
+            has_trait = DvT_aleiqinuo_01_trait_leader
+            has_trait = DvT_kong_01_trait_leader
+            has_trait = DvT_ying_01_trait_leader
+        }
+    }
+}
+DvT_is_Anemo_Archon = { custom_tooltip = { text = DvT_is_Anemo_Archon_text has_trait = DvT_wendi_01_trait_leader } }
+DvT_is_Geo_Archon = { custom_tooltip = { text = DvT_is_Geo_Archon_text has_trait = DvT_zhongli_01_trait_leader } }
+DvT_is_Electro_Archon = { custom_tooltip = { text = DvT_is_Electro_Archon_text has_trait = DvT_leishen_01_trait_leader } }
+DvT_is_Dendro_Archon = { custom_tooltip = { text = DvT_is_Dendro_Archon_text has_trait = DvT_naxida_01_trait_leader } }
+DvT_is_Hydro_Archon = { custom_tooltip = { text = DvT_is_Hydro_Archon_text has_trait = DvT_funingna_01_trait_leader } }
+DvT_is_Hydro_Sovereign = { custom_tooltip = { text = DvT_is_Hydro_Sovereign_text has_trait = DvT_nawei_01_trait_leader } }
+DvT_is_Pyro_Archon = { custom_tooltip = { text = DvT_is_Pyro_Archon_text has_trait = DvT_maweika_01_trait_leader } }
+DvT_is_Luno_Godness = { custom_tooltip = { text = DvT_is_Luno_Godness_text has_trait = DvT_columbina_01_trait_leader } }
+DvT_is_Cryo_Archon = { custom_tooltip = { text = DvT_is_Cryo_Archon_text has_trait = DvT_anna_01_trait_leader } }
+DvT_is_Other_Archon = { custom_tooltip = { text = DvT_is_Other_Archon_text OR = { has_trait = DvT_kong_01_trait_leader has_trait = DvT_ying_01_trait_leader } } }
+DvT_exist_character = {
+    custom_tooltip = {
+        text = DvT_exist_character_tooltip
+        OR = {
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_shatang_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lisha_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_fichel_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_anbo_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_leize_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_babala_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_bannite_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kaiya_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_noel_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qin_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_diluke_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_mona_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_wendi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_keli_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_diona_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_abeiduo_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_luosha_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_youla_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_mika_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_taliya_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_dulin_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ningguang_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xingqiu_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiangling_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_chongyun_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_beidou_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qiqi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_keqing_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xinyan_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_zhongli_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ganyu_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiao_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_hutao_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yanfei_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yunjin_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_shenhe_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yelan_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yaoyao_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_baizhu_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiaming_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xianyun_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lanyan_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_wanye_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_linghua_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_zaoyou_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiaogong_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiutiao_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_leishen_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xinhai_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_tuoma_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_wulang_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yidou_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_shenzi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lingren_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiuqiren_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_pingzang_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kirara_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qianzhi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ruixi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kelai_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_tinali_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_duoli_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kandisi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_sainuo_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_nilu_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_naxida_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_laiyila_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_falushan_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_bengbeng_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aierhaisen_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_dixiya_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kawei_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_saisuosi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_linnite_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_linni_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_feimini_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_nawei_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_laiou_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xialuodi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_funingna_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_naweiya_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiawolei_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_keluolinde_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xigewen_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aimeiliai_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aikefei_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kaqina_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_malani_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiniqi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xinuoning_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ouluolun_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qiasika_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_maweika_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_nainai_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yianshan_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_niuniu_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yifa_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_gongzi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aleiqinuo_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yiniefu_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ainuo_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lawuma_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_feilinsi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_naifuer_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yakeda_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kong_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ying_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ailuoyi_01_trait_leader } }
+            NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_skirk_01_trait_leader } }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+﻿liyue_culture = { # 璃月港
+	language = mandarin_language
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+		teyvat_group
+	}
+}
+guili_culture = { # 归离原
+	language = southern_mandarin_dialect
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+        archon_group
+		teyvat_group
+	}
+}
+qingce_culture = { # 轻策庄
+	language = northern_mandarin_dialect
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+		teyvat_group
+	}
+}
+mingyun_culture = { # 明蕴镇
+	language = jin_language
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+		teyvat_group
+	}
+}
+guyun_culture = { # 孤云阁
+	language = min_language
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+		teyvat_group
+	}
+}
+chasm_culture = { # 层岩巨渊
+	language = northern_mandarin_dialect
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+		teyvat_group
+	}
+}
+chenyu_culture = { # 沉玉谷
+	language = yue_language
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+        archon_group
+		teyvat_group
+	}
+}
+adeptus_culture = { # 仙人
+	language = classical_chinese_language
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+        teyvat_1_group
+        archon_group
+		teyvat_group
+	}
+}

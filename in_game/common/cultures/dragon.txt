@@ -1,0 +1,15 @@
+﻿hydro_dragon_culture = { # 水龙
+	# language = common_language
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx french_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        french_group
+		teyvat_group
+	}
+}

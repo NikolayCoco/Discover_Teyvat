@@ -1,0 +1,117 @@
+﻿DvT_adventurer_guild_IO = {
+    has_target = no
+    unique = yes
+    has_leader_country = no
+
+	create_visible_trigger = { always = no }
+	invite_visible_trigger = { always = no }
+    auto_disband_trigger = { always = no }
+
+    join_defensive_wars_always = { always = no }
+    join_offensive_wars_always = { always = no }
+
+    can_join_trigger = {
+        is_ai = no
+    }
+
+    modifier = {
+        vision_estate_target_satisfaction = 0.05
+        global_vision_estate_power = 0.5
+        gender_equality = yes
+    }
+
+    monthly_effect = {
+        every_country = {
+            limit = {
+                any_owned_location = {
+                    is_capital = yes
+                    has_building = building_type:DvT_adventurer_guild_building
+                }
+                NOT = { is_member_of_international_organization = root }
+            }
+            root = {
+				add_country_to_international_organization = prev
+			}
+        }
+        every_international_organization_member = {
+            if = {
+                limit = {
+                    NOT = {
+                        any_owned_location = {
+                            is_capital = yes
+                            has_building = building_type:DvT_adventurer_guild_building
+                        }
+                    }
+                }
+                root = {
+                    remove_country_from_international_organization = prev
+                }
+            }
+            if = {
+                limit = {
+                    NOT = { has_variable = AG_Primogem }
+                }
+                set_variable = {
+                    name = AG_Primogem
+                    value = 0
+                }
+            }
+            else = {
+                change_variable = {
+                    name = AG_Primogem
+                    add = 60
+                }
+                if = {
+                    limit = {
+                        has_variable = AG_Primogem_Blessing
+                        var:AG_Primogem_Blessing <30
+                    }
+                    change_variable = {
+                        name = AG_Primogem_Blessing
+                        add = 1
+                    }
+                    change_variable = {
+                        name = AG_Primogem
+                        add = 90
+                    }
+                    if = {
+                        limit = {
+                            var:AG_Primogem_Blessing >=30
+                        }
+                        remove_variable = AG_Primogem_Blessing
+                    }
+                }
+            }
+        }
+    }
+
+    on_joined = {# effect when a country has joined (root = country, scope:recipient = existing organization, scope:target contains target if allowed)
+        if = {
+            limit = {
+                is_ai = no
+                NOT = { has_country_modifier = DvT_start }
+            }
+            trigger_event_non_silently = { id = DvT_events.1 }
+        }
+        if = {
+            limit = {
+                NOT = { has_variable = AG_Primogem }
+            }
+            set_variable = {
+                name = AG_Primogem
+                value = 0
+            }
+            random_owned_location = {
+				limit = {
+					is_capital = yes
+				}
+				add_pop = {
+					type = pop_type:vision_pop
+					size = 0.01
+					culture = root.culture
+					religion = root.religion
+				}
+			}
+        }
+    } 
+}

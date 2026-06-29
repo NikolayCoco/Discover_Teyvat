@@ -1,0 +1,2538 @@
+﻿
+pdxmesh = {
+	name = "abeiduo_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "abeiduo_01_diffuse.dds"
+		texture_specular = "abeiduo_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "abeiduo_01_entity"
+	pdxmesh = "abeiduo_01_mesh"
+}
+
+pdxmesh = {
+	name = "aierhaisen_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "aierhaisen_01_diffuse.dds"
+		texture_specular = "aierhaisen_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "aierhaisen_01_entity"
+	pdxmesh = "aierhaisen_01_mesh"
+}
+
+pdxmesh = {
+	name = "aikefei_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "aikefei_01_diffuse.dds"
+		texture_specular = "aikefei_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "aikefei_01_entity"
+	pdxmesh = "aikefei_01_mesh"
+}
+
+pdxmesh = {
+	name = "ailuoyi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ailuoyi_01_diffuse.dds"
+		texture_specular = "ailuoyi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ailuoyi_01_entity"
+	pdxmesh = "ailuoyi_01_mesh"
+}
+
+pdxmesh = {
+	name = "aimeiliai_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "aimeiliai_01_diffuse.dds"
+		texture_specular = "aimeiliai_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "aimeiliai_01_entity"
+	pdxmesh = "aimeiliai_01_mesh"
+}
+
+pdxmesh = {
+	name = "ainuo_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ainuo_01_diffuse.dds"
+		texture_specular = "ainuo_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ainuo_01_entity"
+	pdxmesh = "ainuo_01_mesh"
+}
+
+pdxmesh = {
+	name = "aleiqinuo_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "aleiqinuo_01_diffuse.dds"
+		texture_specular = "aleiqinuo_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "aleiqinuo_01_entity"
+	pdxmesh = "aleiqinuo_01_mesh"
+}
+
+pdxmesh = {
+	name = "aleiqinuo_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "aleiqinuo_02_diffuse.dds"
+		texture_specular = "aleiqinuo_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "aleiqinuo_02_entity"
+	pdxmesh = "aleiqinuo_02_mesh"
+}
+
+pdxmesh = {
+	name = "anbo_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "anbo_01_diffuse.dds"
+		texture_specular = "anbo_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "anbo_01_entity"
+	pdxmesh = "anbo_01_mesh"
+}
+
+pdxmesh = {
+	name = "babala_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "babala_01_diffuse.dds"
+		texture_specular = "babala_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "babala_01_entity"
+	pdxmesh = "babala_01_mesh"
+}
+
+pdxmesh = {
+	name = "babala_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "babala_02_diffuse.dds"
+		texture_specular = "babala_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "babala_02_entity"
+	pdxmesh = "babala_02_mesh"
+}
+
+pdxmesh = {
+	name = "baizhu_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "baizhu_01_diffuse.dds"
+		texture_specular = "baizhu_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "baizhu_01_entity"
+	pdxmesh = "baizhu_01_mesh"
+}
+
+pdxmesh = {
+	name = "bannite_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "bannite_01_diffuse.dds"
+		texture_specular = "bannite_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "bannite_01_entity"
+	pdxmesh = "bannite_01_mesh"
+}
+
+pdxmesh = {
+	name = "bannite_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "bannite_02_diffuse.dds"
+		texture_specular = "bannite_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "bannite_02_entity"
+	pdxmesh = "bannite_02_mesh"
+}
+
+pdxmesh = {
+	name = "beidou_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "beidou_01_diffuse.dds"
+		texture_specular = "beidou_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "beidou_01_entity"
+	pdxmesh = "beidou_01_mesh"
+}
+
+pdxmesh = {
+	name = "bengbeng_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "bengbeng_01_diffuse.dds"
+		texture_specular = "bengbeng_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "bengbeng_01_entity"
+	pdxmesh = "bengbeng_01_mesh"
+}
+
+pdxmesh = {
+	name = "bengbeng_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "bengbeng_02_diffuse.dds"
+		texture_specular = "bengbeng_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "bengbeng_02_entity"
+	pdxmesh = "bengbeng_02_mesh"
+}
+
+pdxmesh = {
+	name = "chongyun_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "chongyun_01_diffuse.dds"
+		texture_specular = "chongyun_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "chongyun_01_entity"
+	pdxmesh = "chongyun_01_mesh"
+}
+
+pdxmesh = {
+	name = "columbina_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "columbina_01_diffuse.dds"
+		texture_specular = "columbina_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "columbina_01_entity"
+	pdxmesh = "columbina_01_mesh"
+}
+
+pdxmesh = {
+	name = "diluke_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "diluke_01_diffuse.dds"
+		texture_specular = "diluke_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "diluke_01_entity"
+	pdxmesh = "diluke_01_mesh"
+}
+
+pdxmesh = {
+	name = "diluke_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "diluke_02_diffuse.dds"
+		texture_specular = "diluke_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "diluke_02_entity"
+	pdxmesh = "diluke_02_mesh"
+}
+
+pdxmesh = {
+	name = "diona_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "diona_01_diffuse.dds"
+		texture_specular = "diona_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "diona_01_entity"
+	pdxmesh = "diona_01_mesh"
+}
+
+pdxmesh = {
+	name = "dixiya_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "dixiya_01_diffuse.dds"
+		texture_specular = "dixiya_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "dixiya_01_entity"
+	pdxmesh = "dixiya_01_mesh"
+}
+
+pdxmesh = {
+	name = "dulin_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "dulin_01_diffuse.dds"
+		texture_specular = "dulin_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "dulin_01_entity"
+	pdxmesh = "dulin_01_mesh"
+}
+
+pdxmesh = {
+	name = "duoli_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "duoli_01_diffuse.dds"
+		texture_specular = "duoli_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "duoli_01_entity"
+	pdxmesh = "duoli_01_mesh"
+}
+
+pdxmesh = {
+	name = "falushan_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "falushan_01_diffuse.dds"
+		texture_specular = "falushan_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "falushan_01_entity"
+	pdxmesh = "falushan_01_mesh"
+}
+
+pdxmesh = {
+	name = "feilinsi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feilinsi_01_diffuse.dds"
+		texture_specular = "feilinsi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feilinsi_01_entity"
+	pdxmesh = "feilinsi_01_mesh"
+}
+
+pdxmesh = {
+	name = "feimini_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feimini_01_diffuse.dds"
+		texture_specular = "feimini_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feimini_01_entity"
+	pdxmesh = "feimini_01_mesh"
+}
+
+pdxmesh = {
+	name = "fichel_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "fichel_01_diffuse.dds"
+		texture_specular = "fichel_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "fichel_01_entity"
+	pdxmesh = "fichel_01_mesh"
+}
+
+pdxmesh = {
+	name = "fichel_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "fichel_02_diffuse.dds"
+		texture_specular = "fichel_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "fichel_02_entity"
+	pdxmesh = "fichel_02_mesh"
+}
+
+pdxmesh = {
+	name = "funingna_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "funingna_01_diffuse.dds"
+		texture_specular = "funingna_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "funingna_01_entity"
+	pdxmesh = "funingna_01_mesh"
+}
+
+pdxmesh = {
+	name = "ganyu_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ganyu_01_diffuse.dds"
+		texture_specular = "ganyu_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ganyu_01_entity"
+	pdxmesh = "ganyu_01_mesh"
+}
+
+pdxmesh = {
+	name = "ganyu_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ganyu_02_diffuse.dds"
+		texture_specular = "ganyu_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ganyu_02_entity"
+	pdxmesh = "ganyu_02_mesh"
+}
+
+pdxmesh = {
+	name = "gongzi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "gongzi_01_diffuse.dds"
+		texture_specular = "gongzi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "gongzi_01_entity"
+	pdxmesh = "gongzi_01_mesh"
+}
+
+pdxmesh = {
+	name = "gongzi_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "gongzi_02_diffuse.dds"
+		texture_specular = "gongzi_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "gongzi_02_entity"
+	pdxmesh = "gongzi_02_mesh"
+}
+
+pdxmesh = {
+	name = "hutao_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "hutao_01_diffuse.dds"
+		texture_specular = "hutao_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "hutao_01_entity"
+	pdxmesh = "hutao_01_mesh"
+}
+
+pdxmesh = {
+	name = "hutao_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "hutao_02_diffuse.dds"
+		texture_specular = "hutao_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "hutao_02_entity"
+	pdxmesh = "hutao_02_mesh"
+}
+
+pdxmesh = {
+	name = "jiaming_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "jiaming_01_diffuse.dds"
+		texture_specular = "jiaming_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "jiaming_01_entity"
+	pdxmesh = "jiaming_01_mesh"
+}
+
+pdxmesh = {
+	name = "jiniqi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "jiniqi_01_diffuse.dds"
+		texture_specular = "jiniqi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "jiniqi_01_entity"
+	pdxmesh = "jiniqi_01_mesh"
+}
+
+pdxmesh = {
+	name = "jiuqiren_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "jiuqiren_01_diffuse.dds"
+		texture_specular = "jiuqiren_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "jiuqiren_01_entity"
+	pdxmesh = "jiuqiren_01_mesh"
+}
+
+pdxmesh = {
+	name = "jiutiao_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "jiutiao_01_diffuse.dds"
+		texture_specular = "jiutiao_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "jiutiao_01_entity"
+	pdxmesh = "jiutiao_01_mesh"
+}
+
+pdxmesh = {
+	name = "kaiya_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kaiya_01_diffuse.dds"
+		texture_specular = "kaiya_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kaiya_01_entity"
+	pdxmesh = "kaiya_01_mesh"
+}
+
+pdxmesh = {
+	name = "kaiya_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kaiya_02_diffuse.dds"
+		texture_specular = "kaiya_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kaiya_02_entity"
+	pdxmesh = "kaiya_02_mesh"
+}
+
+pdxmesh = {
+	name = "kandisi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kandisi_01_diffuse.dds"
+		texture_specular = "kandisi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kandisi_01_entity"
+	pdxmesh = "kandisi_01_mesh"
+}
+
+pdxmesh = {
+	name = "kaqina_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kaqina_01_diffuse.dds"
+		texture_specular = "kaqina_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kaqina_01_entity"
+	pdxmesh = "kaqina_01_mesh"
+}
+
+pdxmesh = {
+	name = "Katheryne_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "Katheryne_01_diffuse.dds"
+		texture_specular = "Katheryne_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "Katheryne_01_entity"
+	pdxmesh = "Katheryne_01_mesh"
+}
+
+pdxmesh = {
+	name = "kawei_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kawei_01_diffuse.dds"
+		texture_specular = "kawei_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kawei_01_entity"
+	pdxmesh = "kawei_01_mesh"
+}
+
+pdxmesh = {
+	name = "kelai_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kelai_01_diffuse.dds"
+		texture_specular = "kelai_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kelai_01_entity"
+	pdxmesh = "kelai_01_mesh"
+}
+
+pdxmesh = {
+	name = "keli_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "keli_01_diffuse.dds"
+		texture_specular = "keli_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "keli_01_entity"
+	pdxmesh = "keli_01_mesh"
+}
+
+pdxmesh = {
+	name = "keli_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "keli_02_diffuse.dds"
+		texture_specular = "keli_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "keli_02_entity"
+	pdxmesh = "keli_02_mesh"
+}
+
+pdxmesh = {
+	name = "keluolinde_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "keluolinde_01_diffuse.dds"
+		texture_specular = "keluolinde_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "keluolinde_01_entity"
+	pdxmesh = "keluolinde_01_mesh"
+}
+
+pdxmesh = {
+	name = "keqing_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "keqing_01_diffuse.dds"
+		texture_specular = "keqing_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "keqing_01_entity"
+	pdxmesh = "keqing_01_mesh"
+}
+
+pdxmesh = {
+	name = "keqing_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "keqing_02_diffuse.dds"
+		texture_specular = "keqing_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "keqing_02_entity"
+	pdxmesh = "keqing_02_mesh"
+}
+
+pdxmesh = {
+	name = "kirara_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kirara_01_diffuse.dds"
+		texture_specular = "kirara_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kirara_01_entity"
+	pdxmesh = "kirara_01_mesh"
+}
+
+pdxmesh = {
+	name = "kirara_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kirara_02_diffuse.dds"
+		texture_specular = "kirara_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kirara_02_entity"
+	pdxmesh = "kirara_02_mesh"
+}
+
+pdxmesh = {
+	name = "kong_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kong_01_diffuse.dds"
+		texture_specular = "kong_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kong_01_entity"
+	pdxmesh = "kong_01_mesh"
+}
+
+pdxmesh = {
+	name = "kong_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kong_02_diffuse.dds"
+		texture_specular = "kong_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kong_02_entity"
+	pdxmesh = "kong_02_mesh"
+}
+
+pdxmesh = {
+	name = "laiou_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "laiou_01_diffuse.dds"
+		texture_specular = "laiou_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "laiou_01_entity"
+	pdxmesh = "laiou_01_mesh"
+}
+
+pdxmesh = {
+	name = "laiyila_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "laiyila_01_diffuse.dds"
+		texture_specular = "laiyila_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "laiyila_01_entity"
+	pdxmesh = "laiyila_01_mesh"
+}
+
+pdxmesh = {
+	name = "lanyan_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lanyan_01_diffuse.dds"
+		texture_specular = "lanyan_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lanyan_01_entity"
+	pdxmesh = "lanyan_01_mesh"
+}
+
+pdxmesh = {
+	name = "lawuma_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lawuma_01_diffuse.dds"
+		texture_specular = "lawuma_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lawuma_01_entity"
+	pdxmesh = "lawuma_01_mesh"
+}
+
+pdxmesh = {
+	name = "leishen_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "leishen_01_diffuse.dds"
+		texture_specular = "leishen_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "leishen_01_entity"
+	pdxmesh = "leishen_01_mesh"
+}
+
+pdxmesh = {
+	name = "leishen_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "leishen_02_diffuse.dds"
+		texture_specular = "leishen_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "leishen_02_entity"
+	pdxmesh = "leishen_02_mesh"
+}
+
+pdxmesh = {
+	name = "leize_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "leize_01_diffuse.dds"
+		texture_specular = "leize_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "leize_01_entity"
+	pdxmesh = "leize_01_mesh"
+}
+
+pdxmesh = {
+	name = "linghua_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "linghua_01_diffuse.dds"
+		texture_specular = "linghua_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "linghua_01_entity"
+	pdxmesh = "linghua_01_mesh"
+}
+
+pdxmesh = {
+	name = "linghua_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "linghua_02_diffuse.dds"
+		texture_specular = "linghua_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "linghua_02_entity"
+	pdxmesh = "linghua_02_mesh"
+}
+
+pdxmesh = {
+	name = "lingren_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lingren_01_diffuse.dds"
+		texture_specular = "lingren_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lingren_01_entity"
+	pdxmesh = "lingren_01_mesh"
+}
+
+pdxmesh = {
+	name = "linnite_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "linnite_01_diffuse.dds"
+		texture_specular = "linnite_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "linnite_01_entity"
+	pdxmesh = "linnite_01_mesh"
+}
+
+pdxmesh = {
+	name = "linni_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "linni_01_diffuse.dds"
+		texture_specular = "linni_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "linni_01_entity"
+	pdxmesh = "linni_01_mesh"
+}
+
+pdxmesh = {
+	name = "lisha_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lisha_01_diffuse.dds"
+		texture_specular = "lisha_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lisha_01_entity"
+	pdxmesh = "lisha_01_mesh"
+}
+
+pdxmesh = {
+	name = "lisha_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lisha_02_diffuse.dds"
+		texture_specular = "lisha_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lisha_02_entity"
+	pdxmesh = "lisha_02_mesh"
+}
+
+pdxmesh = {
+	name = "luosha_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "luosha_01_diffuse.dds"
+		texture_specular = "luosha_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "luosha_01_entity"
+	pdxmesh = "luosha_01_mesh"
+}
+
+pdxmesh = {
+	name = "malani_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "malani_01_diffuse.dds"
+		texture_specular = "malani_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "malani_01_entity"
+	pdxmesh = "malani_01_mesh"
+}
+
+pdxmesh = {
+	name = "maweika_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "maweika_01_diffuse.dds"
+		texture_specular = "maweika_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "maweika_01_entity"
+	pdxmesh = "maweika_01_mesh"
+}
+
+pdxmesh = {
+	name = "mika_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "mika_01_diffuse.dds"
+		texture_specular = "mika_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "mika_01_entity"
+	pdxmesh = "mika_01_mesh"
+}
+
+pdxmesh = {
+	name = "mona_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "mona_01_diffuse.dds"
+		texture_specular = "mona_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "mona_01_entity"
+	pdxmesh = "mona_01_mesh"
+}
+
+pdxmesh = {
+	name = "naifuer_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "naifuer_01_diffuse.dds"
+		texture_specular = "naifuer_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "naifuer_01_entity"
+	pdxmesh = "naifuer_01_mesh"
+}
+
+pdxmesh = {
+	name = "nainai_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "nainai_01_diffuse.dds"
+		texture_specular = "nainai_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "nainai_01_entity"
+	pdxmesh = "nainai_01_mesh"
+}
+
+pdxmesh = {
+	name = "naweiya_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "naweiya_01_diffuse.dds"
+		texture_specular = "naweiya_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "naweiya_01_entity"
+	pdxmesh = "naweiya_01_mesh"
+}
+
+pdxmesh = {
+	name = "nawei_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "nawei_01_diffuse.dds"
+		texture_specular = "nawei_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "nawei_01_entity"
+	pdxmesh = "nawei_01_mesh"
+}
+
+pdxmesh = {
+	name = "nawei_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "nawei_02_diffuse.dds"
+		texture_specular = "nawei_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "nawei_02_entity"
+	pdxmesh = "nawei_02_mesh"
+}
+
+pdxmesh = {
+	name = "naxida_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "naxida_01_diffuse.dds"
+		texture_specular = "naxida_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "naxida_01_entity"
+	pdxmesh = "naxida_01_mesh"
+}
+
+pdxmesh = {
+	name = "nilu_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "nilu_01_diffuse.dds"
+		texture_specular = "nilu_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "nilu_01_entity"
+	pdxmesh = "nilu_01_mesh"
+}
+
+pdxmesh = {
+	name = "nilu_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "nilu_02_diffuse.dds"
+		texture_specular = "nilu_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "nilu_02_entity"
+	pdxmesh = "nilu_02_mesh"
+}
+
+pdxmesh = {
+	name = "ningguang_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ningguang_01_diffuse.dds"
+		texture_specular = "ningguang_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ningguang_01_entity"
+	pdxmesh = "ningguang_01_mesh"
+}
+
+pdxmesh = {
+	name = "ningguang_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ningguang_02_diffuse.dds"
+		texture_specular = "ningguang_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ningguang_02_entity"
+	pdxmesh = "ningguang_02_mesh"
+}
+
+pdxmesh = {
+	name = "niuniu_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "niuniu_01_diffuse.dds"
+		texture_specular = "niuniu_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "niuniu_01_entity"
+	pdxmesh = "niuniu_01_mesh"
+}
+
+pdxmesh = {
+	name = "noel_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "noel_01_diffuse.dds"
+		texture_specular = "noel_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "noel_01_entity"
+	pdxmesh = "noel_01_mesh"
+}
+
+pdxmesh = {
+	name = "ouluolun_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ouluolun_01_diffuse.dds"
+		texture_specular = "ouluolun_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ouluolun_01_entity"
+	pdxmesh = "ouluolun_01_mesh"
+}
+
+pdxmesh = {
+	name = "paimon_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "paimon_01_diffuse.dds"
+		texture_specular = "paimon_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "paimon_01_entity"
+	pdxmesh = "paimon_01_mesh"
+}
+
+pdxmesh = {
+	name = "pingzang_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "pingzang_01_diffuse.dds"
+		texture_specular = "pingzang_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "pingzang_01_entity"
+	pdxmesh = "pingzang_01_mesh"
+}
+
+pdxmesh = {
+	name = "qianzhi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "qianzhi_01_diffuse.dds"
+		texture_specular = "qianzhi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "qianzhi_01_entity"
+	pdxmesh = "qianzhi_01_mesh"
+}
+
+pdxmesh = {
+	name = "qiasika_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "qiasika_01_diffuse.dds"
+		texture_specular = "qiasika_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "qiasika_01_entity"
+	pdxmesh = "qiasika_01_mesh"
+}
+
+pdxmesh = {
+	name = "qin_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "qin_01_diffuse.dds"
+		texture_specular = "qin_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "qin_01_entity"
+	pdxmesh = "qin_01_mesh"
+}
+
+pdxmesh = {
+	name = "qin_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "qin_02_diffuse.dds"
+		texture_specular = "qin_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "qin_02_entity"
+	pdxmesh = "qin_02_mesh"
+}
+
+pdxmesh = {
+	name = "qiqi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "qiqi_01_diffuse.dds"
+		texture_specular = "qiqi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "qiqi_01_entity"
+	pdxmesh = "qiqi_01_mesh"
+}
+
+pdxmesh = {
+	name = "ruixi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ruixi_01_diffuse.dds"
+		texture_specular = "ruixi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ruixi_01_entity"
+	pdxmesh = "ruixi_01_mesh"
+}
+
+pdxmesh = {
+	name = "sainuo_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "sainuo_01_diffuse.dds"
+		texture_specular = "sainuo_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "sainuo_01_entity"
+	pdxmesh = "sainuo_01_mesh"
+}
+
+pdxmesh = {
+	name = "saisuosi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "saisuosi_01_diffuse.dds"
+		texture_specular = "saisuosi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "saisuosi_01_entity"
+	pdxmesh = "saisuosi_01_mesh"
+}
+
+pdxmesh = {
+	name = "shatang_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "shatang_01_diffuse.dds"
+		texture_specular = "shatang_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "shatang_01_entity"
+	pdxmesh = "shatang_01_mesh"
+}
+
+pdxmesh = {
+	name = "shenhe_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "shenhe_01_diffuse.dds"
+		texture_specular = "shenhe_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "shenhe_01_entity"
+	pdxmesh = "shenhe_01_mesh"
+}
+
+pdxmesh = {
+	name = "shenhe_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "shenhe_02_diffuse.dds"
+		texture_specular = "shenhe_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "shenhe_02_entity"
+	pdxmesh = "shenhe_02_mesh"
+}
+
+pdxmesh = {
+	name = "shenzi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "shenzi_01_diffuse.dds"
+		texture_specular = "shenzi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "shenzi_01_entity"
+	pdxmesh = "shenzi_01_mesh"
+}
+
+pdxmesh = {
+	name = "skirk_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "skirk_01_diffuse.dds"
+		texture_specular = "skirk_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "skirk_01_entity"
+	pdxmesh = "skirk_01_mesh"
+}
+
+pdxmesh = {
+	name = "taliya_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "taliya_01_diffuse.dds"
+		texture_specular = "taliya_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "taliya_01_entity"
+	pdxmesh = "taliya_01_mesh"
+}
+
+pdxmesh = {
+	name = "tinali_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "tinali_01_diffuse.dds"
+		texture_specular = "tinali_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "tinali_01_entity"
+	pdxmesh = "tinali_01_mesh"
+}
+
+pdxmesh = {
+	name = "tuoma_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "tuoma_01_diffuse.dds"
+		texture_specular = "tuoma_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "tuoma_01_entity"
+	pdxmesh = "tuoma_01_mesh"
+}
+
+pdxmesh = {
+	name = "wanye_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "wanye_01_diffuse.dds"
+		texture_specular = "wanye_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "wanye_01_entity"
+	pdxmesh = "wanye_01_mesh"
+}
+
+pdxmesh = {
+	name = "wendi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "wendi_01_diffuse.dds"
+		texture_specular = "wendi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "wendi_01_entity"
+	pdxmesh = "wendi_01_mesh"
+}
+
+pdxmesh = {
+	name = "wulang_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "wulang_01_diffuse.dds"
+		texture_specular = "wulang_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "wulang_01_entity"
+	pdxmesh = "wulang_01_mesh"
+}
+
+pdxmesh = {
+	name = "xialuodi_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xialuodi_01_diffuse.dds"
+		texture_specular = "xialuodi_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xialuodi_01_entity"
+	pdxmesh = "xialuodi_01_mesh"
+}
+
+pdxmesh = {
+	name = "xiangling_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xiangling_01_diffuse.dds"
+		texture_specular = "xiangling_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xiangling_01_entity"
+	pdxmesh = "xiangling_01_mesh"
+}
+
+pdxmesh = {
+	name = "xiangling_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xiangling_02_diffuse.dds"
+		texture_specular = "xiangling_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xiangling_02_entity"
+	pdxmesh = "xiangling_02_mesh"
+}
+
+pdxmesh = {
+	name = "xianyun_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xianyun_01_diffuse.dds"
+		texture_specular = "xianyun_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xianyun_01_entity"
+	pdxmesh = "xianyun_01_mesh"
+}
+
+pdxmesh = {
+	name = "xiaogong_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xiaogong_01_diffuse.dds"
+		texture_specular = "xiaogong_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xiaogong_01_entity"
+	pdxmesh = "xiaogong_01_mesh"
+}
+
+pdxmesh = {
+	name = "xiao_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xiao_01_diffuse.dds"
+		texture_specular = "xiao_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xiao_01_entity"
+	pdxmesh = "xiao_01_mesh"
+}
+
+pdxmesh = {
+	name = "xiawolei_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xiawolei_01_diffuse.dds"
+		texture_specular = "xiawolei_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xiawolei_01_entity"
+	pdxmesh = "xiawolei_01_mesh"
+}
+
+pdxmesh = {
+	name = "xigewen_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xigewen_01_diffuse.dds"
+		texture_specular = "xigewen_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xigewen_01_entity"
+	pdxmesh = "xigewen_01_mesh"
+}
+
+pdxmesh = {
+	name = "xingqiu_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xingqiu_01_diffuse.dds"
+		texture_specular = "xingqiu_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xingqiu_01_entity"
+	pdxmesh = "xingqiu_01_mesh"
+}
+
+pdxmesh = {
+	name = "xingqiu_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xingqiu_02_diffuse.dds"
+		texture_specular = "xingqiu_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xingqiu_02_entity"
+	pdxmesh = "xingqiu_02_mesh"
+}
+
+pdxmesh = {
+	name = "xinhai_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xinhai_01_diffuse.dds"
+		texture_specular = "xinhai_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xinhai_01_entity"
+	pdxmesh = "xinhai_01_mesh"
+}
+
+pdxmesh = {
+	name = "xinuoning_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xinuoning_01_diffuse.dds"
+		texture_specular = "xinuoning_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xinuoning_01_entity"
+	pdxmesh = "xinuoning_01_mesh"
+}
+
+pdxmesh = {
+	name = "xinyan_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xinyan_01_diffuse.dds"
+		texture_specular = "xinyan_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xinyan_01_entity"
+	pdxmesh = "xinyan_01_mesh"
+}
+
+pdxmesh = {
+	name = "yakeda_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yakeda_01_diffuse.dds"
+		texture_specular = "yakeda_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yakeda_01_entity"
+	pdxmesh = "yakeda_01_mesh"
+}
+
+pdxmesh = {
+	name = "yanfei_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yanfei_01_diffuse.dds"
+		texture_specular = "yanfei_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yanfei_01_entity"
+	pdxmesh = "yanfei_01_mesh"
+}
+
+pdxmesh = {
+	name = "yaoyao_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yaoyao_01_diffuse.dds"
+		texture_specular = "yaoyao_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yaoyao_01_entity"
+	pdxmesh = "yaoyao_01_mesh"
+}
+
+pdxmesh = {
+	name = "yaoyao_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yaoyao_02_diffuse.dds"
+		texture_specular = "yaoyao_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yaoyao_02_entity"
+	pdxmesh = "yaoyao_02_mesh"
+}
+
+pdxmesh = {
+	name = "yelan_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yelan_01_diffuse.dds"
+		texture_specular = "yelan_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yelan_01_entity"
+	pdxmesh = "yelan_01_mesh"
+}
+
+pdxmesh = {
+	name = "yelan_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yelan_02_diffuse.dds"
+		texture_specular = "yelan_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yelan_02_entity"
+	pdxmesh = "yelan_02_mesh"
+}
+
+pdxmesh = {
+	name = "yeluoya_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yeluoya_01_diffuse.dds"
+		texture_specular = "yeluoya_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yeluoya_01_entity"
+	pdxmesh = "yeluoya_01_mesh"
+}
+
+pdxmesh = {
+	name = "yianshan_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yianshan_01_diffuse.dds"
+		texture_specular = "yianshan_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yianshan_01_entity"
+	pdxmesh = "yianshan_01_mesh"
+}
+
+pdxmesh = {
+	name = "yidou_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yidou_01_diffuse.dds"
+		texture_specular = "yidou_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yidou_01_entity"
+	pdxmesh = "yidou_01_mesh"
+}
+
+pdxmesh = {
+	name = "yifa_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yifa_01_diffuse.dds"
+		texture_specular = "yifa_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yifa_01_entity"
+	pdxmesh = "yifa_01_mesh"
+}
+
+pdxmesh = {
+	name = "ying_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ying_01_diffuse.dds"
+		texture_specular = "ying_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ying_01_entity"
+	pdxmesh = "ying_01_mesh"
+}
+
+pdxmesh = {
+	name = "ying_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ying_02_diffuse.dds"
+		texture_specular = "ying_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ying_02_entity"
+	pdxmesh = "ying_02_mesh"
+}
+
+pdxmesh = {
+	name = "yiniefu_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yiniefu_01_diffuse.dds"
+		texture_specular = "yiniefu_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yiniefu_01_entity"
+	pdxmesh = "yiniefu_01_mesh"
+}
+
+pdxmesh = {
+	name = "youla_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "youla_01_diffuse.dds"
+		texture_specular = "youla_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "youla_01_entity"
+	pdxmesh = "youla_01_mesh"
+}
+
+pdxmesh = {
+	name = "yunjin_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "yunjin_01_diffuse.dds"
+		texture_specular = "yunjin_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "yunjin_01_entity"
+	pdxmesh = "yunjin_01_mesh"
+}
+
+pdxmesh = {
+	name = "zaoyou_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "zaoyou_01_diffuse.dds"
+		texture_specular = "zaoyou_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "zaoyou_01_entity"
+	pdxmesh = "zaoyou_01_mesh"
+}
+
+pdxmesh = {
+	name = "zhongli_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "zhongli_01_diffuse.dds"
+		texture_specular = "zhongli_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "zhongli_01_entity"
+	pdxmesh = "zhongli_01_mesh"
+}
+
+pdxmesh = {
+	name = "zibai_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "zibai_01_diffuse.dds"
+		texture_specular = "zibai_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "zibai_01_entity"
+	pdxmesh = "zibai_01_mesh"
+}

@@ -1,0 +1,32 @@
+﻿snezhnaya_culture = { # 至冬宫
+	language = russian_dialect
+	
+	color = DvT_cryo_color
+	
+	tags = { teyvat_gfx russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        snezhnaya_group
+        russian_group
+		slavic_group
+		teyvat_group
+	}
+}
+fatui_culture = { # 愚人众
+	language = russian_dialect
+	
+	color = DvT_cryo_color
+	
+	tags = { teyvat_gfx russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        snezhnaya_group
+        russian_group
+		slavic_group
+		teyvat_group
+	}
+}

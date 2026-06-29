@@ -1,0 +1,294 @@
+﻿AG_Pay_30 = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = {
+			NOT = { has_variable = AG_Primogem_Blessing }
+			custom_tooltip = {
+				NOT = { has_variable = AG_Primogem_Blessing }
+				text = AG_has_Primogem_Blessing_text
+			}
+			gold >=300
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			add_gold = -300
+			custom_tooltip = {
+				text = AG_Pay_30_tooltip_1
+				change_variable = {
+					name = AG_Primogem
+					add = 300
+				}
+			}
+			custom_tooltip = {
+				text = AG_Pay_30_tooltip_2
+				set_variable = {
+					name = AG_Primogem_Blessing
+					value = 0
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+	}
+}
+
+AG_Pay_648 = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = { gold >=6480 }
+	}
+
+	effect = {
+		scope:actor = {
+			add_gold = -6480
+			custom_tooltip = {
+				text = AG_Pay_648_tooltip
+				change_variable = {
+					name = AG_Primogem
+					add = 12960
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		
+	}
+}
+AG_create_character = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = { var:AG_Primogem >= 1600 }
+		DvT_exist_character = yes
+	}
+
+	effect = {
+		scope:actor = {
+			AG_Pay_1600 = yes
+			DvT_create_character_random = yes
+		}
+	}
+
+	ai_will_do = {
+		value = 1
+		
+	}
+}
+AG_create_pop = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	#cooldown = {
+	#	type = AG_create_pop_key
+	#	months = 2
+	#}
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = {
+			var:AG_Primogem >= 1600
+			any_owned_location = {
+				has_building =  building_type:DvT_adventurer_guild_building
+				#any_buildings_in_location = {
+				#	building_type = building_type:DvT_adventurer_guild_building
+				#	building_employed_amount < AG_vision_employment
+				#}
+				population_with_traits = {
+					limit = {
+						pop_type = pop_type:vision_pop
+					}
+					value < AG_vision_employment
+				}
+			}
+		}
+
+	}
+
+	effect = {
+		scope:actor = {
+			AG_Pay_1600 = yes
+			random_owned_location = {
+				limit = {
+					has_building =  building_type:DvT_adventurer_guild_building
+					#any_buildings_in_location = {
+					#	building_type = building_type:DvT_adventurer_guild_building
+					#	building_employed_amount < AG_vision_employment
+					#}
+					population_with_traits = {
+						limit = {
+							pop_type = pop_type:vision_pop
+						}
+						value < AG_vision_employment
+					}
+				}
+				add_pop = {
+					type = pop_type:vision_pop
+					size = 0.01
+					culture = scope:actor.culture
+					religion = scope:actor.religion
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 1
+		
+	}
+}
+AG_Primogem_for_golden = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+
+	}
+
+	allow = {
+		scope:actor = { var:AG_Primogem >= 1600 }
+	}
+
+	effect = {
+		scope:actor = {
+			AG_Pay_1600 = yes
+			add_gold = 160
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		
+	}
+}
+AG_Convert_to_Archonism = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		scope:actor = { NOT = { religion.group = religion_group:Archonism } }
+	}
+
+	allow = {
+		scope:actor = {
+			var:AG_Primogem >= 1600
+			any_cabinet_character = {
+				OR = {
+					DvT_is_Anemo_Archon = yes
+					DvT_is_Geo_Archon = yes
+					DvT_is_Electro_Archon = yes
+					DvT_is_Dendro_Archon = yes
+					DvT_is_Hydro_Archon = yes
+					DvT_is_Hydro_Sovereign = yes
+					DvT_is_Pyro_Archon = yes
+					DvT_is_Luno_Godness = yes
+					DvT_is_Cryo_Archon = yes
+					DvT_is_Other_Archon = yes
+				}
+				modifier:is_head_of_cabinet = yes
+			}
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = religion
+		target_flag = target_religion
+		name = "convert_religion_select_religion"
+		none_available_msg_key = "convert_religion_no_religions"
+		column = {
+			data = name
+		}
+		column = {
+			data = religion_percentage_in_country
+		}
+		default_sort = religion_percentage_in_country
+		visible = {
+			group = religion_group:Archonism
+			scope:actor = {
+				any_cabinet_character = {
+					OR = {
+						DvT_is_Anemo_Archon = yes
+						DvT_is_Geo_Archon = yes
+						DvT_is_Electro_Archon = yes
+						DvT_is_Dendro_Archon = yes
+						DvT_is_Hydro_Archon = yes
+						DvT_is_Hydro_Sovereign = yes
+						DvT_is_Pyro_Archon = yes
+						DvT_is_Luno_Godness = yes
+						DvT_is_Cryo_Archon = yes
+						DvT_is_Other_Archon = yes
+					}
+					modifier:is_head_of_cabinet = yes
+					religion = root
+				}
+			}
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			add_stability = -100
+			AG_Pay_1600 = yes
+			custom_tooltip = {
+				text = AG_Convert_to_Archonism_tooltip
+				change_religion = scope:target_religion
+				random_owned_location = {
+					limit = {
+						is_capital = yes
+					}
+					every_pop = {
+						change_pop_religion = scope:target_religion
+					}
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		
+	}
+}

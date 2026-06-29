@@ -1,0 +1,1631 @@
+﻿# 元素特质
+DvT_anemo_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+DvT_geo_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+DvT_electro_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+DvT_dendro_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+DvT_hydro_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+DvT_pyro_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+DvT_cryo_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+DvT_all_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.01
+	}
+}
+# 国家特质
+DvT_Mondstadt_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_Liyue_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_Inazuma_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_Sumeru_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_Fontaine_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_Natlan_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_NodKrai_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_Snezhnaya_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+DvT_Other_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		character_cabinet_efficiency = 0.02
+	}
+}
+# 个人特质
+## 测试：凯瑟琳
+DvT_Katheryne_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		character_cabinet_efficiency = 0.05
+	}
+}
+# 角色
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+DvT_shatang_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		tax_income_efficiency = huge_tax_income_efficiency_bonus
+	}
+}
+DvT_lisha_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.2
+	}
+}
+DvT_lisha_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.2
+	}
+}
+DvT_fichel_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.2
+	}
+}
+DvT_fichel_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.2
+	}
+}
+DvT_anbo_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_reinforce_cost = -0.1
+		regiment_reinforcement_speed = 0.1
+	}
+}
+DvT_leize_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		can_colonize = yes
+		colonial_migration_size_modifier = 0.5
+		colonial_migration_size = 0.05
+	}
+}
+DvT_babala_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_pop_conversion_speed_modifier = 0.1
+	}
+}
+DvT_babala_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_pop_conversion_speed_modifier = 0.1
+	}
+}
+DvT_bannite_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		character_life_expectancy = -1
+	}
+}
+DvT_bannite_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		character_life_expectancy = -1
+	}
+}
+DvT_kaiya_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		spy_network_construction = 0.5
+	}
+}
+DvT_kaiya_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		spy_network_construction = 0.5
+	}
+}
+DvT_noel_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		siege_ability = 0.2
+	}
+}
+DvT_qin_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_qin_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_diluke_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_production_efficiency = huge_production_efficiency_bonus
+	}
+}
+DvT_diluke_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_production_efficiency = huge_production_efficiency_bonus
+	}
+}
+DvT_mona_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_wendi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		liberty_desire = 10
+		research_speed_modifier = 0.1 # 0.2 for single
+		diplomatic_reputation = diplomatic_reputation_extreme_bonus
+	}
+}
+DvT_keli_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		army_artillery_power = 0.25
+	}
+}
+DvT_keli_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		army_artillery_power = 0.25
+	}
+}
+DvT_diona_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_manpower_modifier = 0.2
+	}
+}
+DvT_abeiduo_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.2
+	}
+}
+DvT_luosha_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		spy_network_construction = 0.5
+	}
+}
+DvT_youla_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
+DvT_mika_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		colonial_range_modifier = 0.5
+	}
+}
+DvT_taliya_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_pop_conversion_speed_modifier = 0.1
+	}
+}
+DvT_dulin_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		country_cabinet_efficiency = 0.2
+	}
+}
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+DvT_ningguang_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_merchant_capacity_modifier = 0.33	# 0.5 for single
+		global_merchant_power = 0.1					# 0.2 for single
+		trade_efficiency = large_trade_efficiency_bonus # huge for single
+	}
+}
+DvT_ningguang_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_merchant_capacity_modifier = 0.33	# 0.5 for single
+		global_merchant_power = 0.1					# 0.2 for single
+		trade_efficiency = large_trade_efficiency_bonus # huge for single
+	}
+}
+DvT_xingqiu_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_merchant_capacity_modifier = 0.33
+		# global_output_modifier = 0.01 # TODO
+		global_production_efficiency = large_production_efficiency_bonus # huge for single
+		trade_efficiency = large_trade_efficiency_bonus
+	}
+}
+DvT_xingqiu_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_merchant_capacity_modifier = 0.33
+		# global_output_modifier = 0.01 # TODO
+		global_production_efficiency = large_production_efficiency_bonus # huge for single
+		trade_efficiency = large_trade_efficiency_bonus
+	}
+}
+DvT_xiangling_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.1
+		global_production_efficiency = large_production_efficiency_bonus
+	}
+}
+DvT_xiangling_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.1
+		global_production_efficiency = large_production_efficiency_bonus
+	}
+}
+DvT_chongyun_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_beidou_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		naval_morale_modifier = 0.1
+		ship_repair_at_sea = 0.05
+		ship_repair_at_sea_to_max_strength = 0.3
+		navy_heavy_ship_power = 0.1					# 0.2 for single
+		# no~~ there is no flagship in EU5
+		# number_of_cannons_flagship_modifier = 1
+		# flagship_durability = 1
+	}
+}
+DvT_qiqi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		global_manpower_modifier = 0.2
+		army_reinforce_cost = -0.1 # 0.2 for single
+	}
+}
+DvT_keqing_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_build_buildings_cost = -0.1	# 0.2 for single
+		global_construction_speed = 0.1	# 0.2 for single
+		number_of_satellite_trade_buildings = 3
+	}
+}
+DvT_keqing_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_build_buildings_cost = -0.1	# 0.2 for single
+		global_construction_speed = 0.1	# 0.2 for single
+		number_of_satellite_trade_buildings = 3
+	}
+}
+DvT_xinyan_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.0005 # 0.001 for single
+		stability_cost = -0.1		# 0.2 for single
+	}
+}
+DvT_zhongli_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		monthly_celestial_authority = 0.1	# 0.2 for single
+		monthly_imperial_authority = 0.1	# 0.2 for single
+		reduced_liberty_desire = 5
+		global_build_buildings_cost = -0.1
+		global_construction_speed = 0.1
+	}
+}
+DvT_ganyu_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_ganyu_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_xiao_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		global_distance_from_capital_cost_modifier = -0.03	# 0.05 for single
+		land_morale_modifier = 0.15
+	}
+}
+DvT_hutao_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# global_output_modifier = 0.01 # TODO
+		global_production_efficiency = huge_production_efficiency_bonus
+	}
+}
+DvT_hutao_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# global_output_modifier = 0.01 # TODO
+		global_production_efficiency = huge_production_efficiency_bonus
+	}
+}
+DvT_yanfei_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		monthly_rebel_growth = -0.0005
+		global_distance_from_capital_cost_modifier = -0.03
+	}
+}
+DvT_yunjin_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_pop_assimilation_speed = 0.15
+		improve_relation_impact = 0.2 # 0.33 for single
+	}
+}
+DvT_shenhe_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		morale_damage_done = 0.1
+		ignore_gender_block_leader = yes
+	}
+}
+DvT_shenhe_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		morale_damage_done = 0.1
+		ignore_gender_block_leader = yes
+	}
+}
+DvT_yelan_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		spy_network_construction = 0.5
+	}
+}
+DvT_yelan_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		spy_network_construction = 0.5
+	}
+}
+DvT_yaoyao_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_distance_from_capital_cost_modifier = -0.03
+		global_manpower_modifier = 0.2
+	}
+}
+DvT_yaoyao_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_distance_from_capital_cost_modifier = -0.03
+		global_manpower_modifier = 0.2
+	}
+}
+DvT_baizhu_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_manpower_modifier = 0.2
+		army_reinforce_cost = -0.1
+		land_unit_attrition = -0.1 # 0.2 foe single
+	}
+}
+DvT_jiaming_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_maritime_presence_modifier = 0.15 # 0.25 for single
+		add_accepted_culture_cost_modifier = -0.33 # 0.5 for single
+	}
+}
+DvT_xianyun_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		research_speed_modifier = 0.2
+	}
+}
+DvT_lanyan_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_pop_assimilation_speed = 0.25
+	}
+}
+DvT_zibai_01_trait = { # TODO
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		
+	}
+}
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+DvT_wanye_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		colonial_range_modifier = 0.5
+		naval_morale_modifier = 0.1		# 0.2 for single
+		ship_repair_at_sea = 0.05
+		ship_repair_at_sea_to_max_strength = 0.3
+	}
+}
+DvT_linghua_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_pop_assimilation_speed = 0.15 # 0.25 for single
+		add_accepted_culture_cost_modifier = -0.33 # 0.5 for single
+	}
+}
+DvT_linghua_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_pop_assimilation_speed = 0.15 # 0.25 for single
+		add_accepted_culture_cost_modifier = -0.33 # 0.5 for single
+	}
+}
+DvT_zaoyou_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
+DvT_xiaogong_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# global_output_modifier = 0.01 # TODO
+		global_production_efficiency = large_production_efficiency_bonus
+		army_artillery_power = 0.15
+	}
+}
+DvT_jiutiao_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		land_morale_modifier = 0.15 # 0.25 for single
+		discipline = 0.05 # 0.1 for single
+	}
+}
+DvT_leishen_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		monthly_legitimacy = 0.1
+		monthly_republican_tradition = 0.05
+		monthly_devotion = 0.1
+		monthly_horde_unity = 0.1
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		# monthly_towards_absolutism = societal_value_minor_monthly_move
+		army_cavalry_power = 0.1 # 0.25 for single
+		global_separatism = -0.05 # 0.1 for single
+	}
+}
+DvT_leishen_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		monthly_legitimacy = 0.1
+		monthly_republican_tradition = 0.05
+		monthly_devotion = 0.1
+		monthly_horde_unity = 0.1
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		# monthly_towards_absolutism = societal_value_minor_monthly_move
+		army_cavalry_power = 0.1 # 0.25 for single
+		global_separatism = -0.05 # 0.1 for single
+	}
+}
+DvT_xinhai_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_experience_gain = 0.15
+		experience_decay = -0.015
+		land_morale_modifier = 0.15
+	}
+}
+DvT_tuoma_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		improve_relation_impact = 0.33
+	}
+}
+DvT_wulang_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_experience_gain = 0.15 # 0.25 for single
+		experience_decay = -0.015 # 0.025 for single
+		land_morale_modifier = 0.15
+	}
+}
+DvT_yidou_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_infantry_power = 0.25
+	}
+}
+DvT_shenzi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.1 # 0.2 for single
+		global_pop_conversion_speed_modifier = 0.03
+	}
+}
+DvT_lingren_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.0005
+		spy_network_construction = 0.5
+	}
+}
+DvT_jiuqiren_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.0005
+		global_distance_from_capital_cost_modifier = -0.03
+	}
+}
+DvT_pingzang_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_cavalry_power = 0.25
+	}
+}
+DvT_kirara_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
+DvT_kirara_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
+DvT_qianzhi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# global_output_modifier = 0.02 # TODO
+		global_production_efficiency = huge_production_efficiency_bonus
+	}
+}
+DvT_ruixi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.001
+	}
+}
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+DvT_kelai_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
+DvT_tinali_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		embrace_institution_cost_modifier = -0.15 # 0.25 for single
+		global_institution_growth_modifier = 0.15 # 0.25 for single
+	}
+}
+DvT_duoli_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_merchant_capacity_modifier = 0.33
+		trade_efficiency = large_trade_efficiency_bonus
+	}
+}
+DvT_kandisi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_defensive = 0.25
+	}
+}
+DvT_sainuo_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_cavalry_power = 0.1
+		court_spending_cost = -0.05 # 0.1 for single
+	}
+}
+DvT_nilu_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		stability_cost = -0.2
+	}
+}
+DvT_nilu_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		stability_cost = -0.2
+	}
+}
+DvT_naxida_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		research_speed_modifier = 0.2
+	}
+}
+DvT_laiyila_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.2
+	}
+}
+DvT_falushan_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		character_life_expectancy = 100
+		research_speed_modifier = 0.2
+	}
+}
+DvT_bengbeng_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		can_assume_fort_command_character = yes
+		monthly_army_tradition = 0.1 # 0.2 for single
+	}
+}
+DvT_bengbeng_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		can_assume_fort_command_character = yes
+		monthly_army_tradition = 0.1 # 0.2 for single
+	}
+}
+DvT_aierhaisen_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_dixiya_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		morale_damage_done = 0.2
+	}
+}
+DvT_kawei_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_build_buildings_cost = -0.2
+		global_construction_speed = 0.2
+	}
+}
+DvT_saisuosi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_infantry_power = 0.25
+	}
+}
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+DvT_linnite_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
+DvT_linni_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		research_speed_modifier = 0.2
+	}
+}
+DvT_feimini_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_distance_from_capital_cost_modifier = -0.05
+	}
+}
+DvT_nawei_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.1
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		global_estate_power = -0.1 # 0.1 for single
+		global_estate_target_satisfaction = 0.1 # 0.1 for single
+		monthly_rebel_growth = -0.001
+		court_spending_cost = -0.05
+	}
+}
+DvT_nawei_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.1
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		global_estate_power = -0.1 # 0.1 for single
+		global_estate_target_satisfaction = 0.1 # 0.1 for single
+		monthly_rebel_growth = -0.001
+		court_spending_cost = -0.05
+	}
+}
+DvT_laiou_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_xialuodi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
+DvT_funingna_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		character_life_expectancy = 500
+		monthly_rebel_growth = -0.001
+		monthly_war_exhaustion = -0.05 # 0.05 for single
+		research_speed_modifier = 0.2
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+	}
+}
+DvT_naweiya_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_artillery_power = 0.25
+	}
+}
+DvT_xiawolei_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_distance_from_capital_cost_modifier = -0.05
+	}
+}
+DvT_keluolinde_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_xigewen_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_manpower_modifier = 0.2
+		army_reinforce_cost = -0.1
+		land_unit_attrition = -0.1
+	}
+}
+DvT_aimeiliai_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# global_output_modifier = 0.02 # TODO
+		global_production_efficiency = huge_production_efficiency_bonus
+	}
+}
+DvT_aikefei_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.001
+	}
+}
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+DvT_kaqina_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_monthly_development = 0.003
+	}
+}
+DvT_malani_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		trade_efficiency = huge_trade_efficiency_bonus
+	}
+}
+DvT_jiniqi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		trade_efficiency = huge_trade_efficiency_bonus
+	}
+}
+DvT_xinuoning_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		global_production_efficiency = huge_production_efficiency_bonus
+	}
+}
+DvT_ouluolun_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		spy_network_construction = 0.5
+	}
+}
+DvT_qiasika_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_artillery_power = 0.25
+	}
+}
+DvT_maweika_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		character_life_expectancy = 500
+		discipline = 0.05
+		land_morale_modifier = 0.15
+		morale_damage_done = 0.1
+	}
+}
+DvT_nainai_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		tolerance_own = 1
+		global_pop_conversion_speed_modifier = 0.03
+	}
+}
+DvT_yianshan_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		discipline = 0.1
+	}
+}
+DvT_niuniu_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		land_morale_modifier = 0.25
+	}
+}
+DvT_yifa_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		land_unit_attrition = -0.2
+	}
+}
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+DvT_gongzi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_artillery_power = 0.15
+		army_cavalry_power = 0.15
+		damage_taken = -0.1
+	}
+}
+DvT_gongzi_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_artillery_power = 0.15
+		army_cavalry_power = 0.15
+		damage_taken = -0.1
+	}
+}
+DvT_aleiqinuo_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.0005
+		global_distance_from_capital_cost_modifier = -0.03
+		# core_creation = -0.2
+		global_integration_speed_modifier = 0.1 # 0.2 for single
+	}
+}
+DvT_aleiqinuo_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		monthly_rebel_growth = -0.0005
+		global_distance_from_capital_cost_modifier = -0.03
+		# core_creation = -0.2
+		global_integration_speed_modifier = 0.1 # 0.2 for single
+	}
+}
+DvT_anna_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+DvT_yiniefu_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_ainuo_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_lawuma_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_feilinsi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_naifuer_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_yakeda_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_columbina_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_yeluoya_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+DvT_kong_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.2
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		global_estate_power = -0.1
+		global_estate_target_satisfaction = 0.1
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_kong_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.2
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		global_estate_power = -0.1
+		global_estate_target_satisfaction = 0.1
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_ying_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.2
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		global_estate_power = -0.1
+		global_estate_target_satisfaction = 0.1
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_ying_02_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		# is_immortal = yes
+		country_cabinet_efficiency = 0.2
+		global_max_control = 0.03
+		global_monthly_control = 0.001
+		global_estate_power = -0.1
+		global_estate_target_satisfaction = 0.1
+		monthly_rebel_growth = -0.001
+	}
+}
+DvT_ailuoyi_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		colonial_range_modifier = 0.5
+	}
+}
+DvT_skirk_01_trait = {
+	category = ruler
+	allow = {
+		always = no
+	}
+	modifier = {
+		army_artillery_power = 0.15
+		army_cavalry_power = 0.15
+	}
+}

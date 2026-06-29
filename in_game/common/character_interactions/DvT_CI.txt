@@ -1,0 +1,181 @@
+﻿DvT_CI_can_marry = {
+    message = no                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            OR = {
+                has_character_modifier = DvT_character_base_modifier
+                has_character_modifier = DvT_character_base_modifier_immortal
+            }
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+    }
+
+    effect = {
+        # What happens when interaction is used
+        scope:recipient = {
+            if = {
+                limit = { has_character_modifier = DvT_character_base_modifier }
+                remove_character_modifier = DvT_character_base_modifier
+                add_character_modifier = {
+                    modifier = DvT_character_base_modifier_marriage
+                    years = -1
+                    mode = replace
+                }
+            }
+            if = {
+                limit = { has_character_modifier = DvT_character_base_modifier_immortal }
+                remove_character_modifier = DvT_character_base_modifier_immortal
+                add_character_modifier = {
+                    modifier = DvT_character_base_modifier_marriage_immortal
+                    years = -1
+                    mode = replace
+                }
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}
+DvT_CI_cannot_marry = {
+    message = no                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            OR = {
+                has_character_modifier = DvT_character_base_modifier_marriage
+                has_character_modifier = DvT_character_base_modifier_marriage_immortal
+            }
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+    }
+
+    effect = {
+        # What happens when interaction is used
+        scope:recipient = {
+            if = {
+                limit = { has_character_modifier = DvT_character_base_modifier_marriage }
+                remove_character_modifier = DvT_character_base_modifier_marriage
+                add_character_modifier = {
+                    modifier = DvT_character_base_modifier
+                    years = -1
+                    mode = replace
+                }
+            }
+            if = {
+                limit = { has_character_modifier = DvT_character_base_modifier_marriage_immortal }
+                remove_character_modifier = DvT_character_base_modifier_marriage_immortal
+                add_character_modifier = {
+                    modifier = DvT_character_base_modifier_immortal
+                    years = -1
+                    mode = replace
+                }
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}
+
+DvT_CI_Outfit = {
+    message = no                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            DvT_2D_portrait_trigger = yes
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+        scope:recipient = {
+            DvT_CI_Outfit_allow = yes
+        }
+        scope:actor = {
+            var:AG_Primogem >=1600
+        }
+    }
+
+    effect = {
+        # What happens when interaction is used
+        scope:actor = {
+            AG_Pay_1600 = yes
+        }
+        custom_tooltip = {
+            text = DvT_CI_Outfit_Pay_text
+            scope:recipient = {
+                DvT_CI_Outfit_effect = { code = lisha }
+                DvT_CI_Outfit_effect = { code = fichel }
+                DvT_CI_Outfit_effect = { code = babala }
+                DvT_CI_Outfit_effect = { code = bannite }
+                DvT_CI_Outfit_effect = { code = kaiya }
+                DvT_CI_Outfit_effect = { code = qin }
+                DvT_CI_Outfit_effect = { code = diluke }
+                DvT_CI_Outfit_effect = { code = keli }
+                DvT_CI_Outfit_effect = { code = ningguang }
+                DvT_CI_Outfit_effect = { code = xingqiu }
+                DvT_CI_Outfit_effect = { code = xiangling }
+                DvT_CI_Outfit_effect = { code = keqing }
+                DvT_CI_Outfit_effect = { code = ganyu }
+                DvT_CI_Outfit_effect = { code = hutao }
+                DvT_CI_Outfit_effect = { code = shenhe }
+                DvT_CI_Outfit_effect = { code = yelan }
+                DvT_CI_Outfit_effect = { code = yaoyao }
+                DvT_CI_Outfit_effect = { code = linghua }
+                DvT_CI_Outfit_effect = { code = leishen }
+                DvT_CI_Outfit_effect = { code = kirara }
+                DvT_CI_Outfit_effect = { code = nilu }
+                DvT_CI_Outfit_effect = { code = bengbeng }
+                DvT_CI_Outfit_effect = { code = nawei }
+                DvT_CI_Outfit_effect = { code = gongzi }
+                DvT_CI_Outfit_effect = { code = aleiqinuo }
+                DvT_CI_Outfit_effect = { code = kong }
+                DvT_CI_Outfit_effect = { code = ying }
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}

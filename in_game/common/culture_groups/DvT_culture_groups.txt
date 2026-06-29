@@ -1,0 +1,18 @@
+﻿# avoid naming the same as Cultures and Languages
+
+teyvat_group = { }
+# 尘世之外
+dragon_group = { }
+celestia_group = { }
+teyvat_1_group = { }
+archon_group = { }
+# 尘世秩序
+mondstadt_group = { }
+liyue_group = { }
+inazuma_group = { }
+sumeru_group = { }
+fontaine_group = { }
+natlan_group = { }
+nodkrai_group = { }
+snezhnaya_group = { }
+other_group = { }

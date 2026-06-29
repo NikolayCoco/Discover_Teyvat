@@ -1,0 +1,238 @@
+Anemo_Worship = { 
+	color = DvT_anemo_color
+	group = Archonism
+	
+	language = german_language
+
+	has_canonization = yes
+	
+	definition_modifier = {
+		global_pop_conversion_speed_modifier = 0.2
+	}
+	
+	opinions = {
+		Geo_Worship = kindred
+		Electro_Worship = kindred
+		Dendro_Worship = kindred
+		Hydro_Worship = kindred
+		Pyro_Worship = kindred
+		Luno_Worship = kindred
+		Cryo_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Geo_Worship = { 
+	color = DvT_geo_color
+	group = Archonism
+	
+	language = classical_chinese_language
+
+	max_sects = 4
+	
+	definition_modifier = {
+		allow_righteousness = yes
+		allow_harmony = yes
+		land_morale_modifier = 0.15
+		trade_efficiency = large_trade_efficiency_bonus
+		can_have_monasteries = yes
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Electro_Worship = kindred
+		Dendro_Worship = kindred
+		Hydro_Worship = kindred
+		Pyro_Worship = kindred
+		Luno_Worship = kindred
+		Cryo_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Electro_Worship = { 
+	color = DvT_electro_color
+	group = Archonism
+	
+	language = japanese_language
+
+	has_purity = yes
+	has_honor = yes
+	max_sects = 1
+	
+	definition_modifier = {
+		global_hostile_attrition = 2
+		can_have_monasteries = yes
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Geo_Worship = kindred
+		Dendro_Worship = kindred
+		Hydro_Worship = kindred
+		Pyro_Worship = kindred
+		Luno_Worship = kindred
+		Cryo_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Dendro_Worship = { 
+	color = DvT_dendro_color
+	group = Archonism
+	
+	language = sanskrit_language
+
+	has_karma = yes
+	
+	definition_modifier = {
+		allow_mysticism_vs_jurisprudence = yes
+		country_cabinet_efficiency = 0.15
+		research_speed_modifier = 0.05
+		can_have_monasteries = yes
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Geo_Worship = kindred
+		Electro_Worship = kindred
+		Hydro_Worship = kindred
+		Pyro_Worship = kindred
+		Luno_Worship = kindred
+		Cryo_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Hydro_Worship = { 
+	color = DvT_hydro_color
+	group = Archonism
+	
+	language = french_language
+
+	has_canonization = yes
+	
+	definition_modifier = {
+		tolerance_own = 3
+		tolerance_heretic = 3
+		tolerance_heathen = 3
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Geo_Worship = kindred
+		Electro_Worship = kindred
+		Dendro_Worship = kindred
+		Pyro_Worship = kindred
+		Luno_Worship = kindred
+		Cryo_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Pyro_Worship = { 
+	color = DvT_pyro_color
+	group = Archonism
+	
+	language = nahuatl_language
+
+	# religious_aspects = 1
+	
+	definition_modifier = {
+		siege_ability = 0.2
+		discipline = 0.10
+		global_may_build_nahuatl_units = yes
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Geo_Worship = kindred
+		Electro_Worship = kindred
+		Dendro_Worship = kindred
+		Hydro_Worship = kindred
+		Luno_Worship = kindred
+		Cryo_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Luno_Worship = { 
+	color = DvT_moon_color
+	group = Archonism
+	
+	language = swedish_dialect
+
+	# religious_aspects = 1
+	
+	definition_modifier = { # TODO
+		
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Geo_Worship = kindred
+		Electro_Worship = kindred
+		Dendro_Worship = kindred
+		Hydro_Worship = kindred
+		Pyro_Worship = kindred
+		Cryo_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Cryo_Worship = { 
+	color = DvT_cryo_color
+	group = Archonism
+	
+	language = russian_dialect
+
+	has_canonization = yes
+	
+	definition_modifier = {
+		antagonism_received_modifier = -0.15
+		global_war_score_cost = -0.10
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Geo_Worship = kindred
+		Electro_Worship = kindred
+		Dendro_Worship = kindred
+		Hydro_Worship = kindred
+		Pyro_Worship = kindred
+		Luno_Worship = kindred
+		Other_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}
+Other_Worship = { 
+	color = DvT_other_color
+	group = Archonism
+	
+	language = common_language
+	
+	definition_modifier = { # TODO
+		
+	}
+	
+	opinions = {
+		Anemo_Worship = kindred
+		Geo_Worship = kindred
+		Electro_Worship = kindred
+		Dendro_Worship = kindred
+		Hydro_Worship = kindred
+		Pyro_Worship = kindred
+		Luno_Worship = kindred
+		Cryo_Worship = kindred
+	}
+
+	tags = { teyvat_gfx }
+}

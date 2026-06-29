@@ -1,0 +1,4 @@
+Archonism = {
+	color = DvT_main_color
+	convert_slaves_at_start = no
+}

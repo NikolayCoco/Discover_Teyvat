@@ -1,0 +1,162 @@
+﻿sumeru_culture = { # 须弥城
+	language = hindustani_language
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx indian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        indian_group
+		indo_aryan_group
+		teyvat_group
+	}
+}
+vimara_culture = { # 维摩庄
+	language = bihari_language
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx indian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        indian_group
+		indo_aryan_group
+		teyvat_group
+	}
+}
+dhyai_culture = { # 禅那园
+	language = sanskrit_language
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx indian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        indian_group
+		indo_aryan_group
+		teyvat_group
+	}
+}
+ormos_culture = { # 奥摩斯港
+	language = peninsular_dialect
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx middle_east_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        arabian_group
+        arabic_group
+		teyvat_group
+	}
+}
+caravan_culture = { # 喀万驿
+	language = persian_language
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx middle_east_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        arabian_group
+        arabic_group
+		teyvat_group
+	}
+}
+aaru_culture = { # 阿如村
+	language = iraqi_dialect
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx middle_east_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        arabian_group
+        arabic_group
+		teyvat_group
+	}
+}
+mausoleum_culture = { # 赤王陵
+	language = egyptian_dialect
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx egyptian_gfx middle_east_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        arabian_group
+        arabic_group
+		teyvat_group
+	}
+}
+damavand_culture = { # 达马山
+	language = tabaristani_language
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx persian_gfx persianate_gfx middle_east_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        iranian_group
+        arabian_group
+        arabic_group
+		teyvat_group
+	}
+}
+tunigi_culture = { # 荼泥黑渊
+	language = persian_language
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx persian_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+        iranian_group
+        arabian_group
+        arabic_group
+		teyvat_group
+	}
+}
+vourukasha_culture = { # 甘露花海
+	language = persian_language
+	
+	color = DvT_dendro_color
+	
+	tags = { teyvat_gfx persian_gfx persianate_gfx middle_east_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        sumeru_group
+		fontaine_group
+        iranian_group
+		teyvat_group
+	}
+}

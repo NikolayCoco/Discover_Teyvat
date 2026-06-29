@@ -1,0 +1,13 @@
+﻿khaenri_culture = { # 坎瑞亚
+    # language = common_language
+	
+	color = DvT_other_color
+	
+	tags = { teyvat_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+		teyvat_group
+	}
+}

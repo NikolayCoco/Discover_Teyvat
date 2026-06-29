@@ -1,0 +1,101 @@
+DvT_create_event_illustration = {
+    tag = "DvT_create_event_backgrounds"
+    # 通用
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_main.dds"
+		priority = 1000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+        }
+	}
+    # 蒙德 Mondstadt
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Mondstadt.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_Mondstadt_trait }
+        }
+	}
+    # 璃月 Liyue
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Liyue.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_Liyue_trait }
+        }
+	}
+    # 稻妻 Inazuma
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Inazuma.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_Inazuma_trait }
+        }
+	}
+    # 须弥 Sumeru
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Sumeru.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_Sumeru_trait }
+        }
+	}
+    # 枫丹 Fontaine
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Fontaine.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_Fontaine_trait }
+        }
+	}
+    # 纳塔 Natlan
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Natlan.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_Natlan_trait }
+        }
+	}
+    # 挪德卡莱 NodKrai
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_NodKrai.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_NodKrai_trait }
+        }
+	}
+    # 至冬 Snezhnaya
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_main.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_pop_type_bckg ?= { this = pop_type:vision_pop }
+			scope:target_character = { has_trait = DvT_Snezhnaya_trait }
+        }
+	}
+}

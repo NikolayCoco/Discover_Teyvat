@@ -1,0 +1,6 @@
+illustration_DvT_create_event = {
+    scene = "DvT_create_event"
+	tags = {
+		10 = DvT_create_event
+	}
+}

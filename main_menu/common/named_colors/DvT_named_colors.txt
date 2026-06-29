@@ -1,0 +1,14 @@
+colors = {
+    DvT_main_color = rgb { 0 255 255 }
+
+    DvT_anemo_color = rgb { 50 215 160 }
+    DvT_geo_color = rgb { 255 172 0 }
+    DvT_electro_color = rgb { 204 128 255 }
+    DvT_dendro_color = rgb { 144 204 0 }
+    DvT_hydro_color = rgb { 0 192 255 }
+    DvT_pyro_color = rgb { 255 102 64 }
+        DvT_moon_color = rgb { 224 231 239 }
+    DvT_cryo_color = rgb { 128 255 255 }
+    
+    DvT_other_color = rgb { 147 147 147 }
+}

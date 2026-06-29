@@ -1,0 +1,2578 @@
+DvT_create_character = {
+	create_character = {
+        first_name = $nameF$
+        last_name = $nameL$
+        religion = religion:$religion$
+        culture = culture:$culture$
+        age = $age$
+        # birth_date = $birth_day$
+        # birth_location = location:$birth_place$
+        estate = estate_type:vision_estate
+        adm = { value = { 0 5 } add = $ability_level$ }
+        dip = { value = { 0 5 } add = $ability_level$ }
+        mil = { value = { 0 5 } add = $ability_level$ }
+        add_trait = trait:DvT_$code$_01_trait
+        add_trait = trait:DvT_$code$_01_trait_leader
+        add_trait = trait:DvT_$element$_trait
+        add_trait = trait:DvT_$belong$_trait
+        female = $female_bool$
+        if = {
+            limit = { $immediate$ = yes }
+            add_character_modifier = {
+                modifier = DvT_character_base_modifier_immortal
+                years = -1
+                mode = add_and_extend
+            }
+        }
+        else = {
+            add_character_modifier = {
+                modifier = DvT_character_base_modifier
+                years = -1
+                mode = add_and_extend
+            }
+        }
+        save_scope_as = target_character
+    }
+    random_owned_location = {
+        limit = {
+            is_capital = yes
+        }
+        add_pop = {
+            type = pop_type:vision_pop
+            size = 0.001
+            religion = scope:actor.religion
+            culture = culture:$culture$
+        }
+    }
+    trigger_event_non_silently = { id = DvT_character_events.1 }
+    add_to_global_variable_list = {
+        name = DvT_characters_created_list
+        target = scope:target_character
+    }
+}
+DvT_CI_Outfit_effect = {
+    if = {
+        limit = {
+            has_trait = DvT_$code$_01_trait_leader
+        }
+        if = {
+            limit = {
+                has_trait = DvT_$code$_01_trait
+            }
+            remove_trait = trait:DvT_$code$_01_trait
+            add_trait = trait:DvT_$code$_02_trait
+        }
+        else = {
+            limit = {
+                has_trait = DvT_$code$_02_trait
+            }
+            remove_trait = trait:DvT_$code$_02_trait
+            add_trait = trait:DvT_$code$_01_trait
+        }
+    }
+}
+# 测试：凯瑟琳
+DvT_create_character_Katheryne = {
+	DvT_create_character = {
+        code = Katheryne
+        nameF = nameF_Katheryne
+        nameL = nameL_Guillotin
+        religion = Anemo_Worship
+        culture = experimental_design_culture
+        age = 600
+        immediate = no
+        # birth_day = 1337.1.1
+        # birth_place =
+        element = pyro
+        female_bool = yes
+        ability_level = 80
+    }
+    scope:target_character = {
+        set_to_limited_random_stats = {
+            max_adm = 100
+            min_adm = 0
+            max_dip = 100
+            min_dip = 0
+            max_mil = 100
+            min_mil = 0
+        }
+    }
+    scope:target_character = {
+        remove_character_modifier = DvT_character_base_modifier
+        add_character_modifier = {
+            modifier = DvT_character_base_modifier_immortal
+            years = -1
+            mode = replace
+        }
+    }
+}
+# 角色
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+########________蒙德________################________蒙德________################________蒙德________########
+DvT_create_character_shatang = {
+	DvT_create_character = {
+        code = shatang
+        nameF = nameF_Sucrose
+        nameL = nameL_xifeng.nameL_qishi.nameL_lianjin
+        religion = Anemo_Worship
+        culture = dragonspine_culture
+        age = 16
+        immediate = no
+        # birth_day = 11.26
+        # birth_place =
+        element = anemo
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_lisha = {
+	DvT_create_character = {
+        code = lisha
+        nameF = nameF_Lisa
+        nameL = nameL_Minci
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 20
+        immediate = no
+        # birth_day = 9.6
+        # birth_place =
+        element = electro
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_fichel = {
+	DvT_create_character = {
+        code = fichel
+        nameF = nameF_Fischl
+        nameL = nameL_von.nameL_Luftschloss.nameL_Narfidort
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_anbo = {
+	DvT_create_character = {
+        code = anbo
+        nameF = nameF_Amber
+        nameL = nameL_xifeng.nameL_qishi
+        religion = Anemo_Worship
+        culture = qingce_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_leize = {
+	DvT_create_character = {
+        code = leize
+        nameF = nameF_Razor
+        nameL = nameL_Lupical
+        religion = Anemo_Worship
+        culture = wolvendom_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_babala = {
+	DvT_create_character = {
+        code = babala
+        nameF = nameF_Barbara
+        nameL = nameL_Pegg
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_bannite = {
+	DvT_create_character = {
+        code = bannite
+        nameF = nameF_Bennett
+        nameL = nameL_Benny
+        religion = Anemo_Worship
+        culture = tenochtzitoc_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_kaiya = {
+	DvT_create_character = {
+        code = kaiya
+        nameF = nameF_Kaeya
+        nameL = nameL_Alberich
+        religion = Anemo_Worship
+        culture = khaenri_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_noel = {
+	DvT_create_character = {
+        code = noel
+        nameF = nameF_Noelle
+        nameL = nameL_xifeng.nameL_qishi
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_qin = {
+	DvT_create_character = {
+        code = qin
+        nameF = nameF_Jean
+        nameL = nameL_Gunnhildr
+        religion = Anemo_Worship
+        culture = windrise_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_diluke = {
+	DvT_create_character = {
+        code = diluke
+        nameF = nameF_Diluc
+        nameL = nameL_Ragnvindr
+        religion = Anemo_Worship
+        culture = dawn_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_mona = {
+	DvT_create_character = {
+        code = mona
+        nameF = nameF_Astrologist.nameF_Mona
+        nameL = nameL_Megistus
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_wendi = {
+	DvT_create_character = {
+        code = wendi
+        nameF = nameF_Venti
+        nameL = nameL_Barbatos
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 3500
+        immediate = yes
+        # birth_day = 6.16
+        # birth_place =
+        element = anemo
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 95
+    }
+}
+DvT_create_character_keli = {
+	DvT_create_character = {
+        code = keli
+        nameF = nameF_Klee
+        nameL = nameL_xifeng.nameL_qishi
+        religion = Anemo_Worship
+        culture = whispering_culture
+        age = 300
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_diona = {
+	DvT_create_character = {
+        code = diona
+        nameF = nameF_Diona
+        nameL = nameL_Katzlein
+        religion = Anemo_Worship
+        culture = springvale_culture
+        age = 12
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_abeiduo = {
+	DvT_create_character = {
+        code = abeiduo
+        nameF = nameF_Albedo
+        nameL = nameL_xifeng.nameL_qishi.nameL_lianjin
+        religion = Anemo_Worship
+        culture = dragonspine_culture
+        age = 550
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_luosha = {
+	DvT_create_character = {
+        code = luosha
+        nameF = nameF_Rosaria
+        nameL = nameL_xifeng.nameL_jiaohui
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_youla = {
+	DvT_create_character = {
+        code = youla
+        nameF = nameF_Eula
+        nameL = nameL_Lawrence
+        religion = Anemo_Worship
+        culture = starfell_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_mika = {
+	DvT_create_character = {
+        code = mika
+        nameF = nameF_Mika
+        nameL = nameL_Schmidt
+        religion = Anemo_Worship
+        culture = starfell_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_taliya = {
+	DvT_create_character = {
+        code = taliya
+        nameF = nameF_Dahlia
+        nameL = nameL_xifeng.nameL_jiaohui
+        religion = Anemo_Worship
+        culture = falcon_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_dulin = {
+	DvT_create_character = {
+        code = dulin
+        nameF = nameF_Durin
+        nameL = nameL_Mini
+        religion = Anemo_Worship
+        culture = dragonspine_culture
+        age = 16
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 90
+    }
+}
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+########________璃月________################________璃月________################________璃月________########
+DvT_create_character_ningguang = {
+	DvT_create_character = {
+        code = ningguang
+        nameF = nameF_Ningguang
+        nameL = nameL_Qixing
+        religion = Geo_Worship
+        culture = guili_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_xingqiu = {
+	DvT_create_character = {
+        code = xingqiu
+        nameF = nameF_Xingqiu
+        nameL = nameL_Feiyun
+        religion = Geo_Worship
+        culture = qingce_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Liyue
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_xiangling = {
+	DvT_create_character = {
+        code = xiangling
+        nameF = nameF_Xiangling
+        nameL = nameL_Mao
+        religion = Geo_Worship
+        culture = liyue_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_chongyun = {
+	DvT_create_character = {
+        code = chongyun
+        nameF = nameF_Chongyun
+        nameL = nameL_fangshi
+        religion = Geo_Worship
+        culture = qingce_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Liyue
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_beidou = {
+	DvT_create_character = {
+        code = beidou
+        nameF = nameF_Beidou
+        nameL = nameL_Alcor
+        religion = Geo_Worship
+        culture = guyun_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_qiqi = {
+	DvT_create_character = {
+        code = qiqi
+        nameF = nameF_Qiqi
+        nameL = nameL_Bubu
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 450
+        immediate = yes
+        # birth_day = 3.3
+        # birth_place =
+        element = cryo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_keqing = {
+	DvT_create_character = {
+        code = keqing
+        nameF = nameF_Keqing
+        nameL = nameL_Qixing
+        religion = Geo_Worship
+        culture = mingyun_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_xinyan = {
+	DvT_create_character = {
+        code = xinyan
+        nameF = nameF_Xinyan
+        nameL = nameL_Hongxian
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_zhongli = {
+	DvT_create_character = {
+        code = zhongli
+        nameF = nameF_Zhongli
+        nameL = nameL_Morax
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 6000
+        immediate = yes
+        # birth_day = 12.31
+        # birth_place =
+        element = geo
+        belong = Liyue
+        female_bool = no
+        ability_level = 95
+    }
+}
+DvT_create_character_ganyu = {
+	DvT_create_character = {
+        code = ganyu
+        nameF = nameF_Ganyu
+        nameL = nameL_Adeptus
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 3000
+        immediate = yes
+        # birth_day = 12.2
+        # birth_place =
+        element = cryo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_xiao = {
+	DvT_create_character = {
+        code = xiao
+        nameF = nameF_Xiao
+        nameL = nameL_Adeptus
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 2000
+        immediate = yes
+        # birth_day = 4.17
+        # birth_place =
+        element = anemo
+        belong = Liyue
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_hutao = {
+	DvT_create_character = {
+        code = hutao
+        nameF = nameF_Tao
+        nameL = nameL_Hu
+        religion = Geo_Worship
+        culture = qingce_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yanfei = {
+	DvT_create_character = {
+        code = yanfei
+        nameF = nameF_Yanfei
+        nameL = nameL_Adeptus
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 450
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_yunjin = {
+	DvT_create_character = {
+        code = yunjin
+        nameF = nameF_Jin
+        nameL = nameL_Yun
+        religion = Geo_Worship
+        culture = liyue_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_shenhe = {
+	DvT_create_character = {
+        code = shenhe
+        nameF = nameF_Shenhe
+        nameL = nameL_Adeptus
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 20
+        immediate = no
+        # birth_day = 3.1
+        # birth_place =
+        element = cryo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yelan = {
+	DvT_create_character = {
+        code = yelan
+        nameF = nameF_Yelan
+        nameL = nameL_Yanshang
+        religion = Geo_Worship
+        culture = chasm_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yaoyao = {
+	DvT_create_character = {
+        code = yaoyao
+        nameF = nameF_Yaoyao
+        nameL = nameL_Adeptus
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 12
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_baizhu = {
+	DvT_create_character = {
+        code = baizhu
+        nameF = nameF_Baizhu
+        nameL = nameL_Bubu
+        religion = Geo_Worship
+        culture = chenyu_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Liyue
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_jiaming = {
+	DvT_create_character = {
+        code = jiaming
+        nameF = nameF_Jiaming
+        nameL = nameL_Ye
+        religion = Geo_Worship
+        culture = chenyu_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Liyue
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_xianyun = {
+	DvT_create_character = {
+        code = xianyun
+        nameF = nameF_Xianyun
+        nameL = nameL_Adeptus
+        religion = Geo_Worship
+        culture = adeptus_culture
+        age = 3000
+        immediate = yes
+        # birth_day = 4.11
+        # birth_place =
+        element = anemo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_lanyan = {
+	DvT_create_character = {
+        code = lanyan
+        nameF = nameF_Yan
+        nameL = nameL_Lan
+        religion = Geo_Worship
+        culture = chenyu_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 85
+    }
+}
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+########________稻妻________################________稻妻________################________稻妻________########
+DvT_create_character_wanye = {
+	DvT_create_character = {
+        code = wanye
+        nameF = nameF_Kazuha
+        nameL = nameL_Kaedehara
+        religion = Electro_Worship
+        culture = guyun_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Inazuma
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_linghua = {
+	DvT_create_character = {
+        code = linghua
+        nameF = nameF_Ayaka
+        nameL = nameL_Kamisato
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_zaoyou = {
+	DvT_create_character = {
+        code = zaoyou
+        nameF = nameF_Sayu
+        nameL = nameL_Shuumatsuban
+        religion = Electro_Worship
+        culture = youkai_culture
+        age = 12
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_xiaogong = {
+	DvT_create_character = {
+        code = xiaogong
+        nameF = nameF_Yoimiya
+        nameL = nameL_Naganohara
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_jiutiao = {
+	DvT_create_character = {
+        code = jiutiao
+        nameF = nameF_Sara
+        nameL = nameL_Kujou
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_leishen = {
+	DvT_create_character = {
+        code = leishen
+        nameF = nameF_Shogun
+        nameL = nameL_Raiden
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 3000
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 95
+    }
+}
+DvT_create_character_xinhai = {
+	DvT_create_character = {
+        code = xinhai
+        nameF = nameF_Kokomi
+        nameL = nameL_Sangonomiya
+        religion = Electro_Worship
+        culture = watatsumi_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_tuoma = {
+	DvT_create_character = {
+        code = tuoma
+        nameF = nameF_Thoma
+        nameL = nameL_Yashiro
+        religion = Electro_Worship
+        culture = mondstadt_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Inazuma
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_wulang = {
+	DvT_create_character = {
+        code = wulang
+        nameF = nameF_Gorou
+        nameL = nameL_Watatsumi
+        religion = Electro_Worship
+        culture = watatsumi_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Inazuma
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_yidou = {
+	DvT_create_character = {
+        code = yidou
+        nameF = nameF_Itto
+        nameL = nameL_Arataki
+        religion = Electro_Worship
+        culture = youkai_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Inazuma
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_shenzi = {
+	DvT_create_character = {
+        code = shenzi
+        nameF = nameF_Miko
+        nameL = nameL_Yae
+        religion = Electro_Worship
+        culture = youkai_culture
+        age = 550
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_lingren = {
+	DvT_create_character = {
+        code = lingren
+        nameF = nameF_Ayato
+        nameL = nameL_Kamisato
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Inazuma
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_jiuqiren = {
+	DvT_create_character = {
+        code = jiuqiren
+        nameF = nameF_Shinobu
+        nameL = nameL_Kuki
+        religion = Electro_Worship
+        culture = youkai_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_pingzang = {
+	DvT_create_character = {
+        code = pingzang
+        nameF = nameF_Heizou
+        nameL = nameL_Shikanoin
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Inazuma
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_kirara = {
+	DvT_create_character = {
+        code = kirara
+        nameF = nameF_Kirara
+        nameL = nameL_Komaniya
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_qianzhi = {
+	DvT_create_character = {
+        code = qianzhi
+        nameF = nameF_Chiori
+        nameL = nameL_Chioriya
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_ruixi = {
+	DvT_create_character = {
+        code = ruixi
+        nameF = nameF_Mizuki
+        nameL = nameL_Yumemizuki
+        religion = Electro_Worship
+        culture = inazuma_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Inazuma
+        female_bool = yes
+        ability_level = 90
+    }
+}
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+########________须弥________################________须弥________################________须弥________########
+DvT_create_character_kelai = {
+	DvT_create_character = {
+        code = kelai
+        nameF = nameF_Collei
+        nameL = nameL_ForestWatcher
+        religion = Dendro_Worship
+        culture = sumeru_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_tinali = {
+	DvT_create_character = {
+        code = tinali
+        nameF = nameF_Tighnari
+        nameL = nameL_Amurta
+        religion = Dendro_Worship
+        culture = dhyai_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Sumeru
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_duoli = {
+	DvT_create_character = {
+        code = duoli
+        nameF = nameF_Dori
+        nameL = nameL_Sangemah.nameL_Bay
+        religion = Dendro_Worship
+        culture = sumeru_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_kandisi = {
+	DvT_create_character = {
+        code = kandisi
+        nameF = nameF_Candace
+        nameL = nameL_Aaru
+        religion = Dendro_Worship
+        culture = aaru_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_sainuo = {
+	DvT_create_character = {
+        code = sainuo
+        nameF = nameF_Cyno
+        nameL = nameL_Spantamad
+        religion = Dendro_Worship
+        culture = mausoleum_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Sumeru
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_nilu = {
+	DvT_create_character = {
+        code = nilu
+        nameF = nameF_Nilou
+        nameL = nameL_Bazaar
+        religion = Dendro_Worship
+        culture = sumeru_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_naxida = {
+	DvT_create_character = {
+        code = naxida
+        nameF = nameF_Nahida
+        nameL = nameL_Buer
+        religion = Dendro_Worship
+        culture = sumeru_culture
+        age = 500
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 95
+    }
+}
+DvT_create_character_laiyila = {
+	DvT_create_character = {
+        code = laiyila
+        nameF = nameF_Layla
+        nameL = nameL_Rtawahist
+        religion = Dendro_Worship
+        culture = sumeru_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_falushan = {
+	DvT_create_character = {
+        code = falushan
+        nameF = nameF_Faruzan
+        nameL = nameL_Haravatat
+        religion = Dendro_Worship
+        culture = sumeru_culture
+        age = 100
+        immediate = no
+        # birth_day = 8.2
+        # birth_place =
+        element = anemo
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_bengbeng = {
+	DvT_create_character = {
+        code = bengbeng
+        nameF = nameF_Wanderer
+        nameL = nameL_Vahumana
+        religion = Dendro_Worship
+        culture = tatarasuna_culture
+        age = 450
+        immediate = yes
+        # birth_day = 1.3
+        # birth_place =
+        element = anemo
+        belong = Sumeru
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_aierhaisen = {
+	DvT_create_character = {
+        code = aierhaisen
+        nameF = nameF_Alhaitham
+        nameL = nameL_Haravatat
+        religion = Dendro_Worship
+        culture = ormos_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Sumeru
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_dixiya = {
+	DvT_create_character = {
+        code = dixiya
+        nameF = nameF_Dehya
+        nameL = nameL_Altava
+        religion = Dendro_Worship
+        culture = caravan_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Sumeru
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_kawei = {
+	DvT_create_character = {
+        code = kawei
+        nameF = nameF_Kaveh
+        nameL = nameL_Kshahrewar
+        religion = Dendro_Worship
+        culture = sumeru_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Sumeru
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_saisuosi = {
+	DvT_create_character = {
+        code = saisuosi
+        nameF = nameF_Sethos
+        nameL = nameL_Hermanubis
+        religion = Dendro_Worship
+        culture = mausoleum_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Sumeru
+        female_bool = no
+        ability_level = 85
+    }
+}
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+########________枫丹________################________枫丹________################________枫丹________########
+DvT_create_character_linnite = {
+	DvT_create_character = {
+        code = linnite
+        nameF = nameF_Lynette
+        nameL = nameL_Snezh.nameL_evna
+        religion = Hydro_Worship
+        culture = fontaine_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_linni = {
+	DvT_create_character = {
+        code = linni
+        nameF = nameF_Lyney
+        nameL = nameL_Snezh.nameL_evna
+        religion = Hydro_Worship
+        culture = fontaine_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Fontaine
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_feimini = {
+	DvT_create_character = {
+        code = feimini
+        nameF = nameF_Freminet
+        nameL = nameL_Snezh.nameL_evna
+        religion = Hydro_Worship
+        culture = fontaine_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Fontaine
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_nawei = {
+	DvT_create_character = {
+        code = nawei
+        nameF = nameF_Neuvillette
+        nameL = nameL_Dragon
+        religion = Hydro_Worship
+        culture = hydro_dragon_culture
+        age = 450
+        immediate = yes
+        # birth_day = 12.18
+        # birth_place =
+        element = hydro
+        belong = Fontaine
+        female_bool = no
+        ability_level = 95
+    }
+}
+DvT_create_character_laiou = {
+	DvT_create_character = {
+        code = laiou
+        nameF = nameF_Wriothesley
+        nameL = nameL_Meropide
+        religion = Hydro_Worship
+        culture = meropide_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Fontaine
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_xialuodi = {
+	DvT_create_character = {
+        code = xialuodi
+        nameF = nameF_Charlotte
+        nameL = nameL_Steambird
+        religion = Hydro_Worship
+        culture = fontaine_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_funingna = {
+	DvT_create_character = {
+        code = funingna
+        nameF = nameF_Furina
+        nameL = nameL_de.nameL_Fontaine
+        religion = Hydro_Worship
+        culture = fontaine_culture
+        age = 500
+        immediate = yes
+        # birth_day = 10.13
+        # birth_place =
+        element = hydro
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 95
+    }
+}
+DvT_create_character_naweiya = {
+	DvT_create_character = {
+        code = naweiya
+        nameF = nameF_Navia
+        nameL = nameL_Caspar
+        religion = Hydro_Worship
+        culture = poisson_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_xiawolei = {
+	DvT_create_character = {
+        code = xiawolei
+        nameF = nameF_Chevreuse
+        nameL = nameL_Surveillance
+        religion = Hydro_Worship
+        culture = fleuve_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_keluolinde = {
+	DvT_create_character = {
+        code = keluolinde
+        nameF = nameF_Clorinde
+        nameL = nameL_Duelist
+        religion = Hydro_Worship
+        culture = poisson_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_xigewen = {
+	DvT_create_character = {
+        code = xigewen
+        nameF = nameF_Sigewinne
+        nameL = nameL_Meropide
+        religion = Hydro_Worship
+        culture = melusine_culture
+        age = 400
+        immediate = yes
+        # birth_day = 3.3
+        # birth_place =
+        element = hydro
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_aimeiliai = {
+	DvT_create_character = {
+        code = aimeiliai
+        nameF = nameF_Emilie
+        nameL = nameL_Flavorist
+        religion = Hydro_Worship
+        culture = fontaine_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_aikefei = {
+	DvT_create_character = {
+        code = aikefei
+        nameF = nameF_Escofier
+        nameL = nameL_Debord
+        religion = Hydro_Worship
+        culture = fleuve_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Fontaine
+        female_bool = yes
+        ability_level = 90
+    }
+}
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+########________纳塔________################________纳塔________################________纳塔________########
+DvT_create_character_kaqina = {
+	DvT_create_character = {
+        code = kaqina
+        nameF = nameF_Kachina
+        nameL = nameL_Uthabiti
+        religion = Pyro_Worship
+        culture = nanatzcayan_culture
+        age = 12
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Natlan
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_malani = {
+	DvT_create_character = {
+        code = malani
+        nameF = nameF_Mualani
+        nameL = nameL_Umoja
+        religion = Pyro_Worship
+        culture = metztli_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Natlan
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_jiniqi = {
+	DvT_create_character = {
+        code = jiniqi
+        nameF = nameF_Kinich
+        nameL = nameL_Malipo
+        religion = Pyro_Worship
+        culture = huitztlan_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = Natlan
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_xinuoning = {
+	DvT_create_character = {
+        code = xinuoning
+        nameF = nameF_Xilonen
+        nameL = nameL_Baraka
+        religion = Pyro_Worship
+        culture = nanatzcayan_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Natlan
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_ouluolun = {
+	DvT_create_character = {
+        code = ouluolun
+        nameF = nameF_Ororon
+        nameL = nameL_Bidii
+        religion = Pyro_Worship
+        culture = mictlan_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Natlan
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_qiasika = {
+	DvT_create_character = {
+        code = qiasika
+        nameF = nameF_Chasca
+        nameL = nameL_Vuka
+        religion = Pyro_Worship
+        culture = tlalocan_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Natlan
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_maweika = {
+	DvT_create_character = {
+        code = maweika
+        nameF = nameF_Mavuika
+        nameL = nameL_Haborym
+        religion = Pyro_Worship
+        culture = natlan_culture
+        age = 500
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Natlan
+        female_bool = yes
+        ability_level = 95
+    }
+}
+DvT_create_character_nainai = {
+	DvT_create_character = {
+        code = nainai
+        nameF = nameF_Citlali
+        nameL = nameL_Ukumbuko
+        religion = Pyro_Worship
+        culture = mictlan_culture
+        age = 250
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Natlan
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yianshan = {
+	DvT_create_character = {
+        code = yianshan
+        nameF = nameF_Iansan
+        nameL = nameL_Uwezo
+        religion = Pyro_Worship
+        culture = teteocan_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Natlan
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_niuniu = {
+	DvT_create_character = {
+        code = niuniu
+        nameF = nameF_Varesa
+        nameL = nameL_Fietena
+        religion = Pyro_Worship
+        culture = teteocan_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = Natlan
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yifa = {
+	DvT_create_character = {
+        code = yifa
+        nameF = nameF_Ifa
+        nameL = nameL_Tlalocan
+        religion = Pyro_Worship
+        culture = tlalocan_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Natlan
+        female_bool = no
+        ability_level = 85
+    }
+}
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+########________至冬________################________至冬________################________至冬________########
+DvT_create_character_gongzi = {
+	DvT_create_character = {
+        code = gongzi
+        nameF = nameF_Ajax
+        nameL = nameL_Harbinger
+        religion = Cryo_Worship
+        culture = fatui_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = Snezhnaya
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_aleiqinuo = {
+	DvT_create_character = {
+        code = aleiqinuo
+        nameF = nameF_Peruere
+        nameL = nameL_Snezh.nameL_evna
+        religion = Cryo_Worship
+        culture = fontaine_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = pyro
+        belong = Snezhnaya
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yiniefu = {
+	DvT_create_character = {
+        code = yiniefu
+        nameF = nameF_Ineffa
+        nameL = nameL_ClinkClank
+        religion = Luno_Worship
+        culture = nasha_culture
+        age = 8000
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_ainuo = {
+	DvT_create_character = {
+        code = ainuo
+        nameF = nameF_Aino
+        nameL = nameL_ClinkClank
+        religion = Luno_Worship
+        culture = nasha_culture
+        age = 12
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_lawuma = {
+	DvT_create_character = {
+        code = lawuma
+        nameF = nameF_Lauma
+        nameL = nameL_Frostmoon
+        religion = Luno_Worship
+        culture = frostmoon_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_feilinsi = {
+	DvT_create_character = {
+        code = feilinsi
+        nameF = nameF_Kyryll.nameF_Chudomirovich
+        nameL = nameL_Flins
+        religion = Luno_Worship
+        culture = fairy_culture
+        age = 650 # TODO
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = electro
+        belong = NodKrai
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_naifuer = {
+	DvT_create_character = {
+        code = naifuer
+        nameF = nameF_Nefer
+        nameL = nameL_Secrets
+        religion = Luno_Worship
+        culture = nasha_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = dendro
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yakeda = {
+	DvT_create_character = {
+        code = yakeda
+        nameF = nameF_Jahoda
+        nameL = nameL_Secrets
+        religion = Luno_Worship
+        culture = nasha_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_columbina = {
+	DvT_create_character = {
+        code = columbina
+        nameF = nameF_Columbina
+        nameL = nameL_Hyposelenia
+        religion = Luno_Worship
+        culture = frostmoon_culture
+        age = 500
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = hydro
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 90
+    }
+}
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+########________异界________################________异界________################________异界________########
+DvT_create_character_kong = {
+	DvT_create_character = {
+        code = kong
+        nameF = nameF_Aether
+        nameL = nameL_Traveler
+        religion = Other_Worship
+        culture = traveller_culture
+        age = 10000
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = all
+        belong = Other
+        female_bool = no
+        ability_level = 100
+    }
+}
+DvT_create_character_ying = {
+	DvT_create_character = {
+        code = ying
+        nameF = nameF_Lumine
+        nameL = nameL_Traveler
+        religion = Other_Worship
+        culture = traveller_culture
+        age = 10000
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = all
+        belong = Other
+        female_bool = yes
+        ability_level = 100
+    }
+}
+DvT_create_character_ailuoyi = {
+	DvT_create_character = {
+        code = ailuoyi
+        nameF = nameF_Aloy
+        nameL = nameL_Nora
+        religion = Other_Worship
+        culture = nora_culture
+        age = 20
+        immediate = no
+        # birth_day = 4.4
+        # birth_place =
+        element = cryo
+        belong = Other
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_skirk = {
+	DvT_create_character = {
+        code = skirk
+        nameF = nameF_Skirk
+        nameL = nameL_Calamity
+        religion = Other_Worship
+        culture = calamity_culture
+        age = 450
+        immediate = yes
+        # birth_day = 11.5
+        # birth_place =
+        element = cryo
+        belong = Other
+        female_bool = yes
+        ability_level = 90
+    }
+}
+# 随机抽取
+DvT_create_character_random = {
+    custom_tooltip = {
+        text = DvT_create_character_random_tooltip
+        random_list = {
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_shatang_01_trait_leader } } }
+                DvT_create_character_shatang = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lisha_01_trait_leader } } }
+                DvT_create_character_lisha = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_fichel_01_trait_leader } } }
+                DvT_create_character_fichel = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_anbo_01_trait_leader } } }
+                DvT_create_character_anbo = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_leize_01_trait_leader } } }
+                DvT_create_character_leize = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_babala_01_trait_leader } } }
+                DvT_create_character_babala = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_bannite_01_trait_leader } } }
+                DvT_create_character_bannite = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kaiya_01_trait_leader } } }
+                DvT_create_character_kaiya = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_noel_01_trait_leader } } }
+                DvT_create_character_noel = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qin_01_trait_leader } } }
+                DvT_create_character_qin = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_diluke_01_trait_leader } } }
+                DvT_create_character_diluke = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_mona_01_trait_leader } } }
+                DvT_create_character_mona = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_wendi_01_trait_leader } } }
+                DvT_create_character_wendi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_keli_01_trait_leader } } }
+                DvT_create_character_keli = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_diona_01_trait_leader } } }
+                DvT_create_character_diona = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_abeiduo_01_trait_leader } } }
+                DvT_create_character_abeiduo = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_luosha_01_trait_leader } } }
+                DvT_create_character_luosha = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_youla_01_trait_leader } } }
+                DvT_create_character_youla = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_mika_01_trait_leader } } }
+                DvT_create_character_mika = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_taliya_01_trait_leader } } }
+                DvT_create_character_taliya = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_dulin_01_trait_leader } } }
+                DvT_create_character_dulin = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ningguang_01_trait_leader } } }
+                DvT_create_character_ningguang = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xingqiu_01_trait_leader } } }
+                DvT_create_character_xingqiu = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiangling_01_trait_leader } } }
+                DvT_create_character_xiangling = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_chongyun_01_trait_leader } } }
+                DvT_create_character_chongyun = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_beidou_01_trait_leader } } }
+                DvT_create_character_beidou = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qiqi_01_trait_leader } } }
+                DvT_create_character_qiqi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_keqing_01_trait_leader } } }
+                DvT_create_character_keqing = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xinyan_01_trait_leader } } }
+                DvT_create_character_xinyan = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_zhongli_01_trait_leader } } }
+                DvT_create_character_zhongli = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ganyu_01_trait_leader } } }
+                DvT_create_character_ganyu = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiao_01_trait_leader } } }
+                DvT_create_character_xiao = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_hutao_01_trait_leader } } }
+                DvT_create_character_hutao = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yanfei_01_trait_leader } } }
+                DvT_create_character_yanfei = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yunjin_01_trait_leader } } }
+                DvT_create_character_yunjin = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_shenhe_01_trait_leader } } }
+                DvT_create_character_shenhe = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yelan_01_trait_leader } } }
+                DvT_create_character_yelan = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yaoyao_01_trait_leader } } }
+                DvT_create_character_yaoyao = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_baizhu_01_trait_leader } } }
+                DvT_create_character_baizhu = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiaming_01_trait_leader } } }
+                DvT_create_character_jiaming = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xianyun_01_trait_leader } } }
+                DvT_create_character_xianyun = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lanyan_01_trait_leader } } }
+                DvT_create_character_lanyan = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_wanye_01_trait_leader } } }
+                DvT_create_character_wanye = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_linghua_01_trait_leader } } }
+                DvT_create_character_linghua = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_zaoyou_01_trait_leader } } }
+                DvT_create_character_zaoyou = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiaogong_01_trait_leader } } }
+                DvT_create_character_xiaogong = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiutiao_01_trait_leader } } }
+                DvT_create_character_jiutiao = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_leishen_01_trait_leader } } }
+                DvT_create_character_leishen = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xinhai_01_trait_leader } } }
+                DvT_create_character_xinhai = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_tuoma_01_trait_leader } } }
+                DvT_create_character_tuoma = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_wulang_01_trait_leader } } }
+                DvT_create_character_wulang = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yidou_01_trait_leader } } }
+                DvT_create_character_yidou = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_shenzi_01_trait_leader } } }
+                DvT_create_character_shenzi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lingren_01_trait_leader } } }
+                DvT_create_character_lingren = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiuqiren_01_trait_leader } } }
+                DvT_create_character_jiuqiren = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_pingzang_01_trait_leader } } }
+                DvT_create_character_pingzang = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kirara_01_trait_leader } } }
+                DvT_create_character_kirara = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qianzhi_01_trait_leader } } }
+                DvT_create_character_qianzhi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ruixi_01_trait_leader } } }
+                DvT_create_character_ruixi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kelai_01_trait_leader } } }
+                DvT_create_character_kelai = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_tinali_01_trait_leader } } }
+                DvT_create_character_tinali = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_duoli_01_trait_leader } } }
+                DvT_create_character_duoli = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kandisi_01_trait_leader } } }
+                DvT_create_character_kandisi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_sainuo_01_trait_leader } } }
+                DvT_create_character_sainuo = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_nilu_01_trait_leader } } }
+                DvT_create_character_nilu = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_naxida_01_trait_leader } } }
+                DvT_create_character_naxida = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_laiyila_01_trait_leader } } }
+                DvT_create_character_laiyila = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_falushan_01_trait_leader } } }
+                DvT_create_character_falushan = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_bengbeng_01_trait_leader } } }
+                DvT_create_character_bengbeng = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aierhaisen_01_trait_leader } } }
+                DvT_create_character_aierhaisen = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_dixiya_01_trait_leader } } }
+                DvT_create_character_dixiya = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kawei_01_trait_leader } } }
+                DvT_create_character_kawei = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_saisuosi_01_trait_leader } } }
+                DvT_create_character_saisuosi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_linnite_01_trait_leader } } }
+                DvT_create_character_linnite = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_linni_01_trait_leader } } }
+                DvT_create_character_linni = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_feimini_01_trait_leader } } }
+                DvT_create_character_feimini = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_nawei_01_trait_leader } } }
+                DvT_create_character_nawei = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_laiou_01_trait_leader } } }
+                DvT_create_character_laiou = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xialuodi_01_trait_leader } } }
+                DvT_create_character_xialuodi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_funingna_01_trait_leader } } }
+                DvT_create_character_funingna = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_naweiya_01_trait_leader } } }
+                DvT_create_character_naweiya = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xiawolei_01_trait_leader } } }
+                DvT_create_character_xiawolei = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_keluolinde_01_trait_leader } } }
+                DvT_create_character_keluolinde = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xigewen_01_trait_leader } } }
+                DvT_create_character_xigewen = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aimeiliai_01_trait_leader } } }
+                DvT_create_character_aimeiliai = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aikefei_01_trait_leader } } }
+                DvT_create_character_aikefei = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kaqina_01_trait_leader } } }
+                DvT_create_character_kaqina = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_malani_01_trait_leader } } }
+                DvT_create_character_malani = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_jiniqi_01_trait_leader } } }
+                DvT_create_character_jiniqi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_xinuoning_01_trait_leader } } }
+                DvT_create_character_xinuoning = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ouluolun_01_trait_leader } } }
+                DvT_create_character_ouluolun = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_qiasika_01_trait_leader } } }
+                DvT_create_character_qiasika = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_maweika_01_trait_leader } } }
+                DvT_create_character_maweika = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_nainai_01_trait_leader } } }
+                DvT_create_character_nainai = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yianshan_01_trait_leader } } }
+                DvT_create_character_yianshan = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_niuniu_01_trait_leader } } }
+                DvT_create_character_niuniu = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yifa_01_trait_leader } } }
+                DvT_create_character_yifa = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_gongzi_01_trait_leader } } }
+                DvT_create_character_gongzi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_aleiqinuo_01_trait_leader } } }
+                DvT_create_character_aleiqinuo = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yiniefu_01_trait_leader } } }
+                DvT_create_character_yiniefu = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ainuo_01_trait_leader } } }
+                DvT_create_character_ainuo = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lawuma_01_trait_leader } } }
+                DvT_create_character_lawuma = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_feilinsi_01_trait_leader } } }
+                DvT_create_character_feilinsi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_naifuer_01_trait_leader } } }
+                DvT_create_character_naifuer = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yakeda_01_trait_leader } } }
+                DvT_create_character_yakeda = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_columbina_01_trait_leader } } }
+                DvT_create_character_columbina = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_kong_01_trait_leader } } }
+                DvT_create_character_kong = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ying_01_trait_leader } } }
+                DvT_create_character_ying = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ailuoyi_01_trait_leader } } }
+                DvT_create_character_ailuoyi = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_skirk_01_trait_leader } } }
+                DvT_create_character_skirk = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+        }
+    }
+}

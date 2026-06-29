@@ -1,0 +1,112 @@
+﻿fontaine_culture = { # 枫丹廷
+	language = french_language
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx french_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        french_group
+		teyvat_group
+	}
+}
+poisson_culture = { # 白淞镇
+	language = occitan_dialect
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        french_group
+		teyvat_group
+	}
+}
+erinnyes_culture = { # 伊黎耶
+	language = norman_dialect
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx norman_gfx french_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        french_group
+		teyvat_group
+	}
+}
+meropide_culture = { # 梅洛彼得堡
+	language = scottish_gaelic_dialect
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx scottish_highland_gfx gaelic_gfx scottish_gfx north_british_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        french_group
+		celtic_group
+		scottish_group
+		british_group
+		scandinavian_group
+		teyvat_group
+	}
+}
+fleuve_culture = { # 灰河
+	language = english_dialect
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx english_gfx british_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        french_group
+		british_group
+		teyvat_group
+	}
+}
+petrichor_culture = { # 佩特莉可镇
+	language = tuscan_dialect
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx french_gfx south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        french_group
+        italian_group
+		teyvat_group
+	}
+}
+melusine_culture = { # 美露莘
+	language = breton_dialect
+	
+	color = DvT_hydro_color
+	
+	tags = { teyvat_gfx breton_gfx french_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        fontaine_group
+        celtic_group
+        french_group
+		teyvat_group
+	}
+}

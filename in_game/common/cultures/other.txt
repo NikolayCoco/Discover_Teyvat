@@ -1,0 +1,42 @@
+﻿traveller_culture = { # 旅人
+	# language = common_language
+	
+	color = DvT_other_color
+	
+	tags = { teyvat_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        other_group
+		teyvat_group
+	}
+}
+calamity_culture = { # 寰宇劫灭
+	# language = common_language
+	
+	color = DvT_other_color
+	
+	tags = { teyvat_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        other_group
+		teyvat_group
+	}
+}
+nora_culture = { # 诺拉
+	language = english_dialect
+	
+	color = DvT_cryo_color
+	
+	tags = { teyvat_gfx north_american_gfx american_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        other_group
+		teyvat_group
+	}
+}

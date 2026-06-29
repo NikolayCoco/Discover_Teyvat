@@ -1,0 +1,2543 @@
+﻿DvT_portrait = {
+	usage = game
+	priority = 100
+
+	abeiduo_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = abeiduo_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_abeiduo_01_trait
+			}
+		}
+	}
+	aierhaisen_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = aierhaisen_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_aierhaisen_01_trait
+			}
+		}
+	}
+	aikefei_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = aikefei_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_aikefei_01_trait
+			}
+		}
+	}
+	ailuoyi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ailuoyi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ailuoyi_01_trait
+			}
+		}
+	}
+	aimeiliai_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = aimeiliai_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_aimeiliai_01_trait
+			}
+		}
+	}
+	ainuo_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ainuo_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ainuo_01_trait
+			}
+		}
+	}
+	aleiqinuo_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = aleiqinuo_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_aleiqinuo_01_trait
+			}
+		}
+	}
+	aleiqinuo_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = aleiqinuo_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_aleiqinuo_02_trait
+			}
+		}
+	}
+	anbo_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = anbo_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_anbo_01_trait
+			}
+		}
+	}
+	babala_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = babala_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_babala_01_trait
+			}
+		}
+	}
+	babala_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = babala_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_babala_02_trait
+			}
+		}
+	}
+	baizhu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = baizhu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_baizhu_01_trait
+			}
+		}
+	}
+	bannite_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = bannite_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_bannite_01_trait
+			}
+		}
+	}
+	bannite_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = bannite_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_bannite_02_trait
+			}
+		}
+	}
+	beidou_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = beidou_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_beidou_01_trait
+			}
+		}
+	}
+	bengbeng_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = bengbeng_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_bengbeng_01_trait
+			}
+		}
+	}
+	bengbeng_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = bengbeng_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_bengbeng_02_trait
+			}
+		}
+	}
+	chongyun_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = chongyun_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_chongyun_01_trait
+			}
+		}
+	}
+	columbina_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = columbina_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_columbina_01_trait
+			}
+		}
+	}
+	diluke_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = diluke_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_diluke_01_trait
+			}
+		}
+	}
+	diluke_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = diluke_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_diluke_02_trait
+			}
+		}
+	}
+	diona_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = diona_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_diona_01_trait
+			}
+		}
+	}
+	dixiya_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = dixiya_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_dixiya_01_trait
+			}
+		}
+	}
+	dulin_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = dulin_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_dulin_01_trait
+			}
+		}
+	}
+	duoli_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = duoli_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_duoli_01_trait
+			}
+		}
+	}
+	falushan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = falushan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_falushan_01_trait
+			}
+		}
+	}
+	feilinsi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = feilinsi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_feilinsi_01_trait
+			}
+		}
+	}
+	feimini_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = feimini_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_feimini_01_trait
+			}
+		}
+	}
+	fichel_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = fichel_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_fichel_01_trait
+			}
+		}
+	}
+	fichel_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = fichel_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_fichel_02_trait
+			}
+		}
+	}
+	funingna_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = funingna_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_funingna_01_trait
+			}
+		}
+	}
+	ganyu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ganyu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ganyu_01_trait
+			}
+		}
+	}
+	ganyu_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ganyu_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ganyu_02_trait
+			}
+		}
+	}
+	gongzi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = gongzi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_gongzi_01_trait
+			}
+		}
+	}
+	gongzi_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = gongzi_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_gongzi_02_trait
+			}
+		}
+	}
+	hutao_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = hutao_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_hutao_01_trait
+			}
+		}
+	}
+	hutao_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = hutao_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_hutao_02_trait
+			}
+		}
+	}
+	jiaming_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = jiaming_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_jiaming_01_trait
+			}
+		}
+	}
+	jiniqi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = jiniqi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_jiniqi_01_trait
+			}
+		}
+	}
+	jiuqiren_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = jiuqiren_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_jiuqiren_01_trait
+			}
+		}
+	}
+	jiutiao_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = jiutiao_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_jiutiao_01_trait
+			}
+		}
+	}
+	kaiya_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kaiya_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kaiya_01_trait
+			}
+		}
+	}
+	kaiya_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kaiya_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kaiya_02_trait
+			}
+		}
+	}
+	kandisi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kandisi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kandisi_01_trait
+			}
+		}
+	}
+	kaqina_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kaqina_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kaqina_01_trait
+			}
+		}
+	}
+	Katheryne_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = Katheryne_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_Katheryne_01_trait
+			}
+		}
+	}
+	kawei_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kawei_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kawei_01_trait
+			}
+		}
+	}
+	kelai_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kelai_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kelai_01_trait
+			}
+		}
+	}
+	keli_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = keli_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_keli_01_trait
+			}
+		}
+	}
+	keli_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = keli_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_keli_02_trait
+			}
+		}
+	}
+	keluolinde_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = keluolinde_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_keluolinde_01_trait
+			}
+		}
+	}
+	keqing_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = keqing_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_keqing_01_trait
+			}
+		}
+	}
+	keqing_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = keqing_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_keqing_02_trait
+			}
+		}
+	}
+	kirara_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kirara_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kirara_01_trait
+			}
+		}
+	}
+	kirara_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kirara_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kirara_02_trait
+			}
+		}
+	}
+	kong_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kong_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kong_01_trait
+			}
+		}
+	}
+	kong_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = kong_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_kong_02_trait
+			}
+		}
+	}
+	laiou_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = laiou_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_laiou_01_trait
+			}
+		}
+	}
+	laiyila_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = laiyila_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_laiyila_01_trait
+			}
+		}
+	}
+	lanyan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = lanyan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_lanyan_01_trait
+			}
+		}
+	}
+	lawuma_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = lawuma_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_lawuma_01_trait
+			}
+		}
+	}
+	leishen_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = leishen_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_leishen_01_trait
+			}
+		}
+	}
+	leishen_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = leishen_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_leishen_02_trait
+			}
+		}
+	}
+	leize_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = leize_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_leize_01_trait
+			}
+		}
+	}
+	linghua_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = linghua_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_linghua_01_trait
+			}
+		}
+	}
+	linghua_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = linghua_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_linghua_02_trait
+			}
+		}
+	}
+	lingren_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = lingren_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_lingren_01_trait
+			}
+		}
+	}
+	linnite_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = linnite_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_linnite_01_trait
+			}
+		}
+	}
+	linni_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = linni_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_linni_01_trait
+			}
+		}
+	}
+	lisha_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = lisha_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_lisha_01_trait
+			}
+		}
+	}
+	lisha_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = lisha_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_lisha_02_trait
+			}
+		}
+	}
+	luosha_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = luosha_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_luosha_01_trait
+			}
+		}
+	}
+	malani_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = malani_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_malani_01_trait
+			}
+		}
+	}
+	maweika_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = maweika_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_maweika_01_trait
+			}
+		}
+	}
+	mika_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = mika_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_mika_01_trait
+			}
+		}
+	}
+	mona_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = mona_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_mona_01_trait
+			}
+		}
+	}
+	naifuer_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = naifuer_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_naifuer_01_trait
+			}
+		}
+	}
+	nainai_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = nainai_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_nainai_01_trait
+			}
+		}
+	}
+	naweiya_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = naweiya_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_naweiya_01_trait
+			}
+		}
+	}
+	nawei_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = nawei_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_nawei_01_trait
+			}
+		}
+	}
+	nawei_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = nawei_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_nawei_02_trait
+			}
+		}
+	}
+	naxida_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = naxida_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_naxida_01_trait
+			}
+		}
+	}
+	nilu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = nilu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_nilu_01_trait
+			}
+		}
+	}
+	nilu_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = nilu_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_nilu_02_trait
+			}
+		}
+	}
+	ningguang_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ningguang_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ningguang_01_trait
+			}
+		}
+	}
+	ningguang_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ningguang_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ningguang_02_trait
+			}
+		}
+	}
+	niuniu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = niuniu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_niuniu_01_trait
+			}
+		}
+	}
+	noel_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = noel_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_noel_01_trait
+			}
+		}
+	}
+	ouluolun_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ouluolun_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ouluolun_01_trait
+			}
+		}
+	}
+	paimon_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = paimon_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_paimon_01_trait
+			}
+		}
+	}
+	pingzang_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = pingzang_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_pingzang_01_trait
+			}
+		}
+	}
+	qianzhi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = qianzhi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_qianzhi_01_trait
+			}
+		}
+	}
+	qiasika_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = qiasika_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_qiasika_01_trait
+			}
+		}
+	}
+	qin_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = qin_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_qin_01_trait
+			}
+		}
+	}
+	qin_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = qin_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_qin_02_trait
+			}
+		}
+	}
+	qiqi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = qiqi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_qiqi_01_trait
+			}
+		}
+	}
+	ruixi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ruixi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ruixi_01_trait
+			}
+		}
+	}
+	sainuo_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = sainuo_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_sainuo_01_trait
+			}
+		}
+	}
+	saisuosi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = saisuosi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_saisuosi_01_trait
+			}
+		}
+	}
+	shatang_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = shatang_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_shatang_01_trait
+			}
+		}
+	}
+	shenhe_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = shenhe_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_shenhe_01_trait
+			}
+		}
+	}
+	shenhe_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = shenhe_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_shenhe_02_trait
+			}
+		}
+	}
+	shenzi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = shenzi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_shenzi_01_trait
+			}
+		}
+	}
+	skirk_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = skirk_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_skirk_01_trait
+			}
+		}
+	}
+	taliya_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = taliya_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_taliya_01_trait
+			}
+		}
+	}
+	tinali_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = tinali_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_tinali_01_trait
+			}
+		}
+	}
+	tuoma_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = tuoma_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_tuoma_01_trait
+			}
+		}
+	}
+	wanye_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = wanye_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_wanye_01_trait
+			}
+		}
+	}
+	wendi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = wendi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_wendi_01_trait
+			}
+		}
+	}
+	wulang_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = wulang_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_wulang_01_trait
+			}
+		}
+	}
+	xialuodi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xialuodi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xialuodi_01_trait
+			}
+		}
+	}
+	xiangling_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xiangling_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xiangling_01_trait
+			}
+		}
+	}
+	xiangling_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xiangling_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xiangling_02_trait
+			}
+		}
+	}
+	xianyun_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xianyun_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xianyun_01_trait
+			}
+		}
+	}
+	xiaogong_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xiaogong_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xiaogong_01_trait
+			}
+		}
+	}
+	xiao_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xiao_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xiao_01_trait
+			}
+		}
+	}
+	xiawolei_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xiawolei_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xiawolei_01_trait
+			}
+		}
+	}
+	xigewen_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xigewen_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xigewen_01_trait
+			}
+		}
+	}
+	xingqiu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xingqiu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xingqiu_01_trait
+			}
+		}
+	}
+	xingqiu_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xingqiu_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xingqiu_02_trait
+			}
+		}
+	}
+	xinhai_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xinhai_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xinhai_01_trait
+			}
+		}
+	}
+	xinuoning_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xinuoning_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xinuoning_01_trait
+			}
+		}
+	}
+	xinyan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xinyan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xinyan_01_trait
+			}
+		}
+	}
+	yakeda_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yakeda_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yakeda_01_trait
+			}
+		}
+	}
+	yanfei_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yanfei_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yanfei_01_trait
+			}
+		}
+	}
+	yaoyao_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yaoyao_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yaoyao_01_trait
+			}
+		}
+	}
+	yaoyao_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yaoyao_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yaoyao_02_trait
+			}
+		}
+	}
+	yelan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yelan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yelan_01_trait
+			}
+		}
+	}
+	yelan_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yelan_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yelan_02_trait
+			}
+		}
+	}
+	yeluoya_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yeluoya_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yeluoya_01_trait
+			}
+		}
+	}
+	yianshan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yianshan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yianshan_01_trait
+			}
+		}
+	}
+	yidou_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yidou_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yidou_01_trait
+			}
+		}
+	}
+	yifa_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yifa_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yifa_01_trait
+			}
+		}
+	}
+	ying_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ying_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ying_01_trait
+			}
+		}
+	}
+	ying_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = ying_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_ying_02_trait
+			}
+		}
+	}
+	yiniefu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yiniefu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yiniefu_01_trait
+			}
+		}
+	}
+	youla_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = youla_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_youla_01_trait
+			}
+		}
+	}
+	yunjin_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = yunjin_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_yunjin_01_trait
+			}
+		}
+	}
+	zaoyou_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = zaoyou_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_zaoyou_01_trait
+			}
+		}
+	}
+	zhongli_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = zhongli_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_zhongli_01_trait
+			}
+		}
+	}
+	zibai_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = zibai_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_zibai_01_trait
+			}
+		}
+	}
+}

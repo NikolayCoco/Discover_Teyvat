@@ -1,0 +1,8 @@
+international_organization_manager = {
+	add_international_organization = {
+		type = DvT_adventurer_guild_IO
+		creation_date = 1.1.1
+		members = { }
+		#leader = AG0
+	}
+}

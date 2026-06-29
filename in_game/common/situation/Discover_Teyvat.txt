@@ -1,0 +1,24 @@
+Discover_Teyvat = {
+    # This is a unique situation and it is imperative that it appears as soon as possible
+    # We shall assign it the value of
+    # "monthly_spawn_chance_unique" - which stands for 1 (:- 100%)
+    # This value comes from common/script_values folder
+    monthly_spawn_chance = monthly_spawn_chance_unique
+
+    #hint_tag = tag #the tag of a hint from common/scriptable_hints
+
+    # what must be happening in the world for this to start?
+    can_start = {
+        always = no
+    }
+
+    # When will this situation end?
+    can_end = {
+        has_global_flag = discovered_teyvat_end
+    }
+
+    # Who should see this situation?
+    visible = {
+        always = yes
+    }
+}

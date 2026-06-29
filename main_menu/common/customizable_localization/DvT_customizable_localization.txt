@@ -1,0 +1,8 @@
+﻿vision_estate = {
+	type = country
+
+	text = {
+		localization_key = vision_estate
+		fallback = yes
+	}
+}

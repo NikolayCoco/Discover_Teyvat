@@ -1,0 +1,253 @@
+organization_panel = {
+	 # 顶部标志和背景
+	blockoverride "organization_panel_extra_item" {
+		allow_outside = yes
+		flowcontainer = {
+			parentanchor = top|hcenter
+			icon = {
+				parentanchor = top
+				texture = "gfx/interface/icons/international_organizations/DvT_adventurer_guild_IO_coa.dds"
+				texture_density = 2
+				size = { 100 100 }
+				
+			}
+			position = {0 -50}
+		}
+		tooltipwidget = {
+			ContextualTooltipType = {
+				blockoverride "title_icon" {
+					icon = {
+						texture = "gfx/interface/icons/international_organizations/DvT_adventurer_guild_IO.dds"
+						size = { 42 42 }
+					}
+				}
+				blockoverride "title_text" {
+					text = "DvT_adventurer_guild_IO"
+				}
+				blockoverride "tooltip_content" {
+					TooltipTextBlock = {
+						blockoverride "text" {
+							text = "DvT_adventurer_guild_IO_desc"
+						}
+					}
+					TooltipTextBlock = {
+						blockoverride "text" {
+							text = "AG_desc"
+						}
+					}
+				}
+			}
+		}
+	}
+	 # 概览
+    blockoverride "organization_overview_tab_visible" {
+        visible = yes
+    }
+    blockoverride "organization_panel_overview_visible" {
+        visible = "[InternationalOrganizationsView.Vars.NotExistOrHasValue( 'organizations', 'overview' )]"
+    }
+	blockoverride "organization_members_tab_down" {
+		down = "[InternationalOrganizationsView.Vars.HasValue( 'organizations', 'members' )]"
+	}
+	blockoverride "organization_panel_members_visible" {
+        visible = "[InternationalOrganizationsView.Vars.HasValue( 'organizations', 'members' )]"
+    }
+	# 变量栏
+	blockoverride "ios_information_header_visible" {
+		visible = yes
+	}
+	blockoverride "ios_information_header_content_extra_1" { # 原石
+		using = ios_header_content_extra_template
+		blockoverride "ios_header_content_extra" {
+			text_single = {
+				autoresize = yes
+				align = right
+				raw_text = "[GetPlayer.MakeScope.GetVariable('AG_Primogem').GetValue]"
+			}
+			widget = {
+				size = { 24 24 }
+				icon = {
+					size = { 100% 100% }
+					texture = "gfx/interface/icons/international_organizations/DvT_primogem.dds"
+				}
+			}
+			tooltipwidget = {
+				ContextualTooltipType = {
+					blockoverride "title_icon" {
+						icon = {
+							texture = "gfx/interface/icons/international_organizations/DvT_primogem.dds"
+							size = { 42 42 }
+						}
+					}
+					blockoverride "title_text" {
+						text = "AG_Primogem"
+					}
+					blockoverride "tooltip_content" {
+						TooltipTextBlock = {
+							blockoverride "text" {
+								text = "AG_Primogem_desc"
+							}
+						}
+						TooltipTextBlock = {
+							blockoverride "block_title" {
+								text = "AG_Primogem_Change"
+							}
+							blockoverride "text" {
+								text = "AG_Primogem_Change_Value"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	# 主要行动
+    blockoverride "organization_main_actions_extra_visible" {
+        visible = yes 
+    }
+    blockoverride "organization_main_actions_extra" {
+		action_button_diamond = { # 月卡
+			size = {470 30}
+			title = "AG_Pay_30"
+			text = "AG_Pay_30"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "AG_Pay_30"
+			}
+            tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/AG_Pay_30.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 氪金
+			size = {470 30}
+			title = "AG_Pay_648"
+			text = "AG_Pay_648"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "AG_Pay_648"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/AG_Pay_648.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 获得角色
+			size = {470 30}
+			title = "AG_create_character"
+			text = "AG_create_character"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "AG_create_character"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/AG_create_character.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 获得pop
+			size = {470 30}
+			title = "AG_create_pop"
+			text = "AG_create_pop"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "AG_create_pop"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/AG_create_pop.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 原石换钱
+			size = {470 30}
+			title = "AG_Primogem_for_golden"
+			text = "AG_Primogem_for_golden"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "AG_Primogem_for_golden"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/flat_icons/gold.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 皈依魔神信仰
+			size = {470 30}
+			title = "AG_Convert_to_Archonism"
+			text = "AG_Convert_to_Archonism"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "AG_Convert_to_Archonism"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/religion/Archonism.dds"
+					}
+				}
+            }
+		}
+    }
+	# 底部教程
+	blockoverride "organization_overview_list_custom_bottom" {       
+        vbox = {
+            card_expandable = {
+                blockoverride "header_content" {
+                    icon = {
+                        size = { 30 30 }
+                        block "header_icon" {
+                            texture = "gfx/interface/icons/flat_icons/tabicons/hints.dds"
+                        }
+                        texture_density = 2
+                    }
+                    text_single = {
+                        block "header_text" {
+                            margin = { 10 0 }
+                            raw_text = "DvT_adventurer_guild_IO_hint_title"
+                        }
+                    }
+                    expand = {}
+                }
+                blockoverride "bottom_content" {
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        text_single = {
+                            margin = { 20 10 }
+                            text = "DvT_adventurer_guild_IO_hint_desc"
+                            multiline = yes
+                            autoresize = yes
+                            layoutpolicy_horizontal = expanding  
+                        }
+                    }
+                }  
+            } 
+        }
+    }
+}

@@ -1,0 +1,38 @@
+﻿vision_estate_target_satisfaction = {
+    game_data = {
+        category = country
+    }
+    color = neutral
+    percent = yes
+}
+
+global_vision_estate_power = {
+    game_data = {
+        category = country
+    }
+    color = neutral
+    percent = yes
+}
+
+local_vision_estate_power = {
+    game_data = {
+        category = country
+    }
+    color = neutral
+    percent = yes
+}
+
+vision_estate_allowed_in_cabinet = {
+    game_data = {
+        category = country
+    }
+    boolean = yes
+}
+
+vision_estate_allowed_leading_military = {
+    game_data = {
+        category = country
+    }
+    boolean = yes
+}
+

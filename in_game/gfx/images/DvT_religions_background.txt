@@ -1,0 +1,101 @@
+DvT_religions_illustration = {
+	tag = "interior_backgrounds"
+	# 通用
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_main.dds"
+		priority = 1000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+			scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+        }
+	}
+    # 蒙德 Mondstadt
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Mondstadt.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Anemo_Worship
+        }
+	}
+    # 璃月 Liyue
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Liyue.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Geo_Worship
+        }
+	}
+    # 稻妻 Inazuma
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Inazuma.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Electro_Worship
+        }
+	}
+    # 须弥 Sumeru
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Sumeru.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Dendro_Worship
+        }
+	}
+    # 枫丹 Fontaine
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Fontaine.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Hydro_Worship
+        }
+	}
+    # 纳塔 Natlan
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_Natlan.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Pyro_Worship
+        }
+	}
+    # 挪德卡莱 NodKrai
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_NodKrai.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Luno_Worship
+        }
+	}
+    # 至冬 Snezhnaya
+	illustration_image = {
+		texture_file = "gfx/event_pictures/DvT_main.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+            event_illustration_background_trigger = yes
+            scope:target_religion_bckg ?= { gfx_culture_applicable = teyvat_gfx }
+			root.religion = religion:Cryo_Worship
+        }
+	}
+}

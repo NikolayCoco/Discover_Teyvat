@@ -1,0 +1,137 @@
+﻿natlan_culture = { # 圣火竞技场
+	language = nahuatl_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx aztec_gfx native_american_tag south_american_gfx american_gfx aztec_coa_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+        nahua_group
+		teyvat_group
+	}
+}
+nanatzcayan_culture = { # 纳茨卡延：「回声之子」
+	language = maya_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx native_american_tag south_american_gfx american_gfx maya_coa_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+        maya_group
+		teyvat_group
+	}
+}
+metztli_culture = { # 梅兹特利：「流泉之众」
+	language = olelo_hawaii_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx polynesian_gfx austronesian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+        polynesian_group
+        austronesian_group
+		teyvat_group
+	}
+}
+huitztlan_culture = { # 维茨特兰：「悬木人」
+	language = quechuan_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx native_american_tag south_american_gfx american_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+		quechuan_group
+		andean_group
+		teyvat_group
+	}
+}
+mictlan_culture = { # 米克特兰：「烟谜主」
+	language = hausa_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx mande_gfx african_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+		west_african_group
+		teyvat_group
+	}
+}
+tlalocan_culture = { # 特拉洛坎：「花羽会」
+	language = swahili_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx bantu_gfx african_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+		teyvat_group
+	}
+}
+ochkanatlan_culture = { # 奥奇卡纳塔
+	language = malagasy_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx malagasy_gfx east_african_gfx african_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+        malagasy_group
+        austronesian_group
+		teyvat_group
+	}
+}
+teteocan_culture = { # 特特奥坎：「沃陆之邦」
+	language = iroquoian_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx native_american_tag north_american_gfx american_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+        iroquoian_group
+		teyvat_group
+	}
+}
+tenochtzitoc_culture = { # 特诺奇兹托克
+	language = tagalog_language
+	
+	color = DvT_pyro_color
+	
+	tags = { teyvat_gfx austronesian_gfx filipino_coa_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        natlan_group
+        austronesian_group
+		teyvat_group
+	}
+}

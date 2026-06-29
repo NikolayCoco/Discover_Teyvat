@@ -1,0 +1,82 @@
+﻿nasha_culture = { # 那夏镇
+	language = scandinavian_language
+	
+	color = DvT_moon_color
+	
+	tags = { teyvat_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        nodkrai_group
+        snezhnaya_group
+        scandinavian_group
+		teyvat_group
+	}
+}
+frostmoon_culture = { # 霜月之坊
+	language = baltic_language
+	
+	color = DvT_moon_color
+	
+	tags = { teyvat_gfx baltic_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        nodkrai_group
+        snezhnaya_group
+        baltic_group
+		teyvat_group
+	}
+}
+bluea_amber_culture = { # 蓝珀湖
+	language = finnish_dialect
+	
+	color = DvT_moon_color
+	
+	tags = { teyvat_gfx finnish_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        nodkrai_group
+        snezhnaya_group
+        finnic_group
+		teyvat_group
+	}
+}
+experimental_design_culture = { # 试验设计局
+	language = russian_dialect
+	
+	color = DvT_moon_color
+	
+	tags = { teyvat_gfx russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        nodkrai_group
+        snezhnaya_group
+        russian_group
+		slavic_group
+		teyvat_group
+	}
+}
+fairy_culture = { # 终夜长茔
+	language = novgorodian_dialect
+	
+	color = DvT_moon_color
+	
+	tags = { teyvat_gfx russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        nodkrai_group
+        snezhnaya_group
+        russian_group
+		slavic_group
+		teyvat_group
+	}
+}

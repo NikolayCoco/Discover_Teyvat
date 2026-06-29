@@ -1,0 +1,113 @@
+﻿inazuma_culture = { # 鸣神岛
+	language = japanese_language
+	
+	color = DvT_electro_color
+	
+	tags = { teyvat_gfx japanese_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        inazuma_group
+        japanese_group
+		confucian_group
+		teyvat_group
+	}
+}
+tatarasuna_culture = { # 踏鞴砂
+	language = japanese_language
+	
+	color = DvT_electro_color
+	
+	tags = { teyvat_gfx japanese_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        inazuma_group
+        japanese_group
+		confucian_group
+		teyvat_group
+	}
+}
+seirai_culture = { # 清籁岛
+	language = japanese_language
+	
+	color = DvT_electro_color
+	
+	tags = { teyvat_gfx japanese_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        inazuma_group
+        japanese_group
+		confucian_group
+		teyvat_group
+	}
+}
+watatsumi_culture = { # 海祇岛
+	language = ryukyu_language
+	
+	color = DvT_electro_color
+	
+	tags = { teyvat_gfx japanese_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        inazuma_group
+        japanese_group
+		confucian_group
+		teyvat_group
+	}
+}
+enkanomiya_culture = { # 渊下宫
+	language = ryukyu_language
+	
+	color = DvT_electro_color
+	
+	tags = { teyvat_gfx japanese_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        inazuma_group
+        japanese_group
+		confucian_group
+        teyvat_1_group
+		teyvat_group
+	}
+}
+tsurumi_inazuma_culture = { # 鹤观
+	language = ainu_language
+	
+	color = DvT_electro_color
+	
+	tags = { teyvat_gfx ainu_gfx japanese_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        inazuma_group
+        japanese_group
+        teyvat_1_group
+		teyvat_group
+	}
+}
+youkai_culture = { # 妖怪
+	language = japanese_language
+	
+	color = DvT_electro_color
+	
+	tags = { teyvat_gfx japanese_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        inazuma_group
+        japanese_group
+        teyvat_1_group
+		teyvat_group
+	}
+}

@@ -1,0 +1,273 @@
+texticon = {
+	icon = DvT_main
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_main.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = primogem
+	iconsize = {
+		texture = "gfx/interface/icons/international_organizations/DvT_primogem.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = WelkinMoon
+	iconsize = {
+		texture = "gfx/interface/icons/international_organizations/DvT_Welkin_Moon.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = GenesisCrystal
+	iconsize = {
+		texture = "gfx/interface/icons/international_organizations/DvT_Genesis_Crystal.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = IntertwinedFate
+	iconsize = {
+		texture = "gfx/interface/icons/international_organizations/DvT_Intertwined_Fate.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = AcquaintFate
+	iconsize = {
+		texture = "gfx/interface/icons/international_organizations/DvT_Acquaint_Fate.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+# 元素
+texticon = {
+	icon = anemo
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_anemo.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = geo
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_geo.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = electro
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_electro.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = dendro
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_dendro.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = hydro
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_hydro.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = pyro
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_pyro.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = cryo
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_cryo.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+# 国家
+texticon = {
+	icon = Mondstadt
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Mondstadt.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Liyue
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Liyue.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Inazuma
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Inazuma.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Sumeru
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Sumeru.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Fontaine
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Fontaine.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Natlan
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Natlan.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = NodKrai
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_NodKrai.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Snezhnaya
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Snezhnaya.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Other
+	iconsize = {
+		texture = "gfx/interface/icons/text/DvT_Other.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+# 神瞳
+texticon = {
+	icon = Anemoculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Anemoculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Geoculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Geoculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Electroculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Electroculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Dendroculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Dendroculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Hydroculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Hydroculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Pyroculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Pyroculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Lunoculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Lunoculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Cryoculus
+	iconsize = {
+		texture = "gfx/interface/icons/text/Cryoculus.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}

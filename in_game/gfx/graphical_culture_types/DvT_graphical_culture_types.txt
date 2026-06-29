@@ -1,0 +1,4 @@
+﻿teyvat_gfx = {
+	priority = 1000
+	culture_tag = teyvat_gfx
+}

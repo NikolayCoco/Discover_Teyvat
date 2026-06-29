@@ -1,0 +1,1417 @@
+﻿accessory_genes = {
+	DvTprops_1 = {
+		gene_DvT_blank_1 = {
+			index = 0
+		}
+		abeiduo_01 = {
+			index = 1
+			male = { 1 = abeiduo_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		aierhaisen_01 = {
+			index = 2
+			male = { 1 = aierhaisen_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		aikefei_01 = {
+			index = 3
+			male = { 1 = aikefei_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ailuoyi_01 = {
+			index = 4
+			male = { 1 = ailuoyi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		aimeiliai_01 = {
+			index = 5
+			male = { 1 = aimeiliai_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ainuo_01 = {
+			index = 6
+			male = { 1 = ainuo_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		aleiqinuo_01 = {
+			index = 7
+			male = { 1 = aleiqinuo_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		aleiqinuo_02 = {
+			index = 8
+			male = { 1 = aleiqinuo_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		anbo_01 = {
+			index = 9
+			male = { 1 = anbo_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		babala_01 = {
+			index = 10
+			male = { 1 = babala_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		babala_02 = {
+			index = 11
+			male = { 1 = babala_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		baizhu_01 = {
+			index = 12
+			male = { 1 = baizhu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		bannite_01 = {
+			index = 13
+			male = { 1 = bannite_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		bannite_02 = {
+			index = 14
+			male = { 1 = bannite_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		beidou_01 = {
+			index = 15
+			male = { 1 = beidou_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		bengbeng_01 = {
+			index = 16
+			male = { 1 = bengbeng_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		bengbeng_02 = {
+			index = 17
+			male = { 1 = bengbeng_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		chongyun_01 = {
+			index = 18
+			male = { 1 = chongyun_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		columbina_01 = {
+			index = 19
+			male = { 1 = columbina_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		diluke_01 = {
+			index = 20
+			male = { 1 = diluke_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		diluke_02 = {
+			index = 21
+			male = { 1 = diluke_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		diona_01 = {
+			index = 22
+			male = { 1 = diona_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		dixiya_01 = {
+			index = 23
+			male = { 1 = dixiya_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		dulin_01 = {
+			index = 24
+			male = { 1 = dulin_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		duoli_01 = {
+			index = 25
+			male = { 1 = duoli_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		falushan_01 = {
+			index = 26
+			male = { 1 = falushan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		feilinsi_01 = {
+			index = 27
+			male = { 1 = feilinsi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		feimini_01 = {
+			index = 28
+			male = { 1 = feimini_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		fichel_01 = {
+			index = 29
+			male = { 1 = fichel_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		fichel_02 = {
+			index = 30
+			male = { 1 = fichel_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		funingna_01 = {
+			index = 31
+			male = { 1 = funingna_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ganyu_01 = {
+			index = 32
+			male = { 1 = ganyu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ganyu_02 = {
+			index = 33
+			male = { 1 = ganyu_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		gongzi_01 = {
+			index = 34
+			male = { 1 = gongzi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		gongzi_02 = {
+			index = 35
+			male = { 1 = gongzi_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		hutao_01 = {
+			index = 36
+			male = { 1 = hutao_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		hutao_02 = {
+			index = 37
+			male = { 1 = hutao_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		jiaming_01 = {
+			index = 38
+			male = { 1 = jiaming_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		jiniqi_01 = {
+			index = 39
+			male = { 1 = jiniqi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		jiuqiren_01 = {
+			index = 40
+			male = { 1 = jiuqiren_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		jiutiao_01 = {
+			index = 41
+			male = { 1 = jiutiao_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kaiya_01 = {
+			index = 42
+			male = { 1 = kaiya_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kaiya_02 = {
+			index = 43
+			male = { 1 = kaiya_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kandisi_01 = {
+			index = 44
+			male = { 1 = kandisi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kaqina_01 = {
+			index = 45
+			male = { 1 = kaqina_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		Katheryne_01 = {
+			index = 46
+			male = { 1 = Katheryne_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kawei_01 = {
+			index = 47
+			male = { 1 = kawei_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kelai_01 = {
+			index = 48
+			male = { 1 = kelai_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		keli_01 = {
+			index = 49
+			male = { 1 = keli_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		keli_02 = {
+			index = 50
+			male = { 1 = keli_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		keluolinde_01 = {
+			index = 51
+			male = { 1 = keluolinde_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		keqing_01 = {
+			index = 52
+			male = { 1 = keqing_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		keqing_02 = {
+			index = 53
+			male = { 1 = keqing_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kirara_01 = {
+			index = 54
+			male = { 1 = kirara_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kirara_02 = {
+			index = 55
+			male = { 1 = kirara_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kong_01 = {
+			index = 56
+			male = { 1 = kong_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		kong_02 = {
+			index = 57
+			male = { 1 = kong_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		laiou_01 = {
+			index = 58
+			male = { 1 = laiou_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		laiyila_01 = {
+			index = 59
+			male = { 1 = laiyila_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		lanyan_01 = {
+			index = 60
+			male = { 1 = lanyan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		lawuma_01 = {
+			index = 61
+			male = { 1 = lawuma_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		leishen_01 = {
+			index = 62
+			male = { 1 = leishen_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		leishen_02 = {
+			index = 63
+			male = { 1 = leishen_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		leize_01 = {
+			index = 64
+			male = { 1 = leize_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		linghua_01 = {
+			index = 65
+			male = { 1 = linghua_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		linghua_02 = {
+			index = 66
+			male = { 1 = linghua_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		lingren_01 = {
+			index = 67
+			male = { 1 = lingren_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		linnite_01 = {
+			index = 68
+			male = { 1 = linnite_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		linni_01 = {
+			index = 69
+			male = { 1 = linni_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		lisha_01 = {
+			index = 70
+			male = { 1 = lisha_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		lisha_02 = {
+			index = 71
+			male = { 1 = lisha_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		luosha_01 = {
+			index = 72
+			male = { 1 = luosha_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		malani_01 = {
+			index = 73
+			male = { 1 = malani_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		maweika_01 = {
+			index = 74
+			male = { 1 = maweika_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		mika_01 = {
+			index = 75
+			male = { 1 = mika_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		mona_01 = {
+			index = 76
+			male = { 1 = mona_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		naifuer_01 = {
+			index = 77
+			male = { 1 = naifuer_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		nainai_01 = {
+			index = 78
+			male = { 1 = nainai_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		naweiya_01 = {
+			index = 79
+			male = { 1 = naweiya_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		nawei_01 = {
+			index = 80
+			male = { 1 = nawei_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		nawei_02 = {
+			index = 81
+			male = { 1 = nawei_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		naxida_01 = {
+			index = 82
+			male = { 1 = naxida_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		nilu_01 = {
+			index = 83
+			male = { 1 = nilu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		nilu_02 = {
+			index = 84
+			male = { 1 = nilu_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ningguang_01 = {
+			index = 85
+			male = { 1 = ningguang_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ningguang_02 = {
+			index = 86
+			male = { 1 = ningguang_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		niuniu_01 = {
+			index = 87
+			male = { 1 = niuniu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		noel_01 = {
+			index = 88
+			male = { 1 = noel_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ouluolun_01 = {
+			index = 89
+			male = { 1 = ouluolun_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		paimon_01 = {
+			index = 90
+			male = { 1 = paimon_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		pingzang_01 = {
+			index = 91
+			male = { 1 = pingzang_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		qianzhi_01 = {
+			index = 92
+			male = { 1 = qianzhi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		qiasika_01 = {
+			index = 93
+			male = { 1 = qiasika_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		qin_01 = {
+			index = 94
+			male = { 1 = qin_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		qin_02 = {
+			index = 95
+			male = { 1 = qin_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		qiqi_01 = {
+			index = 96
+			male = { 1 = qiqi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ruixi_01 = {
+			index = 97
+			male = { 1 = ruixi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		sainuo_01 = {
+			index = 98
+			male = { 1 = sainuo_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		saisuosi_01 = {
+			index = 99
+			male = { 1 = saisuosi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		shatang_01 = {
+			index = 100
+			male = { 1 = shatang_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		shenhe_01 = {
+			index = 101
+			male = { 1 = shenhe_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		shenhe_02 = {
+			index = 102
+			male = { 1 = shenhe_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		shenzi_01 = {
+			index = 103
+			male = { 1 = shenzi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		skirk_01 = {
+			index = 104
+			male = { 1 = skirk_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		taliya_01 = {
+			index = 105
+			male = { 1 = taliya_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		tinali_01 = {
+			index = 106
+			male = { 1 = tinali_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		tuoma_01 = {
+			index = 107
+			male = { 1 = tuoma_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		wanye_01 = {
+			index = 108
+			male = { 1 = wanye_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		wendi_01 = {
+			index = 109
+			male = { 1 = wendi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		wulang_01 = {
+			index = 110
+			male = { 1 = wulang_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xialuodi_01 = {
+			index = 111
+			male = { 1 = xialuodi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xiangling_01 = {
+			index = 112
+			male = { 1 = xiangling_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xiangling_02 = {
+			index = 113
+			male = { 1 = xiangling_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xianyun_01 = {
+			index = 114
+			male = { 1 = xianyun_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xiaogong_01 = {
+			index = 115
+			male = { 1 = xiaogong_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xiao_01 = {
+			index = 116
+			male = { 1 = xiao_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xiawolei_01 = {
+			index = 117
+			male = { 1 = xiawolei_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xigewen_01 = {
+			index = 118
+			male = { 1 = xigewen_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xingqiu_01 = {
+			index = 119
+			male = { 1 = xingqiu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xingqiu_02 = {
+			index = 120
+			male = { 1 = xingqiu_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xinhai_01 = {
+			index = 121
+			male = { 1 = xinhai_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xinuoning_01 = {
+			index = 122
+			male = { 1 = xinuoning_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		xinyan_01 = {
+			index = 123
+			male = { 1 = xinyan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yakeda_01 = {
+			index = 124
+			male = { 1 = yakeda_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yanfei_01 = {
+			index = 125
+			male = { 1 = yanfei_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yaoyao_01 = {
+			index = 126
+			male = { 1 = yaoyao_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yaoyao_02 = {
+			index = 127
+			male = { 1 = yaoyao_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yelan_01 = {
+			index = 128
+			male = { 1 = yelan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yelan_02 = {
+			index = 129
+			male = { 1 = yelan_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yeluoya_01 = {
+			index = 130
+			male = { 1 = yeluoya_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yianshan_01 = {
+			index = 131
+			male = { 1 = yianshan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yidou_01 = {
+			index = 132
+			male = { 1 = yidou_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yifa_01 = {
+			index = 133
+			male = { 1 = yifa_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ying_01 = {
+			index = 134
+			male = { 1 = ying_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		ying_02 = {
+			index = 135
+			male = { 1 = ying_02 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yiniefu_01 = {
+			index = 136
+			male = { 1 = yiniefu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		youla_01 = {
+			index = 137
+			male = { 1 = youla_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		yunjin_01 = {
+			index = 138
+			male = { 1 = yunjin_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		zaoyou_01 = {
+			index = 139
+			male = { 1 = zaoyou_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		zhongli_01 = {
+			index = 140
+			male = { 1 = zhongli_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		zibai_01 = {
+			index = 141
+			male = { 1 = zibai_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+	}
+}

@@ -1,0 +1,191 @@
+﻿mondstadt_culture = { # 蒙德城
+	language = german_language
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		teyvat_group
+	}
+}
+# 中部蒙德
+wolvendom_culture = { # 奔狼领
+	language = central_german_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		teyvat_group
+	}
+}
+dawn_culture = { # 晨曦酒庄
+	language = central_german_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		teyvat_group
+	}
+}
+springvale_culture = { # 清泉镇
+	language = central_german_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		teyvat_group
+	}
+}
+# 高地蒙德
+whispering_culture = { # 低语森林
+	language = upper_german_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		teyvat_group
+	}
+}
+starfell_culture = { # 星落湖
+	language = upper_german_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		teyvat_group
+	}
+}
+dadaupa_culture = { # 达达乌帕谷
+	language = upper_german_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		teyvat_group
+	}
+}
+dragonspine_culture = { # 龙脊雪山
+	language = alemannic_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx south_german_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		swiss_group
+		german_group
+		teyvat_group
+	}
+}
+# 低地蒙德、荷兰
+falcon_culture = { # 鹰翔海滩
+	language = dutch_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx dutch_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		netherlandish_group
+		german_group
+		teyvat_group
+	}
+}
+windrise_culture = { # 风起地
+	language = low_german_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx dutch_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		netherlandish_group
+		german_group
+		teyvat_group
+	}
+}
+# 波米
+thousand_winds_culture = { # 千风神殿
+	language = czech_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx czech_gfx west_slavic_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		bohemian_group
+		german_group
+		teyvat_1_group
+		teyvat_group
+	}
+}
+# 旧蒙德
+stormterror_culture = { # 风龙废墟
+	language = alemannic_dialect
+	
+	color = DvT_anemo_color
+	
+	tags = { teyvat_gfx german_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        mondstadt_group
+		german_group
+		archon_group
+		teyvat_group
+	}
+}

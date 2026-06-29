@@ -1,0 +1,4 @@
+vision_pop_demand = {
+    category = pop_needs
+    hidden = yes
+}

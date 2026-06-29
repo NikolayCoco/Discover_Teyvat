@@ -1,0 +1,184 @@
+【原神】探索提瓦特
+一个小型辅助向二次元mod。
+[h1]本mod包含以下内容：[/h1]
+[olist]
+    [*]一个建筑【冒险家协会】。
+    [*]一个国际组织【冒险家协会】。
+    [*]截止《原神》月之三版本所有的原神角色。
+    [*]一个阶层【「神之眼」持有者】以及阶层特权。原神角色从属于该阶层。
+    [*]提瓦特文化。
+[/olist]
+[h2]使用方法[/h2]
+[olist]
+    [*]在首都建造建筑【冒险家协会】，过月后便会自动加入国际组织【冒险家协会】。
+[/olist]
+
+交流群：959166763
+欢迎来群里反馈意见和建议，更欢迎大家来玩，平时没事了可以吹水聊天，p社游戏、米游以及泛二次元相关话题都可以。
+欢迎订阅EU4原神奇观mod[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3402452670] 原神奇观及相关mod合集 [/url]
+
+p社目前存在共和制国家专抢玩家的廷臣的神秘bug。为避免原神角色被挖走，可以参考该mod：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3614595223] 共和制国家不会再抢走你的臣民 [/url]
+p社目前存在[url=https://forum.paradoxplaza.com/forum/threads/character-blocked-from-marriage-gets-married-causes-settling-to-fail-with-death-event-message.1890656/] 某些情况下自动婚姻绕过禁止结婚 [/url]的神秘bug，等待p社后续修复。
+
+
+[hr][/hr]
+目前处于测试阶段，未来或许会添加新的局势、进步树或更多内容。
+
+1月9日更新
+[olist]
+    [*]优化了国际组织行动【皈依魔神信仰】和内阁行动【展现魔神神迹】的表现。
+[/olist]
+
+1月7日更新
+[olist]
+    [*]【展现魔神神迹】现在是内阁行动。
+[/olist]
+
+1月6日更新
+[olist]
+    [*]完善了宗教组【魔神信仰】。
+    [*]在获得神明后，可以通过国际组织行动【皈依魔神信仰】来皈依对应的魔神信仰；可以通过国际组织行动【展现魔神神迹】来转化地区宗教。
+[/olist]
+
+1月5日更新v0.6
+[olist]
+    [*]添加了宗教组【魔神信仰】。
+    [*]开局不存在的国家在加入冒险家协会时将会重新出发一次欢迎事件。
+    [*]为国际组织行动【邀请原神角色】添加了条件，避免在无角色可邀请时浪费原石。
+    [*]其他调整。
+[/olist]
+
+12月29日更新v0.5
+[olist]
+    [*]适配了[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3605248168]Metropolis&Megalopolis Upgrade – Enhanced City System-Buildings Expansion[/url]。
+    [*]国际组织行动【邀请「神之眼」持有者】现在不再有冷却。
+    [*]优化了国际组织行动【邀请原神角色】的体验：现在会弹出事件提示获取的角色。
+    [*]优化了国际组织行动【邀请原神角色】的性能表现。
+    [*]死亡角色现在可以重新被邀请了。
+    [*]其他调整。
+[/olist]
+
+更多更新日志见改动说明
+
+[h1]更新计划：[/h1]
+[olist]
+    [*]根据国家情况调整各角色获取几率。
+    [*]通过魔神信仰宗教圣地的方式把EU4的奇观mod移植过来。
+    [*]添加七国的【魔神战争】的局势，统一原神国家（拿到所有的圣地）后可以成立之。
+    [*]原神特殊附庸。
+    [*]原神特殊兵种。
+[/olist]
+[h2]未来许会会添加的内容[/h2][spoiler]（[strike]画饼[/strike]）[/spoiler]
+[olist]
+    [*]局势【探索提瓦特】
+    [*]原神进步树
+    [*]……
+[/olist]
+
+[hr][/hr]
+[h1]友情链接[/h1]
+[h2]作者的其他相关mod[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3605390540]原神加载图 Genshin Loading Screens[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599966786]原神字体-汉仪文黑[/url]
+[/list]
+[h2]其他泛二次元mod[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3602248049]国家娘美化[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599700212]幻萌入侵 Open Beta[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3608139493]抽卡系统·原神风味包[/url]
+[/list]
+
+
+
+
+[Genshin] Discover Teyvat
+A small auxiliary-style anime-themed mod.
+[h1]This mod includes the following content:[/h1]
+[olist]
+    [*]A building: [Adventurers' Guild].
+    [*]An international organization: [Adventurers' Guild].
+    [*]All Genshin Characters up to NK.3.
+    [*]An estate: [Vision Wielders] along with its privileges. Genshin Characters belong to this estate.
+    [*]Teyvat culture.
+[/olist]
+[h2]How to Use[/h2]
+[olist]
+    [*]Construct the [Adventurers' Guild] building in your capital. After one month passes, you will automatically join the international organization [Adventurers' Guild].
+[/olist]
+
+QQ Group: 959166763
+Welcome to join our group. Feedback is welcome, and casual chat is even more welcome! Topics can range from Paradox games, miHoYo games, to general anime-related discussions.
+Also welcome to subscribe to the EU4 Genshin Monuments mod:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3402452670] 原神奇观及相关mod合集 [/url]
+
+There is a bug from Paradox that Republic Countries elect your best people in court to be their ruler. To avoid your Genshin characters being taken, you can check out this mod:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3614595223] Republic Will Not Take Your Man [/url]
+
+There is a bug from Paradox that [url=https://forum.paradoxplaza.com/forum/threads/character-blocked-from-marriage-gets-married-causes-settling-to-fail-with-death-event-message.1890656/] character blocked from marriage gets married in some case [/url], waiting for Paradox to fix it in future.
+
+[hr][/hr]
+Currently in the testing phase. New situations, advances trees, or more content may be added in the future.
+
+Updated - Jan 9
+[olist]
+    [*]Improved the performances of IO action [Convert to Archon Faith] and cabinet action [Manifest Archon's Miracle].
+[/olist]
+
+Updated - Jan 7
+[olist]
+    [*][Manifest Archon's Miracle] has been a cabinet action.
+[/olist]
+
+Updated - Jan 6
+[olist]
+    [*]Improved the religion group [Archon Faith].
+    [*]After obtaining an Archon, you may choose to convert to their corresponding Archon Faith religion through the IO action [Convert to Archon Faith]. You can spend Primogems to convert the religion of all pops in a location with one click through the IO action [Manifest Archon's Miracle].
+[/olist]
+
+Updated to v0.6 - Jan 5
+[olist]
+    [*]Added the religion group [Archon Faith].
+    [*]Countries that do not exist at the game start will now trigger the welcome event again upon joining the Adventurers' Guild.
+    [*]Added conditions to the International Organization action [Invite Genshin Impact Character] to prevent wasting Primogems when no characters are available for invitation.
+    [*]Other adjustments.
+[/olist]
+
+Updated to v0.5 - Dec 29
+[olist]
+    [*]Added compatibility for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3605248168]Metropolis&Megalopolis Upgrade – Enhanced City System-Buildings Expansion[/url]
+    [*]The [Invite Vision Wielder] IO action no longer has a cooldown.
+    [*]Improved the user experience for the IO action [Invite Genshin Impact Character]: An event will notify you of the character.
+    [*]Optimized the performance of the IO action [Invite Genshin Impact Character].
+    [*]Deceased characters can now be invited again.
+    [*]Other adjustments.
+[/olist]
+
+See the changelog for more update details.
+
+[h1]Update Plans:[/h1]
+[olist]
+    [*]Adjust character acquisition probabilities based on country conditions.
+    [*]Port over the EU4 Monuments mod via holy sites for Archon Faith religion.
+    [*]Add a [Archon War] Situation for the seven nations. Upon unifying a Genshin nation (controlling all its holy sites), it can be formally established.
+    [*]Genshin special subjects.
+    [*]Genshin special unities.
+[/olist]
+[h2]Content that may be added in the future[/h2][spoiler]([strike]Promises/Blue-sky ideas[/strike])[/spoiler]
+[olist]
+    [*][Discover Teyvat] Situation
+    [*]Genshin advances trees
+    [*]……
+[/olist]
+
+[hr][/hr]
+[h1]Friend Links[/h1]
+[h2]Other related mods by the author[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3605390540]原神加载图 Genshin Loading Screens[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599966786]原神字体-汉仪文黑[/url]
+[/list]
+[h2]Other anime-themed mods[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3602248049] Anime Style Makeover [ALL language support] [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599700212]幻萌入侵 Open Beta[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3608139493] eu5_gacha [/url]
+[/list]
