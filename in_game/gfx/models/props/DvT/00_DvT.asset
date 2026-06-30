@@ -306,6 +306,24 @@ entity = {
 }
 
 pdxmesh = {
+	name = "bulunni_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "bulunni_01_diffuse.dds"
+		texture_specular = "bulunni_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "bulunni_01_entity"
+	pdxmesh = "bulunni_01_mesh"
+}
+
+pdxmesh = {
 	name = "chongyun_01_mesh"
 	file = "hm_prophet.mesh"
 	scale = 0.8
@@ -447,6 +465,24 @@ pdxmesh = {
 entity = {
 	name = "duoli_01_entity"
 	pdxmesh = "duoli_01_mesh"
+}
+
+pdxmesh = {
+	name = "faerjia_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "faerjia_01_diffuse.dds"
+		texture_specular = "faerjia_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "faerjia_01_entity"
+	pdxmesh = "faerjia_01_mesh"
 }
 
 pdxmesh = {
@@ -1206,6 +1242,24 @@ entity = {
 }
 
 pdxmesh = {
+	name = "linnea_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "linnea_01_diffuse.dds"
+		texture_specular = "linnea_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "linnea_01_entity"
+	pdxmesh = "linnea_01_mesh"
+}
+
+pdxmesh = {
 	name = "linnite_01_mesh"
 	file = "hm_prophet.mesh"
 	scale = 0.8
@@ -1275,6 +1329,24 @@ pdxmesh = {
 entity = {
 	name = "lisha_02_entity"
 	pdxmesh = "lisha_02_mesh"
+}
+
+pdxmesh = {
+	name = "luoen_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "luoen_01_diffuse.dds"
+		texture_specular = "luoen_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "luoen_01_entity"
+	pdxmesh = "luoen_01_mesh"
 }
 
 pdxmesh = {
@@ -1404,6 +1476,24 @@ entity = {
 }
 
 pdxmesh = {
+	name = "nainai_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "nainai_02_diffuse.dds"
+		texture_specular = "nainai_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "nainai_02_entity"
+	pdxmesh = "nainai_02_mesh"
+}
+
+pdxmesh = {
 	name = "naweiya_01_mesh"
 	file = "hm_prophet.mesh"
 	scale = 0.8
@@ -1473,6 +1563,24 @@ pdxmesh = {
 entity = {
 	name = "naxida_01_entity"
 	pdxmesh = "naxida_01_mesh"
+}
+
+pdxmesh = {
+	name = "nike_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "nike_01_diffuse.dds"
+		texture_specular = "nike_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "nike_01_entity"
+	pdxmesh = "nike_01_mesh"
 }
 
 pdxmesh = {
@@ -1746,6 +1854,24 @@ entity = {
 }
 
 pdxmesh = {
+	name = "sagnduonie_01_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "sagnduonie_01_diffuse.dds"
+		texture_specular = "sagnduonie_01_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "sagnduonie_01_entity"
+	pdxmesh = "sagnduonie_01_mesh"
+}
+
+pdxmesh = {
 	name = "sainuo_01_mesh"
 	file = "hm_prophet.mesh"
 	scale = 0.8
@@ -1995,6 +2121,24 @@ pdxmesh = {
 entity = {
 	name = "xialuodi_01_entity"
 	pdxmesh = "xialuodi_01_mesh"
+}
+
+pdxmesh = {
+	name = "xialuodi_02_mesh"
+	file = "hm_prophet.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "xialuodi_02_diffuse.dds"
+		texture_specular = "xialuodi_02_diffuse.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "xialuodi_02_entity"
+	pdxmesh = "xialuodi_02_mesh"
 }
 
 pdxmesh = {

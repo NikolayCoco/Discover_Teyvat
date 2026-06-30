@@ -308,6 +308,24 @@
 			}
 		}
 	}
+	bulunni_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = bulunni_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_bulunni_01_trait
+			}
+		}
+	}
 	chongyun_01 = {
 		dna_modifiers = {
 			accessory = {
@@ -449,6 +467,24 @@
 				add = 255
 				DvT_2D_portrait_trigger = yes
 				has_trait = DvT_duoli_01_trait
+			}
+		}
+	}
+	faerjia_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = faerjia_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_faerjia_01_trait
 			}
 		}
 	}
@@ -1208,6 +1244,24 @@
 			}
 		}
 	}
+	linnea_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = linnea_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_linnea_01_trait
+			}
+		}
+	}
 	linnite_01 = {
 		dna_modifiers = {
 			accessory = {
@@ -1277,6 +1331,24 @@
 				add = 255
 				DvT_2D_portrait_trigger = yes
 				has_trait = DvT_lisha_02_trait
+			}
+		}
+	}
+	luoen_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = luoen_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_luoen_01_trait
 			}
 		}
 	}
@@ -1406,6 +1478,24 @@
 			}
 		}
 	}
+	nainai_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = nainai_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_nainai_02_trait
+			}
+		}
+	}
 	naweiya_01 = {
 		dna_modifiers = {
 			accessory = {
@@ -1475,6 +1565,24 @@
 				add = 255
 				DvT_2D_portrait_trigger = yes
 				has_trait = DvT_naxida_01_trait
+			}
+		}
+	}
+	nike_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = nike_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_nike_01_trait
 			}
 		}
 	}
@@ -1748,6 +1856,24 @@
 			}
 		}
 	}
+	sagnduonie_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = sagnduonie_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_sagnduonie_01_trait
+			}
+		}
+	}
 	sainuo_01 = {
 		dna_modifiers = {
 			accessory = {
@@ -1997,6 +2123,24 @@
 				add = 255
 				DvT_2D_portrait_trigger = yes
 				has_trait = DvT_xialuodi_01_trait
+			}
+		}
+	}
+	xialuodi_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = DvTprops_1
+				template = xialuodi_02
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				DvT_2D_portrait_trigger = yes
+				has_trait = DvT_xialuodi_02_trait
 			}
 		}
 	}

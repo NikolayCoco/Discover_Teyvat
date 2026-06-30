@@ -15,6 +15,7 @@ bannite_02 = { entity = { required_tags = "" shared_pose_entity = head entity = 
 beidou_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "beidou_01_entity" } }
 bengbeng_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "bengbeng_01_entity" } }
 bengbeng_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "bengbeng_02_entity" } }
+bulunni_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "bulunni_01_entity" } }
 chongyun_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "chongyun_01_entity" } }
 columbina_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "columbina_01_entity" } }
 diluke_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "diluke_01_entity" } }
@@ -23,6 +24,7 @@ diona_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "d
 dixiya_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "dixiya_01_entity" } }
 dulin_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "dulin_01_entity" } }
 duoli_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "duoli_01_entity" } }
+faerjia_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "faerjia_01_entity" } }
 falushan_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "falushan_01_entity" } }
 feilinsi_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "feilinsi_01_entity" } }
 feimini_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "feimini_01_entity" } }
@@ -65,10 +67,12 @@ leize_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "l
 linghua_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "linghua_01_entity" } }
 linghua_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "linghua_02_entity" } }
 lingren_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "lingren_01_entity" } }
+linnea_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "linnea_01_entity" } }
 linnite_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "linnite_01_entity" } }
 linni_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "linni_01_entity" } }
 lisha_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "lisha_01_entity" } }
 lisha_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "lisha_02_entity" } }
+luoen_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "luoen_01_entity" } }
 luosha_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "luosha_01_entity" } }
 malani_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "malani_01_entity" } }
 maweika_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "maweika_01_entity" } }
@@ -76,10 +80,12 @@ mika_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "mi
 mona_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "mona_01_entity" } }
 naifuer_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "naifuer_01_entity" } }
 nainai_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "nainai_01_entity" } }
+nainai_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "nainai_02_entity" } }
 naweiya_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "naweiya_01_entity" } }
 nawei_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "nawei_01_entity" } }
 nawei_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "nawei_02_entity" } }
 naxida_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "naxida_01_entity" } }
+nike_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "nike_01_entity" } }
 nilu_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "nilu_01_entity" } }
 nilu_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "nilu_02_entity" } }
 ningguang_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "ningguang_01_entity" } }
@@ -95,6 +101,7 @@ qin_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "qin
 qin_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "qin_02_entity" } }
 qiqi_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "qiqi_01_entity" } }
 ruixi_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "ruixi_01_entity" } }
+sagnduonie_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "sagnduonie_01_entity" } }
 sainuo_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "sainuo_01_entity" } }
 saisuosi_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "saisuosi_01_entity" } }
 shatang_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "shatang_01_entity" } }
@@ -109,6 +116,7 @@ wanye_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "w
 wendi_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "wendi_01_entity" } }
 wulang_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "wulang_01_entity" } }
 xialuodi_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "xialuodi_01_entity" } }
+xialuodi_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "xialuodi_02_entity" } }
 xiangling_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "xiangling_01_entity" } }
 xiangling_02 = { entity = { required_tags = "" shared_pose_entity = head entity = "xiangling_02_entity" } }
 xianyun_01 = { entity = { required_tags = "" shared_pose_entity = head entity = "xianyun_01_entity" } }
