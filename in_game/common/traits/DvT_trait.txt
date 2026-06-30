@@ -1259,6 +1259,15 @@ DvT_xialuodi_01_trait = {
 		army_movement_speed = 0.2
 	}
 }
+DvT_xialuodi_02_trait = {
+	category = ruler
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = {
+		army_movement_speed = 0.2
+	}
+}
 DvT_funingna_01_trait = {
 	category = ruler
 	allow = {
@@ -1403,6 +1412,16 @@ DvT_maweika_01_trait = {
 	}
 }
 DvT_nainai_01_trait = {
+	category = ruler
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = {
+		tolerance_own = 1
+		global_pop_conversion_speed_modifier = 0.03
+	}
+}
+DvT_nainai_02_trait = {
 	category = ruler
 	allow = {
 		DvT_2D_portrait_trigger = yes

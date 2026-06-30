@@ -165,6 +165,8 @@ DvT_CI_Outfit = {
                 DvT_CI_Outfit_effect = { code = nilu }
                 DvT_CI_Outfit_effect = { code = bengbeng }
                 DvT_CI_Outfit_effect = { code = nawei }
+                DvT_CI_Outfit_effect = { code = xialuodi }
+                DvT_CI_Outfit_effect = { code = nainai }
                 DvT_CI_Outfit_effect = { code = gongzi }
                 DvT_CI_Outfit_effect = { code = aleiqinuo }
                 DvT_CI_Outfit_effect = { code = kong }
