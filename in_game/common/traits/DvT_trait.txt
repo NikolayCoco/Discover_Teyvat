@@ -2,7 +2,7 @@
 DvT_anemo_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -11,7 +11,7 @@ DvT_anemo_trait = {
 DvT_geo_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -20,7 +20,7 @@ DvT_geo_trait = {
 DvT_electro_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -29,7 +29,7 @@ DvT_electro_trait = {
 DvT_dendro_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -38,7 +38,7 @@ DvT_dendro_trait = {
 DvT_hydro_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -47,7 +47,7 @@ DvT_hydro_trait = {
 DvT_pyro_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -56,7 +56,7 @@ DvT_pyro_trait = {
 DvT_cryo_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -65,7 +65,7 @@ DvT_cryo_trait = {
 DvT_all_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.01
@@ -75,7 +75,7 @@ DvT_all_trait = {
 DvT_Mondstadt_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -84,7 +84,7 @@ DvT_Mondstadt_trait = {
 DvT_Liyue_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -93,7 +93,7 @@ DvT_Liyue_trait = {
 DvT_Inazuma_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -102,7 +102,7 @@ DvT_Inazuma_trait = {
 DvT_Sumeru_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -111,7 +111,7 @@ DvT_Sumeru_trait = {
 DvT_Fontaine_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -120,7 +120,7 @@ DvT_Fontaine_trait = {
 DvT_Natlan_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -129,7 +129,7 @@ DvT_Natlan_trait = {
 DvT_NodKrai_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -138,7 +138,7 @@ DvT_NodKrai_trait = {
 DvT_Snezhnaya_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -147,7 +147,7 @@ DvT_Snezhnaya_trait = {
 DvT_Other_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		character_cabinet_efficiency = 0.02
@@ -158,7 +158,7 @@ DvT_Other_trait = {
 DvT_Katheryne_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		character_cabinet_efficiency = 0.05
@@ -173,7 +173,7 @@ DvT_Katheryne_01_trait = {
 DvT_shatang_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		tax_income_efficiency = huge_tax_income_efficiency_bonus
@@ -182,7 +182,7 @@ DvT_shatang_01_trait = {
 DvT_lisha_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.2
@@ -191,7 +191,7 @@ DvT_lisha_01_trait = {
 DvT_lisha_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.2
@@ -200,7 +200,7 @@ DvT_lisha_02_trait = {
 DvT_fichel_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.2
@@ -209,7 +209,7 @@ DvT_fichel_01_trait = {
 DvT_fichel_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.2
@@ -218,7 +218,7 @@ DvT_fichel_02_trait = {
 DvT_anbo_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_reinforce_cost = -0.1
@@ -228,7 +228,7 @@ DvT_anbo_01_trait = {
 DvT_leize_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		can_colonize = yes
@@ -239,7 +239,7 @@ DvT_leize_01_trait = {
 DvT_babala_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.1
@@ -248,7 +248,7 @@ DvT_babala_01_trait = {
 DvT_babala_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.1
@@ -257,7 +257,7 @@ DvT_babala_02_trait = {
 DvT_bannite_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		character_life_expectancy = -1
@@ -266,7 +266,7 @@ DvT_bannite_01_trait = {
 DvT_bannite_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		character_life_expectancy = -1
@@ -275,7 +275,7 @@ DvT_bannite_02_trait = {
 DvT_kaiya_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		spy_network_construction = 0.5
@@ -284,7 +284,7 @@ DvT_kaiya_01_trait = {
 DvT_kaiya_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		spy_network_construction = 0.5
@@ -293,7 +293,7 @@ DvT_kaiya_02_trait = {
 DvT_noel_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		siege_ability = 0.2
@@ -302,7 +302,7 @@ DvT_noel_01_trait = {
 DvT_qin_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		country_cabinet_efficiency = 0.2
@@ -311,7 +311,7 @@ DvT_qin_01_trait = {
 DvT_qin_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		country_cabinet_efficiency = 0.2
@@ -320,7 +320,7 @@ DvT_qin_02_trait = {
 DvT_diluke_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_production_efficiency = huge_production_efficiency_bonus
@@ -329,7 +329,7 @@ DvT_diluke_01_trait = {
 DvT_diluke_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_production_efficiency = huge_production_efficiency_bonus
@@ -338,7 +338,7 @@ DvT_diluke_02_trait = {
 DvT_mona_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.001
@@ -347,7 +347,7 @@ DvT_mona_01_trait = {
 DvT_wendi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -359,7 +359,7 @@ DvT_wendi_01_trait = {
 DvT_keli_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -369,7 +369,7 @@ DvT_keli_01_trait = {
 DvT_keli_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -379,7 +379,7 @@ DvT_keli_02_trait = {
 DvT_diona_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_manpower_modifier = 0.2
@@ -388,7 +388,7 @@ DvT_diona_01_trait = {
 DvT_abeiduo_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.2
@@ -397,7 +397,7 @@ DvT_abeiduo_01_trait = {
 DvT_luosha_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		spy_network_construction = 0.5
@@ -406,7 +406,7 @@ DvT_luosha_01_trait = {
 DvT_youla_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_movement_speed = 0.2
@@ -415,7 +415,7 @@ DvT_youla_01_trait = {
 DvT_mika_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		colonial_range_modifier = 0.5
@@ -424,7 +424,7 @@ DvT_mika_01_trait = {
 DvT_taliya_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_pop_conversion_speed_modifier = 0.1
@@ -433,7 +433,7 @@ DvT_taliya_01_trait = {
 DvT_dulin_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		country_cabinet_efficiency = 0.2
@@ -448,7 +448,7 @@ DvT_dulin_01_trait = {
 DvT_ningguang_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_merchant_capacity_modifier = 0.33	# 0.5 for single
@@ -459,7 +459,7 @@ DvT_ningguang_01_trait = {
 DvT_ningguang_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_merchant_capacity_modifier = 0.33	# 0.5 for single
@@ -470,7 +470,7 @@ DvT_ningguang_02_trait = {
 DvT_xingqiu_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_merchant_capacity_modifier = 0.33
@@ -482,7 +482,7 @@ DvT_xingqiu_01_trait = {
 DvT_xingqiu_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_merchant_capacity_modifier = 0.33
@@ -494,7 +494,7 @@ DvT_xingqiu_02_trait = {
 DvT_xiangling_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.1
@@ -504,7 +504,7 @@ DvT_xiangling_01_trait = {
 DvT_xiangling_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.1
@@ -514,7 +514,7 @@ DvT_xiangling_02_trait = {
 DvT_chongyun_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.001
@@ -523,7 +523,7 @@ DvT_chongyun_01_trait = {
 DvT_beidou_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		naval_morale_modifier = 0.1
@@ -538,7 +538,7 @@ DvT_beidou_01_trait = {
 DvT_qiqi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -549,7 +549,7 @@ DvT_qiqi_01_trait = {
 DvT_keqing_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_build_buildings_cost = -0.1	# 0.2 for single
@@ -560,7 +560,7 @@ DvT_keqing_01_trait = {
 DvT_keqing_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_build_buildings_cost = -0.1	# 0.2 for single
@@ -571,7 +571,7 @@ DvT_keqing_02_trait = {
 DvT_xinyan_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.0005 # 0.001 for single
@@ -581,7 +581,7 @@ DvT_xinyan_01_trait = {
 DvT_zhongli_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -595,7 +595,7 @@ DvT_zhongli_01_trait = {
 DvT_ganyu_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -605,7 +605,7 @@ DvT_ganyu_01_trait = {
 DvT_ganyu_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -615,7 +615,7 @@ DvT_ganyu_02_trait = {
 DvT_xiao_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -626,7 +626,7 @@ DvT_xiao_01_trait = {
 DvT_hutao_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# global_output_modifier = 0.01 # TODO
@@ -636,7 +636,7 @@ DvT_hutao_01_trait = {
 DvT_hutao_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# global_output_modifier = 0.01 # TODO
@@ -646,7 +646,7 @@ DvT_hutao_02_trait = {
 DvT_yanfei_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -657,7 +657,7 @@ DvT_yanfei_01_trait = {
 DvT_yunjin_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_pop_assimilation_speed = 0.15
@@ -667,7 +667,7 @@ DvT_yunjin_01_trait = {
 DvT_shenhe_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		morale_damage_done = 0.1
@@ -677,7 +677,7 @@ DvT_shenhe_01_trait = {
 DvT_shenhe_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		morale_damage_done = 0.1
@@ -687,7 +687,7 @@ DvT_shenhe_02_trait = {
 DvT_yelan_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		spy_network_construction = 0.5
@@ -696,7 +696,7 @@ DvT_yelan_01_trait = {
 DvT_yelan_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		spy_network_construction = 0.5
@@ -705,7 +705,7 @@ DvT_yelan_02_trait = {
 DvT_yaoyao_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_distance_from_capital_cost_modifier = -0.03
@@ -715,7 +715,7 @@ DvT_yaoyao_01_trait = {
 DvT_yaoyao_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_distance_from_capital_cost_modifier = -0.03
@@ -725,7 +725,7 @@ DvT_yaoyao_02_trait = {
 DvT_baizhu_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_manpower_modifier = 0.2
@@ -736,7 +736,7 @@ DvT_baizhu_01_trait = {
 DvT_jiaming_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_maritime_presence_modifier = 0.15 # 0.25 for single
@@ -746,7 +746,7 @@ DvT_jiaming_01_trait = {
 DvT_xianyun_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -756,7 +756,7 @@ DvT_xianyun_01_trait = {
 DvT_lanyan_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_pop_assimilation_speed = 0.25
@@ -765,7 +765,7 @@ DvT_lanyan_01_trait = {
 DvT_zibai_01_trait = { # TODO
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		
@@ -779,7 +779,7 @@ DvT_zibai_01_trait = { # TODO
 DvT_wanye_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		colonial_range_modifier = 0.5
@@ -791,7 +791,7 @@ DvT_wanye_01_trait = {
 DvT_linghua_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_pop_assimilation_speed = 0.15 # 0.25 for single
@@ -801,7 +801,7 @@ DvT_linghua_01_trait = {
 DvT_linghua_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_pop_assimilation_speed = 0.15 # 0.25 for single
@@ -811,7 +811,7 @@ DvT_linghua_02_trait = {
 DvT_zaoyou_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_movement_speed = 0.2
@@ -820,7 +820,7 @@ DvT_zaoyou_01_trait = {
 DvT_xiaogong_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# global_output_modifier = 0.01 # TODO
@@ -831,7 +831,7 @@ DvT_xiaogong_01_trait = {
 DvT_jiutiao_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		land_morale_modifier = 0.15 # 0.25 for single
@@ -841,7 +841,7 @@ DvT_jiutiao_01_trait = {
 DvT_leishen_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -859,7 +859,7 @@ DvT_leishen_01_trait = {
 DvT_leishen_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -877,7 +877,7 @@ DvT_leishen_02_trait = {
 DvT_xinhai_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_experience_gain = 0.15
@@ -888,7 +888,7 @@ DvT_xinhai_01_trait = {
 DvT_tuoma_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		improve_relation_impact = 0.33
@@ -897,7 +897,7 @@ DvT_tuoma_01_trait = {
 DvT_wulang_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_experience_gain = 0.15 # 0.25 for single
@@ -908,7 +908,7 @@ DvT_wulang_01_trait = {
 DvT_yidou_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_infantry_power = 0.25
@@ -917,7 +917,7 @@ DvT_yidou_01_trait = {
 DvT_shenzi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -928,7 +928,7 @@ DvT_shenzi_01_trait = {
 DvT_lingren_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.0005
@@ -938,7 +938,7 @@ DvT_lingren_01_trait = {
 DvT_jiuqiren_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.0005
@@ -948,7 +948,7 @@ DvT_jiuqiren_01_trait = {
 DvT_pingzang_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_cavalry_power = 0.25
@@ -957,7 +957,7 @@ DvT_pingzang_01_trait = {
 DvT_kirara_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_movement_speed = 0.2
@@ -966,7 +966,7 @@ DvT_kirara_01_trait = {
 DvT_kirara_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_movement_speed = 0.2
@@ -975,7 +975,7 @@ DvT_kirara_02_trait = {
 DvT_qianzhi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# global_output_modifier = 0.02 # TODO
@@ -985,7 +985,7 @@ DvT_qianzhi_01_trait = {
 DvT_ruixi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.001
@@ -999,7 +999,7 @@ DvT_ruixi_01_trait = {
 DvT_kelai_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_movement_speed = 0.2
@@ -1008,7 +1008,7 @@ DvT_kelai_01_trait = {
 DvT_tinali_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		embrace_institution_cost_modifier = -0.15 # 0.25 for single
@@ -1018,7 +1018,7 @@ DvT_tinali_01_trait = {
 DvT_duoli_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_merchant_capacity_modifier = 0.33
@@ -1028,7 +1028,7 @@ DvT_duoli_01_trait = {
 DvT_kandisi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_defensive = 0.25
@@ -1037,7 +1037,7 @@ DvT_kandisi_01_trait = {
 DvT_sainuo_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_cavalry_power = 0.1
@@ -1047,7 +1047,7 @@ DvT_sainuo_01_trait = {
 DvT_nilu_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		stability_cost = -0.2
@@ -1056,7 +1056,7 @@ DvT_nilu_01_trait = {
 DvT_nilu_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		stability_cost = -0.2
@@ -1065,7 +1065,7 @@ DvT_nilu_02_trait = {
 DvT_naxida_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1075,7 +1075,7 @@ DvT_naxida_01_trait = {
 DvT_laiyila_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.2
@@ -1084,7 +1084,7 @@ DvT_laiyila_01_trait = {
 DvT_falushan_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		character_life_expectancy = 100
@@ -1094,7 +1094,7 @@ DvT_falushan_01_trait = {
 DvT_bengbeng_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1105,7 +1105,7 @@ DvT_bengbeng_01_trait = {
 DvT_bengbeng_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1116,7 +1116,7 @@ DvT_bengbeng_02_trait = {
 DvT_aierhaisen_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		country_cabinet_efficiency = 0.2
@@ -1125,7 +1125,7 @@ DvT_aierhaisen_01_trait = {
 DvT_dixiya_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		morale_damage_done = 0.2
@@ -1134,7 +1134,7 @@ DvT_dixiya_01_trait = {
 DvT_kawei_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_build_buildings_cost = -0.2
@@ -1144,7 +1144,7 @@ DvT_kawei_01_trait = {
 DvT_saisuosi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_infantry_power = 0.25
@@ -1158,7 +1158,7 @@ DvT_saisuosi_01_trait = {
 DvT_linnite_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_movement_speed = 0.2
@@ -1167,7 +1167,7 @@ DvT_linnite_01_trait = {
 DvT_linni_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		research_speed_modifier = 0.2
@@ -1176,7 +1176,7 @@ DvT_linni_01_trait = {
 DvT_feimini_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_distance_from_capital_cost_modifier = -0.05
@@ -1185,7 +1185,7 @@ DvT_feimini_01_trait = {
 DvT_nawei_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1201,7 +1201,7 @@ DvT_nawei_01_trait = {
 DvT_nawei_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1217,7 +1217,7 @@ DvT_nawei_02_trait = {
 DvT_laiou_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.001
@@ -1226,7 +1226,7 @@ DvT_laiou_01_trait = {
 DvT_xialuodi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_movement_speed = 0.2
@@ -1235,7 +1235,7 @@ DvT_xialuodi_01_trait = {
 DvT_funingna_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1250,7 +1250,7 @@ DvT_funingna_01_trait = {
 DvT_naweiya_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_artillery_power = 0.25
@@ -1259,7 +1259,7 @@ DvT_naweiya_01_trait = {
 DvT_xiawolei_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_distance_from_capital_cost_modifier = -0.05
@@ -1268,7 +1268,7 @@ DvT_xiawolei_01_trait = {
 DvT_keluolinde_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.001
@@ -1277,7 +1277,7 @@ DvT_keluolinde_01_trait = {
 DvT_xigewen_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_manpower_modifier = 0.2
@@ -1288,7 +1288,7 @@ DvT_xigewen_01_trait = {
 DvT_aimeiliai_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# global_output_modifier = 0.02 # TODO
@@ -1298,7 +1298,7 @@ DvT_aimeiliai_01_trait = {
 DvT_aikefei_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.001
@@ -1312,7 +1312,7 @@ DvT_aikefei_01_trait = {
 DvT_kaqina_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_monthly_development = 0.003
@@ -1321,7 +1321,7 @@ DvT_kaqina_01_trait = {
 DvT_malani_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		trade_efficiency = huge_trade_efficiency_bonus
@@ -1330,7 +1330,7 @@ DvT_malani_01_trait = {
 DvT_jiniqi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		trade_efficiency = huge_trade_efficiency_bonus
@@ -1339,7 +1339,7 @@ DvT_jiniqi_01_trait = {
 DvT_xinuoning_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		global_production_efficiency = huge_production_efficiency_bonus
@@ -1348,7 +1348,7 @@ DvT_xinuoning_01_trait = {
 DvT_ouluolun_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		spy_network_construction = 0.5
@@ -1357,7 +1357,7 @@ DvT_ouluolun_01_trait = {
 DvT_qiasika_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_artillery_power = 0.25
@@ -1366,7 +1366,7 @@ DvT_qiasika_01_trait = {
 DvT_maweika_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		character_life_expectancy = 500
@@ -1378,7 +1378,7 @@ DvT_maweika_01_trait = {
 DvT_nainai_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		tolerance_own = 1
@@ -1388,7 +1388,7 @@ DvT_nainai_01_trait = {
 DvT_yianshan_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		discipline = 0.1
@@ -1397,7 +1397,7 @@ DvT_yianshan_01_trait = {
 DvT_niuniu_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		land_morale_modifier = 0.25
@@ -1406,7 +1406,7 @@ DvT_niuniu_01_trait = {
 DvT_yifa_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		land_unit_attrition = -0.2
@@ -1420,7 +1420,7 @@ DvT_yifa_01_trait = {
 DvT_gongzi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_artillery_power = 0.15
@@ -1431,7 +1431,7 @@ DvT_gongzi_01_trait = {
 DvT_gongzi_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_artillery_power = 0.15
@@ -1442,7 +1442,7 @@ DvT_gongzi_02_trait = {
 DvT_aleiqinuo_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.0005
@@ -1454,7 +1454,7 @@ DvT_aleiqinuo_01_trait = {
 DvT_aleiqinuo_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		monthly_rebel_growth = -0.0005
@@ -1466,7 +1466,7 @@ DvT_aleiqinuo_02_trait = {
 DvT_anna_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1476,7 +1476,7 @@ DvT_anna_01_trait = {
 DvT_yiniefu_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1485,7 +1485,7 @@ DvT_yiniefu_01_trait = {
 DvT_ainuo_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1494,7 +1494,7 @@ DvT_ainuo_01_trait = {
 DvT_lawuma_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1503,7 +1503,7 @@ DvT_lawuma_01_trait = {
 DvT_feilinsi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1512,7 +1512,7 @@ DvT_feilinsi_01_trait = {
 DvT_naifuer_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1521,7 +1521,7 @@ DvT_naifuer_01_trait = {
 DvT_yakeda_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1530,7 +1530,7 @@ DvT_yakeda_01_trait = {
 DvT_columbina_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1539,7 +1539,7 @@ DvT_columbina_01_trait = {
 DvT_yeluoya_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = { # TODO
 		country_cabinet_efficiency = 0.2
@@ -1553,7 +1553,7 @@ DvT_yeluoya_01_trait = {
 DvT_kong_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1568,7 +1568,7 @@ DvT_kong_01_trait = {
 DvT_kong_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1583,7 +1583,7 @@ DvT_kong_02_trait = {
 DvT_ying_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1598,7 +1598,7 @@ DvT_ying_01_trait = {
 DvT_ying_02_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		# is_immortal = yes
@@ -1613,7 +1613,7 @@ DvT_ying_02_trait = {
 DvT_ailuoyi_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		colonial_range_modifier = 0.5
@@ -1622,7 +1622,7 @@ DvT_ailuoyi_01_trait = {
 DvT_skirk_01_trait = {
 	category = ruler
 	allow = {
-		always = no
+		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
 		army_artillery_power = 0.15

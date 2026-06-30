@@ -11,10 +11,6 @@ DvT_create_character = {
         adm = { value = { 0 5 } add = $ability_level$ }
         dip = { value = { 0 5 } add = $ability_level$ }
         mil = { value = { 0 5 } add = $ability_level$ }
-        add_trait = trait:DvT_$code$_01_trait
-        add_trait = trait:DvT_$code$_01_trait_leader
-        add_trait = trait:DvT_$element$_trait
-        add_trait = trait:DvT_$belong$_trait
         female = $female_bool$
         if = {
             limit = { $immediate$ = yes }
@@ -31,6 +27,11 @@ DvT_create_character = {
                 mode = add_and_extend
             }
         }
+        remove_traits_of_category = ruler
+        add_trait = trait:DvT_$code$_01_trait
+        add_trait = trait:DvT_$code$_01_trait_leader
+        add_trait = trait:DvT_$element$_trait
+        add_trait = trait:DvT_$belong$_trait
         save_scope_as = target_character
     }
     random_owned_location = {
