@@ -1,5 +1,5 @@
 ﻿hydro_dragon_culture = { # 水龙
-	# language = common_language
+	language = french_language
 	
 	color = DvT_hydro_color
 	
@@ -10,6 +10,24 @@
 	culture_groups = {
         fontaine_group
         french_group
+		dragon_group
+		teyvat_group
+	}
+}
+moons_culture = { # 三月
+	language = baltic_language
+	
+	color = DvT_moon_color
+	
+	tags = { teyvat_gfx baltic_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        nodkrai_group
+        snezhnaya_group
+        baltic_group
+		dragon_group
 		teyvat_group
 	}
 }

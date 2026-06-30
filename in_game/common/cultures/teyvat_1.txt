@@ -1,0 +1,17 @@
+lang_gan_culture = { # 琅玕
+    language = classical_chinese_language
+	
+	color = DvT_geo_color
+	
+	tags = { teyvat_gfx east_asian_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        liyue_group
+        chinese_group
+		confucian_group
+        teyvat_1_group
+		teyvat_group
+	}
+}

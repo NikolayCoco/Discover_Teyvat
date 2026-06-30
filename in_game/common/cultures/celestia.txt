@@ -1,0 +1,15 @@
+angel_culture = { # 天使
+	# language = common_language
+	
+	color = DvT_other_color
+	
+	tags = { teyvat_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        celestia_group
+        teyvat_1_group
+		teyvat_group
+	}
+}
