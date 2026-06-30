@@ -470,6 +470,57 @@ DvT_create_character_dulin = {
         ability_level = 90
     }
 }
+DvT_create_character_faerjia = {
+	DvT_create_character = {
+        code = faerjia
+        nameF = nameF_Varka
+        nameL = nameL_Boreas
+        religion = Anemo_Worship
+        culture = mondstadt_culture
+        age = 20
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 90
+    }
+}
+DvT_create_character_bulunni = {
+	DvT_create_character = {
+        code = bulunni
+        nameF = nameF_Prune
+        nameL = nameL_Descartes
+        religion = Anemo_Worship
+        culture = nasha_culture
+        age = 12
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = anemo
+        belong = Mondstadt
+        female_bool = yes
+        ability_level = 85
+    }
+}
+DvT_create_character_luoen = {
+	DvT_create_character = {
+        code = luoen
+        nameF = nameF_Lohen
+        nameL = nameL_Imunlaukr
+        religion = Anemo_Worship
+        culture = nasha_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = cryo
+        belong = Mondstadt
+        female_bool = no
+        ability_level = 90
+    }
+}
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
@@ -582,7 +633,7 @@ DvT_create_character_keqing = {
 	DvT_create_character = {
         code = keqing
         nameF = nameF_Keqing
-        nameL = nameL_Qixing
+        nameL = nameL_Li
         religion = Geo_Worship
         culture = mingyun_culture
         age = 20
@@ -831,6 +882,23 @@ DvT_create_character_lanyan = {
         belong = Liyue
         female_bool = yes
         ability_level = 85
+    }
+}
+DvT_create_character_zibai = {
+	DvT_create_character = {
+        code = zibai
+        nameF = nameF_Zibai
+        nameL = nameL_yueshi
+        religion = Geo_Worship
+        culture = lang_gan_culture
+        age = 5000
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = Liyue
+        female_bool = yes
+        ability_level = 90
     }
 }
 ########________稻妻________################________稻妻________################________稻妻________########
@@ -1941,6 +2009,57 @@ DvT_create_character_columbina = {
         # birth_day = 
         # birth_place =
         element = hydro
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_yeluoya = {
+	DvT_create_character = {
+        code = yeluoya
+        nameF = nameF_Illuga
+        nameL = nameL_zhideng
+        religion = Luno_Worship
+        culture = piramida_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = NodKrai
+        female_bool = no
+        ability_level = 85
+    }
+}
+DvT_create_character_linnea = {
+	DvT_create_character = {
+        code = linnea
+        nameF = nameF_Linnea
+        nameL = nameL_chenniao
+        religion = Luno_Worship
+        culture = fairy_culture
+        age = 16
+        immediate = no
+        # birth_day = 
+        # birth_place =
+        element = geo
+        belong = NodKrai
+        female_bool = yes
+        ability_level = 90
+    }
+}
+DvT_create_character_nike = {
+	DvT_create_character = {
+        code = nike
+        nameF = nameF_Nicole
+        nameL = nameL_Reeyn
+        religion = Luno_Worship
+        culture = angel_culture
+        age = 5000
+        immediate = yes
+        # birth_day = 
+        # birth_place =
+        element = pyro
         belong = NodKrai
         female_bool = yes
         ability_level = 90

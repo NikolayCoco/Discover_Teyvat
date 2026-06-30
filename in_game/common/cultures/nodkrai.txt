@@ -63,7 +63,7 @@ experimental_design_culture = { # 试验设计局
 		teyvat_group
 	}
 }
-fairy_culture = { # 终夜长茔
+fairy_culture = { # 雪国的妖精
 	language = novgorodian_dialect
 	
 	color = DvT_moon_color
@@ -77,6 +77,22 @@ fairy_culture = { # 终夜长茔
         snezhnaya_group
         russian_group
 		slavic_group
+		teyvat_group
+	}
+}
+piramida_culture = { # 皮拉米达城
+	language = baltic_language
+	
+	color = DvT_moon_color
+	
+	tags = { teyvat_gfx finnish_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        nodkrai_group
+        snezhnaya_group
+        baltic_group
 		teyvat_group
 	}
 }
