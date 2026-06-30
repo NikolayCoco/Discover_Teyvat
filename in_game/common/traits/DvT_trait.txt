@@ -436,7 +436,7 @@ DvT_dulin_01_trait = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		country_cabinet_efficiency = 0.2
+		character_life_expectancy = 50
 	}
 }
 DvT_faerjia_01_trait = {
@@ -444,8 +444,8 @@ DvT_faerjia_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		monthly_army_tradition = 0.01
 	}
 }
 DvT_bulunni_01_trait = {
@@ -453,8 +453,8 @@ DvT_bulunni_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		monthly_rebel_growth = -0.001
 	}
 }
 DvT_luoen_01_trait = {
@@ -462,8 +462,8 @@ DvT_luoen_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		spy_network_construction = 0.5
 	}
 }
 ########________璃月________################________璃月________################________璃月________########
@@ -501,7 +501,7 @@ DvT_xingqiu_01_trait = {
 	}
 	modifier = {
 		global_merchant_capacity_modifier = 0.33
-		# global_output_modifier = 0.01 # TODO
+		# global_output_modifier = 0.01
 		global_production_efficiency = large_production_efficiency_bonus # huge for single
 		trade_efficiency = large_trade_efficiency_bonus
 	}
@@ -513,7 +513,7 @@ DvT_xingqiu_02_trait = {
 	}
 	modifier = {
 		global_merchant_capacity_modifier = 0.33
-		# global_output_modifier = 0.01 # TODO
+		# global_output_modifier = 0.01
 		global_production_efficiency = large_production_efficiency_bonus # huge for single
 		trade_efficiency = large_trade_efficiency_bonus
 	}
@@ -656,7 +656,7 @@ DvT_hutao_01_trait = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		# global_output_modifier = 0.01 # TODO
+		# global_output_modifier = 0.01
 		global_production_efficiency = huge_production_efficiency_bonus
 	}
 }
@@ -666,7 +666,7 @@ DvT_hutao_02_trait = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		# global_output_modifier = 0.01 # TODO
+		# global_output_modifier = 0.01
 		global_production_efficiency = huge_production_efficiency_bonus
 	}
 }
@@ -794,7 +794,7 @@ DvT_zibai_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
+	modifier = {
 		country_cabinet_efficiency = 0.2
 	}
 }
@@ -850,7 +850,7 @@ DvT_xiaogong_01_trait = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		# global_output_modifier = 0.01 # TODO
+		# global_output_modifier = 0.01
 		global_production_efficiency = large_production_efficiency_bonus
 		army_artillery_power = 0.15
 	}
@@ -1005,7 +1005,7 @@ DvT_qianzhi_01_trait = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		# global_output_modifier = 0.02 # TODO
+		# global_output_modifier = 0.02
 		global_production_efficiency = huge_production_efficiency_bonus
 	}
 }
@@ -1318,7 +1318,7 @@ DvT_aimeiliai_01_trait = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		# global_output_modifier = 0.02 # TODO
+		# global_output_modifier = 0.02
 		global_production_efficiency = huge_production_efficiency_bonus
 	}
 }
@@ -1500,13 +1500,17 @@ DvT_anna_01_trait = {
 	}
 }
 ########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
 DvT_yiniefu_01_trait = {
 	category = ruler
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		research_speed_modifier = 0.2
 	}
 }
 DvT_ainuo_01_trait = {
@@ -1514,8 +1518,8 @@ DvT_ainuo_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		research_speed_modifier = 0.2
 	}
 }
 DvT_lawuma_01_trait = {
@@ -1523,8 +1527,8 @@ DvT_lawuma_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		tolerance_own = 2
 	}
 }
 DvT_feilinsi_01_trait = {
@@ -1532,8 +1536,8 @@ DvT_feilinsi_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		improve_relation_impact = 0.2
 	}
 }
 DvT_naifuer_01_trait = {
@@ -1541,8 +1545,8 @@ DvT_naifuer_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		monthly_rebel_growth = -0.001
 	}
 }
 DvT_yakeda_01_trait = {
@@ -1550,8 +1554,8 @@ DvT_yakeda_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		tax_income_efficiency = 0.2
 	}
 }
 DvT_columbina_01_trait = {
@@ -1559,8 +1563,8 @@ DvT_columbina_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		global_devastation_recovery = 0.2
 	}
 }
 DvT_yeluoya_01_trait = {
@@ -1568,8 +1572,8 @@ DvT_yeluoya_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		stability_cost = -0.1
 	}
 }
 DvT_linnea_01_trait = {
@@ -1577,8 +1581,8 @@ DvT_linnea_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		research_speed_modifier = 0.2
 	}
 }
 DvT_nike_01_trait = {
@@ -1586,8 +1590,8 @@ DvT_nike_01_trait = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		country_cabinet_efficiency = 0.2
+	modifier = {
+		global_population_growth = 0.2
 	}
 }
 ########________异界________################________异界________################________异界________########

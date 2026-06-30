@@ -206,7 +206,7 @@ DvT_dulin_01_trait_leader = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		land_morale_modifier = 0.25
+		damage_taken = -0.1
 	}
 }
 DvT_faerjia_01_trait_leader = {
@@ -214,8 +214,8 @@ DvT_faerjia_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.25
+	modifier = {
+		siege_ability = 0.15
 	}
 }
 DvT_bulunni_01_trait_leader = {
@@ -223,8 +223,8 @@ DvT_bulunni_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.25
+	modifier = {
+		damage_done = 0.10
 	}
 }
 DvT_luoen_01_trait_leader = {
@@ -232,8 +232,8 @@ DvT_luoen_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.25
+	modifier = {
+		damage_done = 0.10
 	}
 }
 ########________璃月________################________璃月________################________璃月________########
@@ -438,8 +438,8 @@ DvT_zibai_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		damage_taken = -0.1
 	}
 }
 ########________稻妻________################________稻妻________################________稻妻________########
@@ -1017,13 +1017,18 @@ DvT_anna_01_trait_leader = {
 	}
 }
 ########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
+########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
 DvT_yiniefu_01_trait_leader = {
 	category = general
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		damage_done = 0.2
+		damage_taken = 0.05
 	}
 }
 DvT_ainuo_01_trait_leader = {
@@ -1031,8 +1036,8 @@ DvT_ainuo_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		regiment_recruit_speed = 0.5
 	}
 }
 DvT_lawuma_01_trait_leader = {
@@ -1040,8 +1045,8 @@ DvT_lawuma_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		damage_taken = -0.1
 	}
 }
 DvT_feilinsi_01_trait_leader = {
@@ -1049,8 +1054,8 @@ DvT_feilinsi_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		damage_done = 0.1
 	}
 }
 DvT_naifuer_01_trait_leader = {
@@ -1058,8 +1063,9 @@ DvT_naifuer_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		damage_done = 0.2
+		damage_taken = 0.05
 	}
 }
 DvT_yakeda_01_trait_leader = {
@@ -1067,8 +1073,8 @@ DvT_yakeda_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		regiment_recruit_speed = 0.2
 	}
 }
 DvT_columbina_01_trait_leader = {
@@ -1076,8 +1082,8 @@ DvT_columbina_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		damage_done = 0.15
 	}
 }
 DvT_yeluoya_01_trait_leader = {
@@ -1085,8 +1091,8 @@ DvT_yeluoya_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		discipline = 0.1
 	}
 }
 DvT_linnea_01_trait_leader = {
@@ -1094,8 +1100,8 @@ DvT_linnea_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		land_morale_attrition_cost = -0.2
 	}
 }
 DvT_nike_01_trait_leader = {
@@ -1103,8 +1109,8 @@ DvT_nike_01_trait_leader = {
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = { # TODO
-		land_morale_modifier = 0.1
+	modifier = {
+		damage_done = 0.15
 	}
 }
 ########________异界________################________异界________################________异界________########
