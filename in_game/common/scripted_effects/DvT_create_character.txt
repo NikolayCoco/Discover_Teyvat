@@ -2249,6 +2249,21 @@ DvT_create_character_random = {
                 #modifier = { factor = { value = 0.5 always = yes } }
             }
             1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_faerjia_01_trait_leader } } }
+                DvT_create_character_faerjia = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_bulunni_01_trait_leader } } }
+                DvT_create_character_bulunni = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_luoen_01_trait_leader } } }
+                DvT_create_character_luoen = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
                 trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_ningguang_01_trait_leader } } }
                 DvT_create_character_ningguang = yes
                 #modifier = { factor = { value = 0.5 always = yes } }
@@ -2351,6 +2366,11 @@ DvT_create_character_random = {
             1 = {
                 trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_lanyan_01_trait_leader } } }
                 DvT_create_character_lanyan = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_zibai_01_trait_leader } } }
+                DvT_create_character_zibai = yes
                 #modifier = { factor = { value = 0.5 always = yes } }
             }
             1 = {
@@ -2671,6 +2691,21 @@ DvT_create_character_random = {
             1 = {
                 trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_columbina_01_trait_leader } } }
                 DvT_create_character_columbina = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_yeluoya_01_trait_leader } } }
+                DvT_create_character_yeluoya = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_linnea_01_trait_leader } } }
+                DvT_create_character_linnea = yes
+                #modifier = { factor = { value = 0.5 always = yes } }
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = DvT_characters_created_list has_trait = DvT_nike_01_trait_leader } } }
+                DvT_create_character_nike = yes
                 #modifier = { factor = { value = 0.5 always = yes } }
             }
             1 = {
