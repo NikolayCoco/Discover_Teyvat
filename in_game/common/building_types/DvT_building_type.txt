@@ -12,6 +12,7 @@
     rural_settlement = yes
 	town = yes
 	city = yes
+    megalopolis = yes
 	st_meg = yes
 	st_met = yes
 
