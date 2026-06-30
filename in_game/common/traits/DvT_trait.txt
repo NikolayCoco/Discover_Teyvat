@@ -439,6 +439,33 @@ DvT_dulin_01_trait = {
 		country_cabinet_efficiency = 0.2
 	}
 }
+DvT_faerjia_01_trait = {
+	category = ruler
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_bulunni_01_trait = {
+	category = ruler
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_luoen_01_trait = {
+	category = ruler
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
@@ -762,13 +789,13 @@ DvT_lanyan_01_trait = {
 		global_pop_assimilation_speed = 0.25
 	}
 }
-DvT_zibai_01_trait = { # TODO
+DvT_zibai_01_trait = {
 	category = ruler
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
-	modifier = {
-		
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
 	}
 }
 ########________稻妻________################________稻妻________################________稻妻________########
@@ -1537,6 +1564,24 @@ DvT_columbina_01_trait = {
 	}
 }
 DvT_yeluoya_01_trait = {
+	category = ruler
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_linnea_01_trait = {
+	category = ruler
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		country_cabinet_efficiency = 0.2
+	}
+}
+DvT_nike_01_trait = {
 	category = ruler
 	allow = {
 		DvT_2D_portrait_trigger = yes

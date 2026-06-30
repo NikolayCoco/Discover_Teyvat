@@ -209,6 +209,33 @@ DvT_dulin_01_trait_leader = {
 		land_morale_modifier = 0.25
 	}
 }
+DvT_faerjia_01_trait_leader = {
+	category = general
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		land_morale_modifier = 0.25
+	}
+}
+DvT_bulunni_01_trait_leader = {
+	category = general
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		land_morale_modifier = 0.25
+	}
+}
+DvT_luoen_01_trait_leader = {
+	category = general
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		land_morale_modifier = 0.25
+	}
+}
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
@@ -1054,6 +1081,24 @@ DvT_columbina_01_trait_leader = {
 	}
 }
 DvT_yeluoya_01_trait_leader = {
+	category = general
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		land_morale_modifier = 0.1
+	}
+}
+DvT_linnea_01_trait_leader = {
+	category = general
+	allow = {
+		DvT_2D_portrait_trigger = yes
+	}
+	modifier = { # TODO
+		land_morale_modifier = 0.1
+	}
+}
+DvT_nike_01_trait_leader = {
 	category = general
 	allow = {
 		DvT_2D_portrait_trigger = yes
