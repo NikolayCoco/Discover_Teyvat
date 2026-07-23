@@ -1610,7 +1610,7 @@ DvT_nike_01_trait = {
 		DvT_2D_portrait_trigger = yes
 	}
 	modifier = {
-		global_population_growth = 0.2
+		global_population_growth = 0.0002
 	}
 }
 DvT_sagnduonie_01_trait = {
