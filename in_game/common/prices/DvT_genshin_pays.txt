@@ -1,0 +1,4 @@
+﻿subject_pays_DvT_genshin = {
+    scaled_gold = 0.5
+    ignore_inflation = yes
+}

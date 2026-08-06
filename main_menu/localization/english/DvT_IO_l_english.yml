@@ -19,7 +19,7 @@
  AG_Primogem_Blessing: "@WelkinMoon! Blessing of the Welkin Moon"
  AG_Primogem_Blessing_desc: "@WelkinMoon! $DvT_luno_text$"
  AG_Primogem_Change: "Monthly Change"
- AG_Primogem_Change_Value: "Gain #P 60#!@primogem!  fixed monthly. With the #italic Blessing of the Welkin Moon @WelkinMoon!#!, gain an additional #P 90#!@primogem! per month."
+ AG_Primogem_Change_Value: "Gain #P 60#!@primogem!  fixed monthly. With the #italic Blessing of the Welkin Moon @WelkinMoon!#!, gain an additional #P 90#!@primogem! per month. With every Genshin Land vassal in the Adventurers' Guild IO, gain an additional #P 10#!@primogem! per month."
  AG_has_Primogem_Blessing_text: "(Blessing of the Welkin Moon @WelkinMoon! duration consumed:[GetPlayer.MakeScope.GetVariable('AG_Primogem_Blessing').GetValue] months)"
  AG_create_character: "@IntertwinedFate! Invite Genshin Character"
  AG_create_character_desc: "@IntertwinedFate! A fateful stone that connects dreams. Its glimmers can entwine fates and connect dreams, just as how its glimmer links stars into the shapes of a heart's desires.\n\n#italic @IntertwinedFate! Invite a Genshin Character to join our nation.!#!"

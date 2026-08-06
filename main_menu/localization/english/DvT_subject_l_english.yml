@@ -1,0 +1,9 @@
+﻿l_english:
+ DvT_genshin_subject: "Genshin Land"
+ DvT_genshin_subject_desc: "A [subject|e] led by a Genshin character, whose ruler is appointed from among the Vision Wielder in the overlord."
+ DvT_genshin_ling: "$NAME$ Genshin Land"
+ DvT_genshin_ling_map: "$NAME$ Genshin Land"
+ DvT_genshin_ling_pay: "#P 10#!@primogem! per month (Effective when the vassal state in the Adventurers' Guild IO.)"
+ create_Genshin_Land_select_ruler: "Select a Genshin Character:"
+ LEAD_DvT_genshin_subject: "$LIST$ is a [SUBJECT_TYPE.GetName]"
+ AM_DvT_genshin_subject: "[SUBJECT_TYPE.GetName] of $LIST$."

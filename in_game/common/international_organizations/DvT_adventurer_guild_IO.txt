@@ -81,6 +81,20 @@
                         remove_variable = AG_Primogem_Blessing
                     }
                 }
+                if = {
+                    limit = {
+                        is_subject_type = DvT_genshin_subject
+                        overlord = {
+                            is_member_of_international_organization = root
+                        }
+                    }
+                    overlord = {
+                        change_variable = {
+                            name = AG_Primogem
+                            add = 10
+                        }
+                    }
+                }
             }
         }
     }

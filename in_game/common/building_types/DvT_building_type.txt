@@ -45,7 +45,7 @@
     capital_country_modifier = {
         vision_estate_target_satisfaction = 0.05
         global_vision_estate_power = 0.5
-        global_max_control = 0.03
+        global_max_control = 0.1
         global_monthly_control = 0.001
 	} # <modifier> modifier applied to the country if built in the capital (multiplied by building level and goods access)
 

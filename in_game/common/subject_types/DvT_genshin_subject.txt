@@ -1,0 +1,97 @@
+﻿# 原神附庸国
+# 创建时需从宗主国宫廷中选择一名原神角色作为统治者
+DvT_genshin_subject = {
+    subject_pays = subject_pays_DvT_genshin
+    color = DvT_main_color
+    level = 2
+    annullment_favours_required = 20
+
+    visible_through_diplomacy = {
+        always = no
+    }
+    visible_through_treaty = {
+        always = no
+    }
+
+    creation_visible = {
+        is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
+    }
+    subject_creation_enabled = {
+        is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
+        any_character = {
+            can_become_a_ruler = yes
+            DvT_2D_portrait_trigger = yes
+        }
+    }
+    # 史实附庸（释放国家）渠道关闭：仅允许通过自定义附庸（settled_subject）创建
+    release_country_enabled = {
+        always = no
+    }
+
+    use_overlord_map_color = yes
+    use_overlord_map_name = no
+
+    join_offensive_wars_always = {
+        always = yes
+    }
+    join_defensive_wars_always = {
+        always = yes
+    }
+
+    diplomatic_capacity_cost_scale = 0.1
+
+    will_join_independence_wars = no
+
+    strength_vs_overlord = -0.67
+
+    has_overlords_ruler = no
+
+    annexation_speed = 2
+    annexation_min_years_before = 1
+    annexation_min_opinion = 50
+    annexation_stall_opinion = 50
+
+    subject_can_cancel = no
+    overlord_can_cancel = no
+
+    can_overlord_build_roads = yes
+    can_overlord_build_buildings = yes
+    can_overlord_build_rgos = yes
+
+    can_overlord_recruit_regiments = no
+    can_overlord_build_ships = no
+
+    has_limited_diplomacy = yes
+
+    allow_declaring_wars = {
+        always = no
+    }
+
+    food_access = yes
+
+    can_change_rank = no
+    can_change_heir_selection = yes
+
+    minimum_opinion_for_offer = 100
+
+    great_power_score_transfer = 0.25
+
+    institution_spread_to_overlord = 2.0
+    institution_spread_to_subject = 2.0
+
+    overlord_modifier = {
+        subject_opinions = 10
+        custom_tooltip = { text = DvT_genshin_ling_pay }
+    }
+
+    subject_modifier = {
+        global_max_control = 0.1
+        loyalty_to_overlord = 10
+    }
+
+    on_enable = {
+    }
+
+    on_disable = {
+    }
+}

@@ -18,7 +18,7 @@
  AG_Primogem_Blessing: "@WelkinMoon!空月祝福"
  AG_Primogem_Blessing_desc: "@WelkinMoon!$DvT_luno_text$"
  AG_Primogem_Change: "每月变化"
- AG_Primogem_Change_Value: "每月固定获得#P 60#!@primogem!。若有#italic 空月祝福@WelkinMoon!#!，会每月额外获得#P 90#!@primogem!。"
+ AG_Primogem_Change_Value: "每月固定获得#P 60#!@primogem!。若有#italic 空月祝福@WelkinMoon!#!，会每月额外获得#P 90#!@primogem!。每个在国际组织冒险家协会中的原神领附庸国每月额外提供#P 10#!@primogem!。"
  AG_has_Primogem_Blessing_text: "（空月祝福@WelkinMoon!已消耗[GetPlayer.MakeScope.GetVariable('AG_Primogem_Blessing').GetValue]个月）"
  AG_create_character: "@IntertwinedFate!邀请原神角色"
  AG_create_character_desc: "@IntertwinedFate!缘石辉光能让本无交集的命运交错，让彼此的梦想相连，正如这种光辉将群星连成心之所向的图形。\n\n#italic @IntertwinedFate!邀请一位原神角色加入我们的国家！#!"
