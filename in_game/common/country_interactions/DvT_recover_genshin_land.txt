@@ -1,0 +1,66 @@
+﻿DvT_recover_genshin_land = {
+    type = subject
+    category = CATEGORY_SUBJECT_ACTIONS
+
+    block_when_at_war = yes
+
+    ai_tick = never
+
+    potential = {
+        scope:actor = {
+            any_subject = {
+                is_subject_type = DvT_genshin_subject
+            }
+        }
+    }
+
+    allow = {
+    }
+
+    select_trigger = {
+        looking_for_a = country
+        interaction_source_list = {
+            scope:actor = {
+                every_subject = {
+                    limit = {
+                        is_subject_type = DvT_genshin_subject
+                    }
+                    add_to_list = source
+                }
+            }
+        }
+        target_flag = recipient
+        name = "choose_country"
+        column = {
+            data = name
+        }
+        visible = {
+            is_subject_type = DvT_genshin_subject
+            is_subject_of = scope:actor
+        }
+        enabled = {
+        }
+    }
+
+    effect = {
+        scope:actor = {
+            if = {
+                limit = {
+                    exists = scope:recipient
+                }
+                annex_country = {
+                    country = scope:recipient
+                    reason = Diplomatic
+                    transfer = yes
+                }
+            }
+            else = {
+                custom_tooltip = DvT_recover_genshin_land_tt
+            }
+        }
+    }
+
+    ai_will_do = {
+        value = 0
+    }
+}
