@@ -16,6 +16,23 @@ DvT_2D_portrait_trigger = {
         has_character_modifier = DvT_character_base_modifier_immortal
         has_character_modifier = DvT_character_base_modifier_marriage
         has_character_modifier = DvT_character_base_modifier_marriage_immortal
+        has_trait = DvT_anemo_trait
+        has_trait = DvT_geo_trait
+        has_trait = DvT_electro_trait
+        has_trait = DvT_dendro_trait
+        has_trait = DvT_hydro_trait
+        has_trait = DvT_pyro_trait
+        has_trait = DvT_cryo_trait
+        has_trait = DvT_all_trait
+        has_trait = DvT_Mondstadt_trait
+        has_trait = DvT_Liyue_trait
+        has_trait = DvT_Inazuma_trait
+        has_trait = DvT_Sumeru_trait
+        has_trait = DvT_Fontaine_trait
+        has_trait = DvT_Natlan_trait
+        has_trait = DvT_NodKrai_trait
+        has_trait = DvT_Snezhnaya_trait
+        has_trait = DvT_Other_trait
     }
 }
 DvT_CI_Outfit_allow = {

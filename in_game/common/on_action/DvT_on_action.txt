@@ -35,3 +35,33 @@ on_DvT_character_death = {
         }
     }
 }
+on_annex = {
+    on_actions = {
+		on_DvT_annex
+	}
+}
+on_DvT_annex = {
+	effect = {
+		if = {
+			limit = {
+				root = {
+					is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
+				}
+				scope:target = {
+                    OR = {
+                        is_subject_type = DvT_genshin_subject
+                        is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
+                    }
+				}
+			}
+			scope:target = {
+                every_character = {
+                    limit = {
+                        DvT_2D_portrait_trigger = yes
+                    }
+                    move_country = root
+                }
+      		}			
+		}
+    }
+}
