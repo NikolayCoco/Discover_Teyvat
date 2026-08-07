@@ -1,0 +1,39 @@
+﻿#INJECT:create_province_subject = {
+#	select_trigger = {
+#		show_if = {
+#			scope:subject_type ?= subject_type:DvT_genshin_subject
+#		}
+#		looking_for_a = character
+#		source = actor
+#		target_flag = ruler
+#		cache_targets = yes #this list of targets doesn't rely on the previous target so we only need to do it once
+#		allow_null = no #so we let the game create a random ruler
+#		name = "create_building_subject_select_ruler" #"create_Genshin_Land_select_ruler"
+#		column = {
+#			data = character_info
+#			widget = character_info_for_select_ruler
+#		}
+#		visible = {
+#			DvT_2D_portrait_trigger = yes
+#			scope:actor = {
+#				trigger_if = {
+#					limit = {
+#						exists = ruler
+#					}
+#					ruler != root
+#				}
+#			}
+#		}
+#		enabled = {
+#			can_become_a_ruler = yes
+#		}
+#		map_color = {
+#			if = {
+#				limit = {
+#					province = scope:target_province
+#				}
+#				value = define:NMapColors|MAP_COLOR_HIGH
+#			}
+#		}
+#	}
+#}

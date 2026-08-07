@@ -3,7 +3,7 @@
 DvT_genshin_subject = {
     subject_pays = subject_pays_DvT_genshin
     color = DvT_main_color
-    level = 2
+    level = 3
     annullment_favours_required = 20
 
     visible_through_diplomacy = {

@@ -3,6 +3,7 @@
  DvT_genshin_subject_desc: "由原神角色领导的[subject|e]，其统治者由宗主国的神之眼持有者出任。"
  DvT_genshin_ling: "$NAME$原神领"
  DvT_genshin_ling_map: "$NAME$原神领"
+ DvT_genshin_ling_name: "[root.ruler.GetName]原神领"
  DvT_genshin_ling_pay: "每月获得#P 10#!@primogem!（需要附庸国在国际组织冒险家协会中时才生效）"
  create_Genshin_Land_select_ruler: "选择原神角色："
  LEAD_DvT_genshin_subject: "$LIST$是[SUBJECT_TYPE.GetName]"
