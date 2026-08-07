@@ -156,7 +156,7 @@ DvT_Other_trait = {
 # 个人特质
 ## 测试：凯瑟琳
 DvT_Katheryne_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -171,7 +171,7 @@ DvT_Katheryne_01_trait = {
 ########________蒙德________################________蒙德________################________蒙德________########
 ########________蒙德________################________蒙德________################________蒙德________########
 DvT_shatang_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -180,7 +180,7 @@ DvT_shatang_01_trait = {
 	}
 }
 DvT_lisha_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -189,7 +189,7 @@ DvT_lisha_01_trait = {
 	}
 }
 DvT_lisha_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -198,7 +198,7 @@ DvT_lisha_02_trait = {
 	}
 }
 DvT_fichel_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -207,7 +207,7 @@ DvT_fichel_01_trait = {
 	}
 }
 DvT_fichel_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -216,7 +216,7 @@ DvT_fichel_02_trait = {
 	}
 }
 DvT_anbo_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -226,7 +226,7 @@ DvT_anbo_01_trait = {
 	}
 }
 DvT_leize_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -237,7 +237,7 @@ DvT_leize_01_trait = {
 	}
 }
 DvT_babala_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -246,7 +246,7 @@ DvT_babala_01_trait = {
 	}
 }
 DvT_babala_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -255,7 +255,7 @@ DvT_babala_02_trait = {
 	}
 }
 DvT_bannite_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -264,7 +264,7 @@ DvT_bannite_01_trait = {
 	}
 }
 DvT_bannite_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -273,7 +273,7 @@ DvT_bannite_02_trait = {
 	}
 }
 DvT_kaiya_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -282,7 +282,7 @@ DvT_kaiya_01_trait = {
 	}
 }
 DvT_kaiya_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -291,7 +291,7 @@ DvT_kaiya_02_trait = {
 	}
 }
 DvT_noel_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -300,7 +300,7 @@ DvT_noel_01_trait = {
 	}
 }
 DvT_qin_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -309,7 +309,7 @@ DvT_qin_01_trait = {
 	}
 }
 DvT_qin_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -318,7 +318,7 @@ DvT_qin_02_trait = {
 	}
 }
 DvT_diluke_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -327,7 +327,7 @@ DvT_diluke_01_trait = {
 	}
 }
 DvT_diluke_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -336,7 +336,7 @@ DvT_diluke_02_trait = {
 	}
 }
 DvT_mona_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -345,7 +345,7 @@ DvT_mona_01_trait = {
 	}
 }
 DvT_wendi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -357,7 +357,7 @@ DvT_wendi_01_trait = {
 	}
 }
 DvT_keli_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -367,7 +367,7 @@ DvT_keli_01_trait = {
 	}
 }
 DvT_keli_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -377,7 +377,7 @@ DvT_keli_02_trait = {
 	}
 }
 DvT_diona_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -386,7 +386,7 @@ DvT_diona_01_trait = {
 	}
 }
 DvT_abeiduo_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -395,7 +395,7 @@ DvT_abeiduo_01_trait = {
 	}
 }
 DvT_luosha_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -404,7 +404,7 @@ DvT_luosha_01_trait = {
 	}
 }
 DvT_youla_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -413,7 +413,7 @@ DvT_youla_01_trait = {
 	}
 }
 DvT_mika_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -422,7 +422,7 @@ DvT_mika_01_trait = {
 	}
 }
 DvT_taliya_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -431,7 +431,7 @@ DvT_taliya_01_trait = {
 	}
 }
 DvT_dulin_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -440,7 +440,7 @@ DvT_dulin_01_trait = {
 	}
 }
 DvT_faerjia_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -449,7 +449,7 @@ DvT_faerjia_01_trait = {
 	}
 }
 DvT_bulunni_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -458,7 +458,7 @@ DvT_bulunni_01_trait = {
 	}
 }
 DvT_luoen_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -473,7 +473,7 @@ DvT_luoen_01_trait = {
 ########________璃月________################________璃月________################________璃月________########
 ########________璃月________################________璃月________################________璃月________########
 DvT_ningguang_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -484,7 +484,7 @@ DvT_ningguang_01_trait = {
 	}
 }
 DvT_ningguang_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -495,7 +495,7 @@ DvT_ningguang_02_trait = {
 	}
 }
 DvT_xingqiu_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -507,7 +507,7 @@ DvT_xingqiu_01_trait = {
 	}
 }
 DvT_xingqiu_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -519,7 +519,7 @@ DvT_xingqiu_02_trait = {
 	}
 }
 DvT_xiangling_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -529,7 +529,7 @@ DvT_xiangling_01_trait = {
 	}
 }
 DvT_xiangling_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -539,7 +539,7 @@ DvT_xiangling_02_trait = {
 	}
 }
 DvT_chongyun_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -548,7 +548,7 @@ DvT_chongyun_01_trait = {
 	}
 }
 DvT_beidou_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -563,7 +563,7 @@ DvT_beidou_01_trait = {
 	}
 }
 DvT_qiqi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -574,7 +574,7 @@ DvT_qiqi_01_trait = {
 	}
 }
 DvT_keqing_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -585,7 +585,7 @@ DvT_keqing_01_trait = {
 	}
 }
 DvT_keqing_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -596,7 +596,7 @@ DvT_keqing_02_trait = {
 	}
 }
 DvT_xinyan_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -606,7 +606,7 @@ DvT_xinyan_01_trait = {
 	}
 }
 DvT_zhongli_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -620,7 +620,7 @@ DvT_zhongli_01_trait = {
 	}
 }
 DvT_ganyu_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -630,7 +630,7 @@ DvT_ganyu_01_trait = {
 	}
 }
 DvT_ganyu_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -640,7 +640,7 @@ DvT_ganyu_02_trait = {
 	}
 }
 DvT_xiao_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -651,7 +651,7 @@ DvT_xiao_01_trait = {
 	}
 }
 DvT_hutao_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -661,7 +661,7 @@ DvT_hutao_01_trait = {
 	}
 }
 DvT_hutao_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -671,7 +671,7 @@ DvT_hutao_02_trait = {
 	}
 }
 DvT_yanfei_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -682,7 +682,7 @@ DvT_yanfei_01_trait = {
 	}
 }
 DvT_yunjin_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -692,7 +692,7 @@ DvT_yunjin_01_trait = {
 	}
 }
 DvT_shenhe_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -702,7 +702,7 @@ DvT_shenhe_01_trait = {
 	}
 }
 DvT_shenhe_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -712,7 +712,7 @@ DvT_shenhe_02_trait = {
 	}
 }
 DvT_yelan_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -721,7 +721,7 @@ DvT_yelan_01_trait = {
 	}
 }
 DvT_yelan_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -730,7 +730,7 @@ DvT_yelan_02_trait = {
 	}
 }
 DvT_yaoyao_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -740,7 +740,7 @@ DvT_yaoyao_01_trait = {
 	}
 }
 DvT_yaoyao_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -750,7 +750,7 @@ DvT_yaoyao_02_trait = {
 	}
 }
 DvT_baizhu_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -761,7 +761,7 @@ DvT_baizhu_01_trait = {
 	}
 }
 DvT_jiaming_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -771,7 +771,7 @@ DvT_jiaming_01_trait = {
 	}
 }
 DvT_xianyun_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -781,7 +781,7 @@ DvT_xianyun_01_trait = {
 	}
 }
 DvT_lanyan_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -790,7 +790,7 @@ DvT_lanyan_01_trait = {
 	}
 }
 DvT_zibai_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -804,7 +804,7 @@ DvT_zibai_01_trait = {
 ########________稻妻________################________稻妻________################________稻妻________########
 ########________稻妻________################________稻妻________################________稻妻________########
 DvT_wanye_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -816,7 +816,7 @@ DvT_wanye_01_trait = {
 	}
 }
 DvT_linghua_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -826,7 +826,7 @@ DvT_linghua_01_trait = {
 	}
 }
 DvT_linghua_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -836,7 +836,7 @@ DvT_linghua_02_trait = {
 	}
 }
 DvT_zaoyou_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -845,7 +845,7 @@ DvT_zaoyou_01_trait = {
 	}
 }
 DvT_xiaogong_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -856,7 +856,7 @@ DvT_xiaogong_01_trait = {
 	}
 }
 DvT_jiutiao_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -866,7 +866,7 @@ DvT_jiutiao_01_trait = {
 	}
 }
 DvT_leishen_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -884,7 +884,7 @@ DvT_leishen_01_trait = {
 	}
 }
 DvT_leishen_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -902,7 +902,7 @@ DvT_leishen_02_trait = {
 	}
 }
 DvT_xinhai_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -913,7 +913,7 @@ DvT_xinhai_01_trait = {
 	}
 }
 DvT_tuoma_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -922,7 +922,7 @@ DvT_tuoma_01_trait = {
 	}
 }
 DvT_wulang_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -933,7 +933,7 @@ DvT_wulang_01_trait = {
 	}
 }
 DvT_yidou_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -942,7 +942,7 @@ DvT_yidou_01_trait = {
 	}
 }
 DvT_shenzi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -953,7 +953,7 @@ DvT_shenzi_01_trait = {
 	}
 }
 DvT_lingren_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -963,7 +963,7 @@ DvT_lingren_01_trait = {
 	}
 }
 DvT_jiuqiren_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -973,7 +973,7 @@ DvT_jiuqiren_01_trait = {
 	}
 }
 DvT_pingzang_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -982,7 +982,7 @@ DvT_pingzang_01_trait = {
 	}
 }
 DvT_kirara_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -991,7 +991,7 @@ DvT_kirara_01_trait = {
 	}
 }
 DvT_kirara_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1000,7 +1000,7 @@ DvT_kirara_02_trait = {
 	}
 }
 DvT_qianzhi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1010,7 +1010,7 @@ DvT_qianzhi_01_trait = {
 	}
 }
 DvT_ruixi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1024,7 +1024,7 @@ DvT_ruixi_01_trait = {
 ########________须弥________################________须弥________################________须弥________########
 ########________须弥________################________须弥________################________须弥________########
 DvT_kelai_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1033,7 +1033,7 @@ DvT_kelai_01_trait = {
 	}
 }
 DvT_tinali_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1043,7 +1043,7 @@ DvT_tinali_01_trait = {
 	}
 }
 DvT_duoli_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1053,7 +1053,7 @@ DvT_duoli_01_trait = {
 	}
 }
 DvT_kandisi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1062,7 +1062,7 @@ DvT_kandisi_01_trait = {
 	}
 }
 DvT_sainuo_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1072,7 +1072,7 @@ DvT_sainuo_01_trait = {
 	}
 }
 DvT_nilu_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1081,7 +1081,7 @@ DvT_nilu_01_trait = {
 	}
 }
 DvT_nilu_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1090,7 +1090,7 @@ DvT_nilu_02_trait = {
 	}
 }
 DvT_naxida_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1100,7 +1100,7 @@ DvT_naxida_01_trait = {
 	}
 }
 DvT_laiyila_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1109,7 +1109,7 @@ DvT_laiyila_01_trait = {
 	}
 }
 DvT_falushan_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1119,7 +1119,7 @@ DvT_falushan_01_trait = {
 	}
 }
 DvT_bengbeng_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1130,7 +1130,7 @@ DvT_bengbeng_01_trait = {
 	}
 }
 DvT_bengbeng_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1141,7 +1141,7 @@ DvT_bengbeng_02_trait = {
 	}
 }
 DvT_aierhaisen_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1150,7 +1150,7 @@ DvT_aierhaisen_01_trait = {
 	}
 }
 DvT_dixiya_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1159,7 +1159,7 @@ DvT_dixiya_01_trait = {
 	}
 }
 DvT_kawei_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1169,7 +1169,7 @@ DvT_kawei_01_trait = {
 	}
 }
 DvT_saisuosi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1183,7 +1183,7 @@ DvT_saisuosi_01_trait = {
 ########________枫丹________################________枫丹________################________枫丹________########
 ########________枫丹________################________枫丹________################________枫丹________########
 DvT_linnite_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1192,7 +1192,7 @@ DvT_linnite_01_trait = {
 	}
 }
 DvT_linni_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1201,7 +1201,7 @@ DvT_linni_01_trait = {
 	}
 }
 DvT_feimini_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1210,7 +1210,7 @@ DvT_feimini_01_trait = {
 	}
 }
 DvT_nawei_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1226,7 +1226,7 @@ DvT_nawei_01_trait = {
 	}
 }
 DvT_nawei_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1242,7 +1242,7 @@ DvT_nawei_02_trait = {
 	}
 }
 DvT_laiou_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1251,7 +1251,7 @@ DvT_laiou_01_trait = {
 	}
 }
 DvT_xialuodi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1260,7 +1260,7 @@ DvT_xialuodi_01_trait = {
 	}
 }
 DvT_xialuodi_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1269,7 +1269,7 @@ DvT_xialuodi_02_trait = {
 	}
 }
 DvT_funingna_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1284,7 +1284,7 @@ DvT_funingna_01_trait = {
 	}
 }
 DvT_naweiya_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1293,7 +1293,7 @@ DvT_naweiya_01_trait = {
 	}
 }
 DvT_xiawolei_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1302,7 +1302,7 @@ DvT_xiawolei_01_trait = {
 	}
 }
 DvT_keluolinde_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1311,7 +1311,7 @@ DvT_keluolinde_01_trait = {
 	}
 }
 DvT_xigewen_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1322,7 +1322,7 @@ DvT_xigewen_01_trait = {
 	}
 }
 DvT_aimeiliai_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1332,7 +1332,7 @@ DvT_aimeiliai_01_trait = {
 	}
 }
 DvT_aikefei_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1346,7 +1346,7 @@ DvT_aikefei_01_trait = {
 ########________纳塔________################________纳塔________################________纳塔________########
 ########________纳塔________################________纳塔________################________纳塔________########
 DvT_kaqina_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1355,7 +1355,7 @@ DvT_kaqina_01_trait = {
 	}
 }
 DvT_malani_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1364,7 +1364,7 @@ DvT_malani_01_trait = {
 	}
 }
 DvT_jiniqi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1373,7 +1373,7 @@ DvT_jiniqi_01_trait = {
 	}
 }
 DvT_xinuoning_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1382,7 +1382,7 @@ DvT_xinuoning_01_trait = {
 	}
 }
 DvT_ouluolun_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1391,7 +1391,7 @@ DvT_ouluolun_01_trait = {
 	}
 }
 DvT_qiasika_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1400,7 +1400,7 @@ DvT_qiasika_01_trait = {
 	}
 }
 DvT_maweika_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1412,7 +1412,7 @@ DvT_maweika_01_trait = {
 	}
 }
 DvT_nainai_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1422,7 +1422,7 @@ DvT_nainai_01_trait = {
 	}
 }
 DvT_nainai_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1432,7 +1432,7 @@ DvT_nainai_02_trait = {
 	}
 }
 DvT_yianshan_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1441,7 +1441,7 @@ DvT_yianshan_01_trait = {
 	}
 }
 DvT_niuniu_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1450,7 +1450,7 @@ DvT_niuniu_01_trait = {
 	}
 }
 DvT_yifa_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1464,7 +1464,7 @@ DvT_yifa_01_trait = {
 ########________至冬________################________至冬________################________至冬________########
 ########________至冬________################________至冬________################________至冬________########
 DvT_gongzi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1475,7 +1475,7 @@ DvT_gongzi_01_trait = {
 	}
 }
 DvT_gongzi_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1486,7 +1486,7 @@ DvT_gongzi_02_trait = {
 	}
 }
 DvT_aleiqinuo_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1498,7 +1498,7 @@ DvT_aleiqinuo_01_trait = {
 	}
 }
 DvT_aleiqinuo_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1510,7 +1510,7 @@ DvT_aleiqinuo_02_trait = {
 	}
 }
 DvT_anna_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1524,7 +1524,7 @@ DvT_anna_01_trait = {
 ########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
 ########________挪德卡莱________################________挪德卡莱________################________挪德卡莱________########
 DvT_yiniefu_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1533,7 +1533,7 @@ DvT_yiniefu_01_trait = {
 	}
 }
 DvT_ainuo_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1542,7 +1542,7 @@ DvT_ainuo_01_trait = {
 	}
 }
 DvT_lawuma_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1551,7 +1551,7 @@ DvT_lawuma_01_trait = {
 	}
 }
 DvT_feilinsi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1560,7 +1560,7 @@ DvT_feilinsi_01_trait = {
 	}
 }
 DvT_naifuer_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1569,7 +1569,7 @@ DvT_naifuer_01_trait = {
 	}
 }
 DvT_yakeda_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1578,7 +1578,7 @@ DvT_yakeda_01_trait = {
 	}
 }
 DvT_columbina_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1587,7 +1587,7 @@ DvT_columbina_01_trait = {
 	}
 }
 DvT_yeluoya_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1596,7 +1596,7 @@ DvT_yeluoya_01_trait = {
 	}
 }
 DvT_linnea_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1605,7 +1605,7 @@ DvT_linnea_01_trait = {
 	}
 }
 DvT_nike_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1614,7 +1614,7 @@ DvT_nike_01_trait = {
 	}
 }
 DvT_sagnduonie_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1628,7 +1628,7 @@ DvT_sagnduonie_01_trait = {
 ########________异界________################________异界________################________异界________########
 ########________异界________################________异界________################________异界________########
 DvT_kong_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1643,7 +1643,7 @@ DvT_kong_01_trait = {
 	}
 }
 DvT_kong_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1658,7 +1658,7 @@ DvT_kong_02_trait = {
 	}
 }
 DvT_ying_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1673,7 +1673,7 @@ DvT_ying_01_trait = {
 	}
 }
 DvT_ying_02_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1688,7 +1688,7 @@ DvT_ying_02_trait = {
 	}
 }
 DvT_ailuoyi_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}
@@ -1697,7 +1697,7 @@ DvT_ailuoyi_01_trait = {
 	}
 }
 DvT_skirk_01_trait = {
-	category = ruler
+	category = cabinet
 	allow = {
 		DvT_2D_portrait_trigger = yes
 	}

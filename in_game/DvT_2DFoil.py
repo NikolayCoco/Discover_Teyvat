@@ -10,7 +10,7 @@
 #    %s is your flag value assigned from Clausewitz script
 import os
 
-gfxmodpath = r"C:\Users\MicHB\Documents\Paradox Interactive\Europa Universalis V\mod\Discover_Teyvat\in_game"
+gfxmodpath = r"C:\Users\MicHB\Documents\Paradox Interactive\Europa Universalis V\mod\DiscoverTeyvat\in_game"
 modprefix = "DvT"
 
 assetpath = os.path.join(gfxmodpath, "gfx\\models\\props", modprefix)
