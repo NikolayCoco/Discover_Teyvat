@@ -13,7 +13,7 @@
 
 	country_modifier = { # TODO
         vision_estate_target_satisfaction = 0.2
-        global_vision_estate_power = 0.5
+        global_vision_estate_power = 1.0
 
 		global_distance_from_capital_cost_modifier = -0.15
 		country_cabinet_efficiency = 0.2
@@ -298,5 +298,26 @@ vision_estate_advisor = {
 		vision_estate_allowed_in_cabinet = yes
 		hire_advisor_cost_modifier = -0.25
 		government_size = 1
+	}
+}
+vision_estate_Genshin_Land = {
+	estate = vision_estate
+
+    potential = {
+		has_estate_privilege = estate_privilege:vision_estate_base
+	}
+	allow = {
+		
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = { # TODO
+        vision_estate_target_satisfaction = 0.1
+        global_vision_estate_power = 0.5
+
+		diplomatic_capacity_modifier = 0.3
+		country_cabinet_efficiency = 0.15
 	}
 }

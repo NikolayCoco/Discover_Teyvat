@@ -1,0 +1,28 @@
+country_flavor_DvT = {
+	type = country
+
+	text = {
+		localization_key = rank_kingdom_GenshinLand
+		trigger = {
+			is_subject_type = DvT_genshin_subject
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_GenshinLand_ADJ
+		trigger = {
+			is_subject_type = DvT_genshin_subject
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_GenshinLand_ruler_male
+		trigger = {
+			is_subject_type = DvT_genshin_subject
+		}
+	}
+	text = {
+		localization_key = rank_kingdom_GenshinLand_ruler_female
+		trigger = {
+			is_subject_type = DvT_genshin_subject
+		}
+	}
+}

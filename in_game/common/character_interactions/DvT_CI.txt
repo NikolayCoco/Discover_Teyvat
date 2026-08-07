@@ -181,3 +181,136 @@ DvT_CI_Outfit = {
 		
 	}
 }
+
+DvT_create_Genshin_Land = {
+    message = yes                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            DvT_2D_portrait_trigger = yes
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+        scope:actor = {
+            has_estate_privilege = estate_privilege:vision_estate_Genshin_Land
+            var:AG_Primogem >=1600
+			or = {
+				is_subject = no
+				subject_type = {
+					allow_subject_creation = yes
+				}
+			}
+			custom_tooltip = {
+				text = create_province_subject_union_tt
+				trigger_if = {
+					limit = { exists = union }
+					union ?= {
+						OR = {
+							NOT = { has_active_senior_partner = yes }
+							country_is_senior_partner = { country = scope:actor }
+						}
+					}
+				}
+			}
+		}
+        scope:recipient = {
+            can_become_a_ruler = yes
+        }
+    }
+
+    select_trigger = {
+		looking_for_a = province
+		interaction_source_list = {
+			scope:actor = {
+				every_province = {
+					add_to_list = source
+				}
+			}
+		}
+		target_flag = target_province
+		name = "create_province_subject_select_province"
+		none_available_msg_key = "create_province_subject_no_province"
+		column = {
+			data = name
+		}
+		visible = {
+		}
+	}
+
+    effect = {
+        # What happens when interaction is used
+        scope:actor = {
+            AG_Pay_1600 = yes
+        }
+        scope:target_province = {
+            create_location_country_from_province = {
+                ruler = scope:recipient
+                subject_type = subject_type:DvT_genshin_subject
+
+                capital = {
+                    province = {
+                        save_scope_as = new_province
+                    }
+                }
+
+                save_scope_as = new_Genshin_Land
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}
+
+DvT_CI_Ruler = {
+    message = yes                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            DvT_2D_portrait_trigger = yes
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+        scope:actor = {
+            has_estate_privilege = estate_privilege:vision_estate_Genshin_Land
+            var:AG_Primogem >=1600
+        }
+    }
+
+    effect = {
+        # What happens when interaction is used
+        scope:actor = {
+            AG_Pay_1600 = yes
+            set_new_ruler = scope:recipient
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}

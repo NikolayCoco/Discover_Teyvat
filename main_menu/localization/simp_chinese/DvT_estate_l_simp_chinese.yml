@@ -37,5 +37,7 @@
  vision_estate_cryo_desc: "@cryo!冰元素力可以帮助我们开垦荒地、加强我们海军和陆军的适应性。"
  vision_estate_leader: "给予「神之眼」持有者军事指挥权"
  vision_estate_leader_desc: "允许「神之眼」持有者领军打仗。"
- vision_estate_advisor: "「神之眼」持有者顾问权"
+ vision_estate_advisor: "给予「神之眼」持有者顾问权"
  vision_estate_advisor_desc: "允许「神之眼」持有者建言献策。"
+ vision_estate_Genshin_Land: "给予「神之眼」持有者执政权"
+ vision_estate_Genshin_Land_desc: "允许「神之眼」持有者主政一方甚至于领导整个国家。\n#G 允许派遣原神角色建立特殊附庸原神领。#!\n#G 允许原神角色成为国家统治者。#!"

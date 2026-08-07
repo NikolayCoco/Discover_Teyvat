@@ -6,27 +6,10 @@ DvT_genshin_subject = {
     level = 3
     annullment_favours_required = 20
 
-    visible_through_diplomacy = {
-        always = no
-    }
-    visible_through_treaty = {
-        always = no
-    }
-
-    creation_visible = {
-        is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
-    }
-    subject_creation_enabled = {
-        is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
-        any_character = {
-            can_become_a_ruler = yes
-            DvT_2D_portrait_trigger = yes
-        }
-    }
-    # 史实附庸（释放国家）渠道关闭：仅允许通过自定义附庸（settled_subject）创建
-    release_country_enabled = {
-        always = no
-    }
+    # 仅允许通过原神角色的角色互动创建
+    visible_through_diplomacy = { always = no }
+	visible_through_treaty = { always = no }
+    creation_visible = { always = no }
 
     use_overlord_map_color = yes
     use_overlord_map_name = no
@@ -38,7 +21,7 @@ DvT_genshin_subject = {
         always = yes
     }
 
-    diplomatic_capacity_cost_scale = 0.1
+    diplomatic_capacity_cost_scale = 0.33
 
     will_join_independence_wars = no
 
@@ -46,7 +29,7 @@ DvT_genshin_subject = {
 
     has_overlords_ruler = no
 
-    annexation_speed = 2
+    annexation_speed = 5
     annexation_min_years_before = 1
     annexation_min_opinion = 50
     annexation_stall_opinion = 50
@@ -58,8 +41,8 @@ DvT_genshin_subject = {
     can_overlord_build_buildings = yes
     can_overlord_build_rgos = yes
 
-    can_overlord_recruit_regiments = no
-    can_overlord_build_ships = no
+    can_overlord_recruit_regiments = yes
+    can_overlord_build_ships = yes
 
     has_limited_diplomacy = yes
 
@@ -81,7 +64,6 @@ DvT_genshin_subject = {
 
     overlord_modifier = {
         subject_opinions = 10
-        custom_tooltip = { text = DvT_genshin_ling_pay }
     }
 
     subject_modifier = {

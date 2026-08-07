@@ -21,6 +21,7 @@
     country_potential = { is_ai = no } # <trigger> can the building be built by the country (root = country) (think of this as a "visible" check)
 
     expensive = yes
+    #price = 300
     build_time = 30 # <integer> building time in days
 
     # in_empty = owned # <empty/owned/any> empty = can build in non-owned locations only; owned = can build in owned locations only; any = can build anywhere
