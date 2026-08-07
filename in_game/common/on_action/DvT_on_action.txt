@@ -48,10 +48,7 @@ on_DvT_annex = {
 					is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
 				}
 				scope:target = {
-                    OR = {
-                        is_subject_type = DvT_genshin_subject
-                        is_member_of_international_organization = international_organization:DvT_adventurer_guild_IO
-                    }
+                    any_character = { DvT_2D_portrait_trigger = yes }
 				}
 			}
 			scope:target = {
