@@ -4,5 +4,8 @@ international_organization_manager = {
 		creation_date = 1.1.1
 		members = { }
 		#leader = AG0
+		variables = {
+			seat = location:moscow
+		}
 	}
 }

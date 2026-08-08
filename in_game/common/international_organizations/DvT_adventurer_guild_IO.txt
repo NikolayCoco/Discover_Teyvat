@@ -10,9 +10,7 @@
     join_defensive_wars_always = { always = no }
     join_offensive_wars_always = { always = no }
 
-    can_join_trigger = {
-        is_ai = no
-    }
+    can_join_trigger = { always = no }
 
     modifier = {
         vision_estate_target_satisfaction = 0.05
