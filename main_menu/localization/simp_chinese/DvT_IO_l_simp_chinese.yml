@@ -1,6 +1,7 @@
 ﻿l_simp_chinese:
  DvT_adventurer_guild_IO: "冒险家协会"
  DvT_adventurer_guild_IO_desc: "#italic 「向着星辰与深渊！欢迎来到冒险家协会。」#!"
+ AG_desc: "冒险者协会在我们与提瓦特之间建立了联系。在这里，我们可以邂逅来自异世界的同伴。"
  DvT_adventurer_guild_IO_hint_title: "$DvT_events.1.title$"
  DvT_adventurer_guild_IO_hint_desc: "$DvT_events.1.desc$"
  AG_Pay_30: "@WelkinMoon! 长期投资冒险家协会"
@@ -31,4 +32,4 @@
  AG_Primogem_for_golden_desc: "@gold!原石多余或者需要金币应急时，可将原石转换为金币。"
  AG_Convert_to_Archonism: "@DvT_main!皈依魔神信仰"
  AG_Convert_to_Archonism_desc: "@DvT_main!尘世执政已为我们展现了真正的神迹，是时候皈依真正的信仰了。\n\n#italic @DvT_main!安排尘世执政、龙王、月神或旅行者担任我们的内阁总管后，我们便可以皈依其信仰。#!\n#E 若看不到要皈依的信仰，请记得取消掉p社神秘的“国内存在”的筛选器。#!"
- AG_Convert_to_Archonism_tooltip: "我们将会皈依魔神信仰，我们的首都的所有pop也都会皈依。\n#E 后续可以通过内阁行动$DvT_Convert_pop_to_Archonism$花费原石使某省份所有pop皈依。#!"
+ AG_Convert_to_Archonism_tooltip: "我们将会皈依魔神信仰，我们的首都的所有[population|e]也都会皈依。\n#E 后续可以通过内阁行动$DvT_Convert_pop_to_Archonism$花费原石使某省份所有[population|e]皈依。#!"
