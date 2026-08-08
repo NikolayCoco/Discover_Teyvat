@@ -314,3 +314,90 @@ DvT_CI_Ruler = {
 		
 	}
 }
+DvT_CI_Subject_Ruler = {
+    message = yes                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    # 第一步：选择要派遣的原神角色
+    select_trigger = {
+        looking_for_a = character
+        source = actor
+        target_flag = recipient
+    }
+
+    potential = {
+        scope:recipient = {
+            DvT_2D_portrait_trigger = yes
+        }
+    }
+
+    allow = {
+        scope:actor = {
+            has_estate_privilege = estate_privilege:vision_estate_Genshin_Land
+        }
+    }
+
+    # 第二步：选择要派遣到的属国（任意类型）
+    select_trigger = {
+        looking_for_a = country
+        interaction_source_list = {
+            scope:actor = {
+                every_subject = {
+                    add_to_list = source
+                }
+            }
+        }
+        target_flag = target
+        name = "choose_country"
+        column = {
+            data = name
+        }
+        visible = {
+            is_subject_of = scope:actor
+        }
+        enabled = {
+            # 原神领免费；其他属国需 1600 原石
+            trigger_if = {
+                limit = {
+                    is_subject_type = DvT_genshin_subject
+                }
+                always = yes
+            }
+            trigger_else = {
+                scope:actor = {
+                    var:AG_Primogem >= 1600
+                }
+            }
+        }
+    }
+
+    effect = {
+        scope:actor = {
+            trigger_if = {
+                limit = {
+                    scope:target = {
+                        NOT = { is_subject_type = DvT_genshin_subject }
+                    }
+                }
+                AG_Pay_1600 = yes
+            }
+        }
+        if = {
+            limit = {
+                exists = scope:recipient
+                exists = scope:target
+            }
+            scope:recipient = {
+                move_country = scope:target
+            }
+            scope:target = {
+                set_new_ruler = scope:recipient
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+        value = 0
+    }
+}
