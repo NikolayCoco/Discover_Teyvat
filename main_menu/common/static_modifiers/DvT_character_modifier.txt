@@ -2,7 +2,7 @@
     game_data = {
 	    category = country
     }
-	gacha_estate_target_satisfaction = -1
+	vision_estate_target_satisfaction = -1
 }
 DvT_character_base_modifier = {
     game_data = {

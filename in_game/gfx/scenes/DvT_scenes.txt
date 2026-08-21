@@ -1,4 +1,4 @@
-DvT_create_event = {
+﻿DvT_create_event = {
     ecs_illustration_image = {
 		name = "illustration_override"
 		pdxmesh = "background2_mesh"

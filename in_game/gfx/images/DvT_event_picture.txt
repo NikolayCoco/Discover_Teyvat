@@ -1,4 +1,4 @@
-DvT_create_event_illustration = {
+﻿DvT_create_event_illustration = {
     tag = "DvT_create_event_backgrounds"
     # 通用
 	illustration_image = {

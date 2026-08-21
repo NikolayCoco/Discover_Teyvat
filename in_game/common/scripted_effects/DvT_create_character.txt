@@ -1,4 +1,4 @@
-DvT_create_character = {
+﻿DvT_create_character = {
 	create_character = {
         first_name = $nameF$
         last_name = $nameL$
@@ -32,15 +32,12 @@ DvT_create_character = {
         add_trait = trait:DvT_$code$_01_trait_leader
         add_trait = trait:DvT_$element$_trait
         add_trait = trait:DvT_$belong$_trait
-        save_scope_as = target_character
-    }
-    scope:target_character = {
-        # 授予角色王朝，使其不再被视为「出身卑微(Lowborn)」，
-        # 从而不受 no_lowborn_leaders 法律限制，可担任将领/海军上将
         if = {
             limit = { has_dynasty = no }
             found_dynasty = $nameL$
         }
+
+        save_scope_as = target_character
     }
     random_owned_location = {
         limit = {

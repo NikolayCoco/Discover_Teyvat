@@ -1,4 +1,4 @@
-DvT_religions_illustration = {
+﻿DvT_religions_illustration = {
 	tag = "interior_backgrounds"
 	# 通用
 	illustration_image = {

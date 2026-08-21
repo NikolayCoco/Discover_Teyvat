@@ -1,4 +1,4 @@
-AG_Pay_1600 = {
+﻿AG_Pay_1600 = {
     custom_tooltip = {
         text = AG_Pay_1600_tooltip
         change_variable = {

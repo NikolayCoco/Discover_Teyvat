@@ -373,7 +373,7 @@ DvT_CI_Subject_Ruler = {
 
     effect = {
         scope:actor = {
-            trigger_if = {
+            if = {
                 limit = {
                     scope:target = {
                         NOT = { is_subject_type = DvT_genshin_subject }
