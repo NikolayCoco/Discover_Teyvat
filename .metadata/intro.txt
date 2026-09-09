@@ -1,0 +1,188 @@
+【原神】探索提瓦特
+一个小型辅助向二次元mod。
+[h1]本mod包含以下内容：[/h1]
+[olist]
+    [*]一个建筑【冒险家协会】。
+    [*]一个国际组织【冒险家协会】。
+    [*]截止《原神》月之八版本所有的原神角色。
+    [*]一个阶层【「神之眼」持有者】以及阶层特权。原神角色从属于该阶层。
+    [*]一个附庸类型【原神领】，通过指派原神角色作为统治者释放。
+    [*]提瓦特文化与宗教。
+[/olist]
+[h2]使用方法[/h2]
+[olist]
+    [*]在首都建造建筑【冒险家协会】，过月后便会自动加入国际组织【冒险家协会】。
+[/olist]
+
+交流群：959166763
+欢迎来群里反馈意见和建议，更欢迎大家来玩，平时没事了可以吹水聊天，p社游戏、米游以及泛二次元相关话题都可以。
+欢迎订阅作者的二游IO系列mod[url=https://steamcommunity.com/workshop/filedetails/?id=3797431785] 可可酱的二游IO合集 [/url]
+欢迎订阅EU4原神奇观mod[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3402452670] 原神奇观及相关mod合集 [/url]
+
+p社目前存在共和制国家专抢玩家的廷臣的神秘bug。为避免原神角色被挖走，可以参考该mod：[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3614595223] 共和制国家不会再抢走你的臣民 [/url]
+p社目前存在[url=https://forum.paradoxplaza.com/forum/threads/character-blocked-from-marriage-gets-married-causes-settling-to-fail-with-death-event-message.1890656/] 某些情况下自动婚姻绕过禁止结婚 [/url]的神秘bug，等待p社后续修复。
+p社目前存在修正“永生”不生效的问题，因此长生种们的年龄权宜调整为24岁。
+
+
+[hr][/hr]
+目前处于测试阶段，未来或许会添加新的局势、进步树或更多内容。
+
+8月07日更新v1.0
+[olist]
+    [*]添加了原神特殊附庸【原神领】。
+    [*]原神角色现在可以被指派为统治者。
+    [*]国际组织冒险家协会的成员国在吞并其他国家时能获得其原神角色。
+    [*]原神角色现在不再“出身卑微”了。
+    [*]原神角色目前拥有内阁特质了。
+[/olist]
+
+6月30日更新v0.7
+[olist]
+    [*]跟进了原神的版本更新：添加了新角色法尔伽、布伦妮、洛恩、兹白、叶洛亚、莉奈娅、尼可；添加了夏洛蒂和茜特菈莉的皮肤；完善了相关角色特质。
+    [*]跟进了EU5的版本更新，修复主要bug。
+[/olist]
+
+更多更新日志见改动说明
+
+[h1]更新计划：[/h1]
+[spoiler]介于EU5目前不稳定的现状，本mod暂时不会进行大规模内容更新。[/spoiler]
+[olist]
+    [*]根据国家情况调整各角色获取几率。
+    [*]通过魔神信仰宗教圣地的方式把EU4的奇观mod移植过来。
+    [*]添加七国的【魔神战争】的局势，统一原神国家（拿到所有的圣地）后可以成立之。
+    [*]原神特殊兵种。
+[/olist]
+[h2]未来许会会添加的内容：[/h2]
+[spoiler]（[strike]画饼[/strike]）[/spoiler]
+[olist]
+    [*]局势【探索提瓦特】
+    [*]原神进步树
+    [*]……
+[/olist]
+
+[hr][/hr]
+[h1]友情链接[/h1]
+[h2]作者的其他相关mod[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599966786]原神字体-汉仪文黑[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3605390540]原神加载图 Genshin Loading Screens[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3781624732]原神音乐 Genshin Music[/url]
+[/list]
+[h2]作者的其他二游IOmod[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3798130905]【崩坏：星穹铁道】星穹列车[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3796664569]【明日方舟】罗德岛[/url]
+[/list]
+[h2]作者的EU4原神mod[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3213222906]原神奇观 Genshin Monuments[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3405231258]原神音乐 Genshin Music[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3405219025]原神加载图 Genshin Loading Screens[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3398691187]原神字体[/url]
+    [*]原神地图字体（[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3398691823]黑[/url]）（[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3398692120]白[/url]）
+[/list]
+[h2]其他泛二次元mod[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3602248049]国家娘美化[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599700212]幻萌入侵 Open Beta[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3608139493]抽卡系统·原神风味包[/url]
+[/list]
+各位老板走过路过赏个饭钱谢谢喵~
+[img]https://images.steamusercontent.com/ugc/16515793600019388351/B89E57E37018FDFB39E5A15303874971ACE70D22/[/img]
+
+
+
+
+
+
+[Genshin] Discover Teyvat
+A small auxiliary-style anime-themed mod.
+[h1]This mod includes the following content:[/h1]
+[olist]
+    [*]A building: [Adventurers' Guild].
+    [*]An international organization: [Adventurers' Guild].
+    [*]All Genshin Characters up to NK.8.
+    [*]An estate: [Vision Wielders] along with its privileges. Genshin Characters belong to this estate.
+    [*]A subjects type: [Genshin Land], which is created by appointing Genshin Character as ruler.
+    [*]Teyvat culture and religion.
+[/olist]
+[h2]How to Use[/h2]
+[olist]
+    [*]Construct the [Adventurers' Guild] building in your capital. After one month passes, you will automatically join the international organization [Adventurers' Guild].
+[/olist]
+
+QQ Group: 959166763
+Welcome to join our group. Feedback is welcome, and casual chat is even more welcome! Topics can range from Paradox games, miHoYo games, to general anime-related discussions.
+Welcome to author's anime-style IO mods:[url=https://steamcommunity.com/workshop/filedetails/?id=3797431785] 可可酱的二游IO合集 [/url]
+Also welcome to subscribe to the EU4 Genshin Monuments mod:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3402452670] 原神奇观及相关mod合集 [/url]
+
+There is a bug from Paradox that Republic Countries elect your best people in court to be their ruler. To avoid your Genshin characters being taken, you can check out this mod:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3614595223] Republic Will Not Take Your Man [/url]
+
+There is a bug from Paradox that [url=https://forum.paradoxplaza.com/forum/threads/character-blocked-from-marriage-gets-married-causes-settling-to-fail-with-death-event-message.1890656/] character blocked from marriage gets married in some case [/url], waiting for Paradox to fix it in future.
+
+There is a bug from Paradox that modifier "immortal" are not taking effect, so the ages of long-lived species have been temporarily adjusted to 24.
+
+[hr][/hr]
+Currently in the testing phase. New situations, advances trees, or more content may be added in the future.
+
+Update to v1.0 - Aug 7
+[olist]
+    [*]Added subjects type: [Genshin Land]
+    [*]The Genshin Characters now can be ruler of the country.
+    [*]The member countries of the International Organization of Adventurers can obtain the Genshin Characters of other countries when they annex them now.
+    [*]The Genshin Characters are no longer lowborn now.
+    [*]The Genshin Characters have cabinet traits now.
+[/olist]
+
+Update to v0.7 - Jun 30
+[olist]
+    [*]Updated to the latest Genshin Impact version: Added new characters: Varka, Prune, Lohen, Zibai, Illuga, Linnea, Nicole; added outfits for Charlotte and Citlali; improved related character traits.
+    [*]Updated compatibility with the latest EU5 version and fixed major bugs.
+[/olist]
+
+See the changelog for more update details.
+
+[h1]Update Plans:[/h1]
+Given the current unstable state of EU5, this mod will not undergo large-scale content updates for the time being.
+[olist]
+    [*]Adjust character acquisition probabilities based on country conditions.
+    [*]Port over the EU4 Monuments mod via holy sites for Archon Faith religion.
+    [*]Add a [Archon War] Situation for the seven nations. Upon unifying a Genshin nation (controlling all its holy sites), it can be formally established.
+    [*]Genshin special unities.
+[/olist]
+[h2]Content that may be added in the future[/h2][spoiler]([strike]Promises/Blue-sky ideas[/strike])[/spoiler]
+[olist]
+    [*][Discover Teyvat] Situation
+    [*]Genshin advances trees
+    [*]……
+[/olist]
+
+[hr][/hr]
+[h1]Friend Links[/h1]
+[h2]Other related mods by the author[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599966786]原神字体-汉仪文黑[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3605390540]原神加载图 Genshin Loading Screens[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3781624732]原神音乐 Genshin Music[/url]
+[/list]
+[h2]Other anime-style IO mods by the author[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3798130905][Honkai: Star Rail] Astral Express[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3796664569][Arknights] Rhodes Island[/url]
+[/list]
+[h2]Author's Genshin mod for EU4[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3213222906]原神奇观 Genshin Monuments[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3405231258]原神音乐 Genshin Music[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3405219025]原神加载图 Genshin Loading Screens[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3398691187]原神字体[/url]
+    [*]原神地图字体（[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3398691823]黑[/url]）（[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3398692120]白[/url]）
+[/list]
+[h2]Other anime-themed mods[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3602248049] Anime Style Makeover [ALL language support] [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599700212]幻萌入侵 Open Beta[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3608139493] eu5_gacha [/url]
+[/list]
+Tips appreciated! Thanks, meow!🐱
+[img]https://images.steamusercontent.com/ugc/16515793600019388351/B89E57E37018FDFB39E5A15303874971ACE70D22/[/img]

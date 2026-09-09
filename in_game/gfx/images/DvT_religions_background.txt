@@ -89,7 +89,7 @@
 	}
     # 至冬 Snezhnaya
 	illustration_image = {
-		texture_file = "gfx/event_pictures/DvT_main.dds"
+		texture_file = "gfx/event_pictures/DvT_Snezhnaya.dds"
 		priority = 2000
 		scope = country
 		trigger = {

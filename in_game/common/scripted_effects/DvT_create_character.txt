@@ -31,13 +31,24 @@
         add_trait = trait:DvT_$code$_01_trait
         add_trait = trait:DvT_$code$_01_trait_leader
         add_trait = trait:DvT_$element$_trait
-        add_trait = trait:DvT_$belong$_trait
+        if = {
+            limit = { NOT = { $belong$ = none } }
+            add_trait = trait:DvT_belong_$belong$_trait
+        }
         if = {
             limit = { has_dynasty = no }
-            found_dynasty = $nameL$
+            if = {
+                limit = { exists = dynasty:$nameL$ }
+                change_dynasty = dynasty:$nameL$
+            }
+            else = {
+                found_dynasty = $nameL$
+            }
         }
-
         save_scope_as = target_character
+        scope:actor.ruler = {
+            save_scope_as = target_second_character
+        }
     }
     random_owned_location = {
         limit = {
