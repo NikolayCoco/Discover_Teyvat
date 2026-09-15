@@ -31,10 +31,7 @@
         add_trait = trait:DvT_$code$_01_trait
         add_trait = trait:DvT_$code$_01_trait_leader
         add_trait = trait:DvT_$element$_trait
-        if = {
-            limit = { NOT = { $belong$ = none } }
-            add_trait = trait:DvT_belong_$belong$_trait
-        }
+        add_trait = trait:DvT_$belong$_trait
         if = {
             limit = { has_dynasty = no }
             if = {
