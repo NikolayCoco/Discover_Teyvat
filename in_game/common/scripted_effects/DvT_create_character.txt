@@ -54,7 +54,7 @@
         add_pop = {
             type = pop_type:vision_pop
             size = 0.001
-            religion = scope:actor.religion
+            religion = religion:$religion$
             culture = culture:$culture$
         }
     }
