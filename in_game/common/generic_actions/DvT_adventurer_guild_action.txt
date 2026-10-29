@@ -1,10 +1,24 @@
 ﻿AG_Pay_30 = {
 	type = internationalorganization
 	show_in_gui_list = no
+	show_message = no
 
 	automation_tick = never
 	automation_tick_frequency = 12
-	
+	ai_tick = never
+
+	# 1.4：type = internationalorganization 的动作必须声明 recipient，否则报
+	# "Targetted action ... doesn't specify a recipient"；GUI 按钮会直接传 recipient，
+	# 所以 show_if 保证有 recipient 时跳过选择步骤。
+	select_trigger = {
+		show_if = { NOT = { exists = scope:recipient } }
+		looking_for_a = international_organization
+		source = actor
+		target_flag = recipient
+		name = "choose_international_organization"
+		column = { data = name }
+	}
+
 	potential = {
 		
 	}
@@ -48,10 +62,21 @@
 AG_Pay_648 = {
 	type = internationalorganization
 	show_in_gui_list = no
+	show_message = no
 
 	automation_tick = never
 	automation_tick_frequency = 12
-	
+	ai_tick = never
+
+	select_trigger = {
+		show_if = { NOT = { exists = scope:recipient } }
+		looking_for_a = international_organization
+		source = actor
+		target_flag = recipient
+		name = "choose_international_organization"
+		column = { data = name }
+	}
+
 	potential = {
 		
 	}
@@ -81,16 +106,30 @@ AG_Pay_648 = {
 AG_create_character = {
 	type = internationalorganization
 	show_in_gui_list = no
+	show_message = no
 
 	automation_tick = never
 	automation_tick_frequency = 12
-	
+	ai_tick = never
+
+	select_trigger = {
+		show_if = { NOT = { exists = scope:recipient } }
+		looking_for_a = international_organization
+		source = actor
+		target_flag = recipient
+		name = "choose_international_organization"
+		column = { data = name }
+	}
+
 	potential = {
 		
 	}
 
 	allow = {
-		scope:actor = { var:AG_Primogem >= 1600 }
+		scope:actor = {
+			has_variable = AG_Primogem
+			var:AG_Primogem >= 1600
+		}
 		DvT_exist_character = yes
 	}
 
@@ -102,16 +141,27 @@ AG_create_character = {
 	}
 
 	ai_will_do = {
-		value = 1
+		value = 0
 		
 	}
 }
 AG_create_pop = {
 	type = internationalorganization
 	show_in_gui_list = no
+	show_message = no
 
 	automation_tick = never
 	automation_tick_frequency = 12
+	ai_tick = never
+
+	select_trigger = {
+		show_if = { NOT = { exists = scope:recipient } }
+		looking_for_a = international_organization
+		source = actor
+		target_flag = recipient
+		name = "choose_international_organization"
+		column = { data = name }
+	}
 
 	#cooldown = {
 	#	type = AG_create_pop_key
@@ -124,6 +174,7 @@ AG_create_pop = {
 
 	allow = {
 		scope:actor = {
+			has_variable = AG_Primogem
 			var:AG_Primogem >= 1600
 			any_owned_location = {
 				has_building =  building_type:DvT_adventurer_guild_building
@@ -170,23 +221,37 @@ AG_create_pop = {
 	}
 
 	ai_will_do = {
-		value = 1
+		value = 0
 		
 	}
 }
 AG_Primogem_for_golden = {
 	type = internationalorganization
 	show_in_gui_list = no
+	show_message = no
 
 	automation_tick = never
 	automation_tick_frequency = 12
-	
+	ai_tick = never
+
+	select_trigger = {
+		show_if = { NOT = { exists = scope:recipient } }
+		looking_for_a = international_organization
+		source = actor
+		target_flag = recipient
+		name = "choose_international_organization"
+		column = { data = name }
+	}
+
 	potential = {
 
 	}
 
 	allow = {
-		scope:actor = { var:AG_Primogem >= 1600 }
+		scope:actor = {
+			has_variable = AG_Primogem
+			var:AG_Primogem >= 1600
+		}
 	}
 
 	effect = {
@@ -204,16 +269,29 @@ AG_Primogem_for_golden = {
 AG_Convert_to_Archonism = {
 	type = internationalorganization
 	show_in_gui_list = no
+	show_message = no
 
 	automation_tick = never
 	automation_tick_frequency = 12
-	
+	ai_tick = never
+
+	# 1.4：recipient（= 冒险家协会这个 IO）由 GUI 传入；没有时需要选一个
+	select_trigger = {
+		show_if = { NOT = { exists = scope:recipient } }
+		looking_for_a = international_organization
+		source = actor
+		target_flag = recipient
+		name = "choose_international_organization"
+		column = { data = name }
+	}
+
 	potential = {
 		scope:actor = { NOT = { religion.group = religion_group:Archonism } }
 	}
 
 	allow = {
 		scope:actor = {
+			has_variable = AG_Primogem
 			var:AG_Primogem >= 1600
 			any_cabinet_character = {
 				OR = {

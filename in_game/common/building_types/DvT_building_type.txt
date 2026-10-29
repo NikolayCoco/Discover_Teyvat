@@ -13,8 +13,6 @@
 	town = yes
 	city = yes
     megalopolis = yes
-	st_meg = yes
-	st_met = yes
 
     location_potential = {  } # <trigger> can the building be built in the location (root = location) (think of this as a "visible" check)
 

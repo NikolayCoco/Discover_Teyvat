@@ -5,6 +5,20 @@
 }
 on_DvT_start = {
     effect = {
+        # 1.4：不再依赖 main_menu/setup/<日期> 里的 setup 文件来创建「冒险家协会」。
+        # 新开档时由脚本直接创建这个唯一的 IO；如果 setup 已经创建过（exists = yes）就跳过，避免重复创建。
+        if = {
+            limit = { NOT = { exists = international_organization:DvT_adventurer_guild_IO } }
+            every_country = {
+                limit = { is_ai = no }
+                if = {
+                    limit = { NOT = { exists = international_organization:DvT_adventurer_guild_IO } }
+                    create_international_organization = {
+                        type = international_organization_type:DvT_adventurer_guild_IO
+                    }
+                }
+            }
+        }
         if = {
             limit = { NOT = { has_global_variable = DvT_2D_portrait_enabled } }
             set_global_variable = DvT_2D_portrait_enabled

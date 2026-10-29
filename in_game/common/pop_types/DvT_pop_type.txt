@@ -1,6 +1,7 @@
 ﻿vision_pop = {
     color = DvT_main_color
 
+	power_per_pop = 68 # 1.4: 政治影响力改为由 pop type 自身携带（原本写在 vision_estate 里）
 	pop_food_consumption = 1
 	grow = no
 	assimilation_conversion_factor = 0.0

@@ -106,13 +106,19 @@ organization_panel = {
         visible = yes 
     }
     blockoverride "organization_main_actions_extra" {
-		action_button_diamond = { # 月卡
+		button_regular_diamond = { # 月卡
 			size = {470 30}
-			title = "AG_Pay_30"
 			text = "AG_Pay_30"
-			actor = "[InternationalOrganizationsView.GetPlayer]"
-			left_action = {
+			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+			scripted_action_tooltip = {
+				click_type = left
+				click_mode = single
 				action_name = "AG_Pay_30"
+				actor = "[InternationalOrganizationsView.GetPlayer]"
+				parameter = {
+					parameter_name = "recipient"
+					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
+				}
 			}
             tooltipwidget = {
                 using = action_tooltip_pop_out
@@ -124,13 +130,19 @@ organization_panel = {
 				}
             }
 		}
-        action_button_diamond = { # 氪金
+        button_regular_diamond = { # 氪金
 			size = {470 30}
-			title = "AG_Pay_648"
 			text = "AG_Pay_648"
-			actor = "[InternationalOrganizationsView.GetPlayer]"
-			left_action = {
+			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+			scripted_action_tooltip = {
+				click_type = left
+				click_mode = single
 				action_name = "AG_Pay_648"
+				actor = "[InternationalOrganizationsView.GetPlayer]"
+				parameter = {
+					parameter_name = "recipient"
+					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
+				}
 			}
 			tooltipwidget = {
                 using = action_tooltip_pop_out
@@ -142,13 +154,19 @@ organization_panel = {
 				}
             }
 		}
-        action_button_diamond = { # 获得角色
+        button_regular_diamond = { # 获得角色
 			size = {470 30}
-			title = "AG_create_character"
 			text = "AG_create_character"
-			actor = "[InternationalOrganizationsView.GetPlayer]"
-			left_action = {
+			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+			scripted_action_tooltip = {
+				click_type = left
+				click_mode = single
 				action_name = "AG_create_character"
+				actor = "[InternationalOrganizationsView.GetPlayer]"
+				parameter = {
+					parameter_name = "recipient"
+					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
+				}
 			}
 			tooltipwidget = {
                 using = action_tooltip_pop_out
@@ -160,13 +178,19 @@ organization_panel = {
 				}
             }
 		}
-        action_button_diamond = { # 获得pop
+        button_regular_diamond = { # 获得pop
 			size = {470 30}
-			title = "AG_create_pop"
 			text = "AG_create_pop"
-			actor = "[InternationalOrganizationsView.GetPlayer]"
-			left_action = {
+			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+			scripted_action_tooltip = {
+				click_type = left
+				click_mode = single
 				action_name = "AG_create_pop"
+				actor = "[InternationalOrganizationsView.GetPlayer]"
+				parameter = {
+					parameter_name = "recipient"
+					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
+				}
 			}
 			tooltipwidget = {
                 using = action_tooltip_pop_out
@@ -178,13 +202,19 @@ organization_panel = {
 				}
             }
 		}
-        action_button_diamond = { # 原石换钱
+        button_regular_diamond = { # 原石换钱
 			size = {470 30}
-			title = "AG_Primogem_for_golden"
 			text = "AG_Primogem_for_golden"
-			actor = "[InternationalOrganizationsView.GetPlayer]"
-			left_action = {
+			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+			scripted_action_tooltip = {
+				click_type = left
+				click_mode = single
 				action_name = "AG_Primogem_for_golden"
+				actor = "[InternationalOrganizationsView.GetPlayer]"
+				parameter = {
+					parameter_name = "recipient"
+					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
+				}
 			}
 			tooltipwidget = {
                 using = action_tooltip_pop_out
@@ -196,13 +226,19 @@ organization_panel = {
 				}
             }
 		}
-        action_button_diamond = { # 皈依魔神信仰
+        button_regular_diamond = { # 皈依魔神信仰
 			size = {470 30}
-			title = "AG_Convert_to_Archonism"
 			text = "AG_Convert_to_Archonism"
-			actor = "[InternationalOrganizationsView.GetPlayer]"
-			left_action = {
+			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
+			scripted_action_tooltip = {
+				click_type = left
+				click_mode = single
 				action_name = "AG_Convert_to_Archonism"
+				actor = "[InternationalOrganizationsView.GetPlayer]"
+				parameter = {
+					parameter_name = "recipient"
+					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
+				}
 			}
 			tooltipwidget = {
                 using = action_tooltip_pop_out
