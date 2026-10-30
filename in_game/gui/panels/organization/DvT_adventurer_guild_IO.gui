@@ -1,5 +1,16 @@
-organization_panel = {
-	 # 顶部标志和背景
+# DvT 冒险家协会面板 —— 使用 NCIOframe 的共享 theme（P7 GUI 复用试验，DvT 先行）
+#
+# 本文件只保留 DvT 的"叶子素材"：
+#   - 顶部徽记（含 tooltip）——theme 暂不抽象，保留整块；
+#   - 货币栏内容（ncio_currency 槽）——数值/图标/tooltip；
+#   - 底部提示卡文案（ncio_hint_title / ncio_hint_desc 槽）。
+# 其余（tab 可见性、变量栏可见性、动作列表、货币栏骨架、提示卡骨架）全在 NCIOframe 的 ncio_io_theme。
+# 动作按钮不再手写：由 generic_actions 的 show_in_gui_list（默认列出）+ icon + visible 过滤自动生成。
+#
+# 回滚：git -C DiscoverTeyvat checkout -- in_game/gui/panels/organization/DvT_adventurer_guild_IO.gui
+
+ncio_io_theme = {
+	# 顶部标志和背景
 	blockoverride "organization_panel_extra_item" {
 		allow_outside = yes
 		flowcontainer = {
@@ -9,7 +20,6 @@ organization_panel = {
 				texture = "gfx/interface/icons/international_organizations/DvT_adventurer_guild_IO_coa.dds"
 				texture_density = 2
 				size = { 100 100 }
-				
 			}
 			position = {0 -50}
 		}
@@ -39,251 +49,61 @@ organization_panel = {
 			}
 		}
 	}
-	 # 概览
-    blockoverride "organization_overview_tab_visible" {
-        visible = yes
-    }
-    blockoverride "organization_panel_overview_visible" {
-        visible = "[InternationalOrganizationsView.Vars.NotExistOrHasValue( 'organizations', 'overview' )]"
-    }
-	blockoverride "organization_members_tab_down" {
-		down = "[InternationalOrganizationsView.Vars.HasValue( 'organizations', 'members' )]"
-	}
-	blockoverride "organization_panel_members_visible" {
-        visible = "[InternationalOrganizationsView.Vars.HasValue( 'organizations', 'members' )]"
-    }
-	# 变量栏
-	blockoverride "ios_information_header_visible" {
-		visible = yes
-	}
-	blockoverride "ios_information_header_content_extra_1" { # 原石
-		using = ios_header_content_extra_template
-		blockoverride "ios_header_content_extra" {
-			text_single = {
-				autoresize = yes
-				align = right
-				raw_text = "[GetPlayer.MakeScope.GetVariable('AG_Primogem').GetValue]"
+
+	# 变量栏内容（原石）
+	blockoverride "ncio_currency" {
+		text_single = {
+			autoresize = yes
+			align = right
+			raw_text = "[GetPlayer.MakeScope.GetVariable('AG_Primogem').GetValue]"
+		}
+		widget = {
+			size = { 24 24 }
+			icon = {
+				size = { 100% 100% }
+				texture = "gfx/interface/icons/international_organizations/DvT_primogem.dds"
 			}
-			widget = {
-				size = { 24 24 }
-				icon = {
-					size = { 100% 100% }
-					texture = "gfx/interface/icons/international_organizations/DvT_primogem.dds"
+		}
+		tooltipwidget = {
+			ContextualTooltipType = {
+				blockoverride "title_icon" {
+					icon = {
+						texture = "gfx/interface/icons/international_organizations/DvT_primogem.dds"
+						size = { 42 42 }
+					}
 				}
-			}
-			tooltipwidget = {
-				ContextualTooltipType = {
-					blockoverride "title_icon" {
-						icon = {
-							texture = "gfx/interface/icons/international_organizations/DvT_primogem.dds"
-							size = { 42 42 }
+				blockoverride "title_text" {
+					text = "AG_Primogem"
+				}
+				blockoverride "tooltip_content" {
+					TooltipTextBlock = {
+						blockoverride "text" {
+							text = "AG_Primogem_desc"
 						}
 					}
-					blockoverride "title_text" {
-						text = "AG_Primogem"
-					}
-					blockoverride "tooltip_content" {
-						TooltipTextBlock = {
-							blockoverride "text" {
-								text = "AG_Primogem_desc"
-							}
+					TooltipTextBlock = {
+						blockoverride "block_title" {
+							text = "AG_Primogem_Change"
 						}
-						TooltipTextBlock = {
-							blockoverride "block_title" {
-								text = "AG_Primogem_Change"
-							}
-							blockoverride "text" {
-								text = "AG_Primogem_Change_Value"
-							}
+						blockoverride "text" {
+							text = "AG_Primogem_Change_Value"
 						}
 					}
 				}
 			}
 		}
 	}
-	# 主要行动
-    blockoverride "organization_main_actions_extra_visible" {
-        visible = yes 
-    }
-    blockoverride "organization_main_actions_extra" {
-		button_regular_diamond = { # 月卡
-			size = {470 30}
-			text = "AG_Pay_30"
-			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
-			scripted_action_tooltip = {
-				click_type = left
-				click_mode = single
-				action_name = "AG_Pay_30"
-				actor = "[InternationalOrganizationsView.GetPlayer]"
-				parameter = {
-					parameter_name = "recipient"
-					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
-				}
-			}
-            tooltipwidget = {
-                using = action_tooltip_pop_out
-				blockoverride "title_icon" {
-					icon = {
-						using = tooltip_title_icon_size
-						texture = "gfx/interface/icons/international_organizations/action/AG_Pay_30.dds"
-					}
-				}
-            }
-		}
-        button_regular_diamond = { # 氪金
-			size = {470 30}
-			text = "AG_Pay_648"
-			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
-			scripted_action_tooltip = {
-				click_type = left
-				click_mode = single
-				action_name = "AG_Pay_648"
-				actor = "[InternationalOrganizationsView.GetPlayer]"
-				parameter = {
-					parameter_name = "recipient"
-					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
-				}
-			}
-			tooltipwidget = {
-                using = action_tooltip_pop_out
-				blockoverride "title_icon" {
-					icon = {
-						using = tooltip_title_icon_size
-						texture = "gfx/interface/icons/international_organizations/action/AG_Pay_648.dds"
-					}
-				}
-            }
-		}
-        button_regular_diamond = { # 获得角色
-			size = {470 30}
-			text = "AG_create_character"
-			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
-			scripted_action_tooltip = {
-				click_type = left
-				click_mode = single
-				action_name = "AG_create_character"
-				actor = "[InternationalOrganizationsView.GetPlayer]"
-				parameter = {
-					parameter_name = "recipient"
-					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
-				}
-			}
-			tooltipwidget = {
-                using = action_tooltip_pop_out
-				blockoverride "title_icon" {
-					icon = {
-						using = tooltip_title_icon_size
-						texture = "gfx/interface/icons/international_organizations/action/AG_create_character.dds"
-					}
-				}
-            }
-		}
-        button_regular_diamond = { # 获得pop
-			size = {470 30}
-			text = "AG_create_pop"
-			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
-			scripted_action_tooltip = {
-				click_type = left
-				click_mode = single
-				action_name = "AG_create_pop"
-				actor = "[InternationalOrganizationsView.GetPlayer]"
-				parameter = {
-					parameter_name = "recipient"
-					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
-				}
-			}
-			tooltipwidget = {
-                using = action_tooltip_pop_out
-				blockoverride "title_icon" {
-					icon = {
-						using = tooltip_title_icon_size
-						texture = "gfx/interface/icons/international_organizations/action/AG_create_pop.dds"
-					}
-				}
-            }
-		}
-        button_regular_diamond = { # 原石换钱
-			size = {470 30}
-			text = "AG_Primogem_for_golden"
-			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
-			scripted_action_tooltip = {
-				click_type = left
-				click_mode = single
-				action_name = "AG_Primogem_for_golden"
-				actor = "[InternationalOrganizationsView.GetPlayer]"
-				parameter = {
-					parameter_name = "recipient"
-					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
-				}
-			}
-			tooltipwidget = {
-                using = action_tooltip_pop_out
-				blockoverride "title_icon" {
-					icon = {
-						using = tooltip_title_icon_size
-						texture = "gfx/interface/icons/flat_icons/gold.dds"
-					}
-				}
-            }
-		}
-        button_regular_diamond = { # 皈依魔神信仰
-			size = {470 30}
-			text = "AG_Convert_to_Archonism"
-			enabled = "[PdxGuiWidget.IsUberButtonEnabled]"
-			scripted_action_tooltip = {
-				click_type = left
-				click_mode = single
-				action_name = "AG_Convert_to_Archonism"
-				actor = "[InternationalOrganizationsView.GetPlayer]"
-				parameter = {
-					parameter_name = "recipient"
-					parameter_value = "[InternationalOrganizationsView.GetInternationalOrganization]"
-				}
-			}
-			tooltipwidget = {
-                using = action_tooltip_pop_out
-				blockoverride "title_icon" {
-					icon = {
-						using = tooltip_title_icon_size
-						texture = "gfx/interface/icons/religion/Archonism.dds"
-					}
-				}
-            }
-		}
-    }
-	# 底部教程
-	blockoverride "organization_overview_list_custom_bottom" {       
-        vbox = {
-            card_expandable = {
-                blockoverride "header_content" {
-                    icon = {
-                        size = { 30 30 }
-                        block "header_icon" {
-                            texture = "gfx/interface/icons/flat_icons/tabicons/hints.dds"
-                        }
-                        texture_density = 2
-                    }
-                    text_single = {
-                        block "header_text" {
-                            margin = { 10 0 }
-                            raw_text = "DvT_adventurer_guild_IO_hint_title"
-                        }
-                    }
-                    expand = {}
-                }
-                blockoverride "bottom_content" {
-                    hbox = {
-                        layoutpolicy_horizontal = expanding
-                        text_single = {
-                            margin = { 20 10 }
-                            text = "DvT_adventurer_guild_IO_hint_desc"
-                            multiline = yes
-                            autoresize = yes
-                            layoutpolicy_horizontal = expanding  
-                        }
-                    }
-                }  
-            } 
-        }
-    }
+
+	# 底部提示卡文案
+	blockoverride "ncio_hint_title" {
+		margin = { 10 0 }
+		raw_text = "DvT_adventurer_guild_IO_hint_title"
+	}
+	blockoverride "ncio_hint_desc" {
+		margin = { 20 10 }
+		text = "DvT_adventurer_guild_IO_hint_desc"
+		multiline = yes
+		autoresize = yes
+		layoutpolicy_horizontal = expanding
+	}
 }

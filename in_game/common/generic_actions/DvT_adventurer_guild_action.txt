@@ -1,7 +1,7 @@
 ﻿AG_Pay_30 = {
-	type = internationalorganization
-	show_in_gui_list = no
+	type = internationalorganization
 	show_message = no
+	icon = AG_Pay_30
 
 	automation_tick = never
 	automation_tick_frequency = 12
@@ -17,6 +17,10 @@
 		target_flag = recipient
 		name = "choose_international_organization"
 		column = { data = name }
+		visible = {
+			exists = international_organization:DvT_adventurer_guild_IO
+			this = international_organization:DvT_adventurer_guild_IO
+		}
 	}
 
 	potential = {
@@ -60,9 +64,9 @@
 }
 
 AG_Pay_648 = {
-	type = internationalorganization
-	show_in_gui_list = no
+	type = internationalorganization
 	show_message = no
+	icon = AG_Pay_648
 
 	automation_tick = never
 	automation_tick_frequency = 12
@@ -75,6 +79,10 @@ AG_Pay_648 = {
 		target_flag = recipient
 		name = "choose_international_organization"
 		column = { data = name }
+		visible = {
+			exists = international_organization:DvT_adventurer_guild_IO
+			this = international_organization:DvT_adventurer_guild_IO
+		}
 	}
 
 	potential = {
@@ -104,9 +112,9 @@ AG_Pay_648 = {
 	}
 }
 AG_create_character = {
-	type = internationalorganization
-	show_in_gui_list = no
+	type = internationalorganization
 	show_message = no
+	icon = AG_create_character
 
 	automation_tick = never
 	automation_tick_frequency = 12
@@ -119,6 +127,10 @@ AG_create_character = {
 		target_flag = recipient
 		name = "choose_international_organization"
 		column = { data = name }
+		visible = {
+			exists = international_organization:DvT_adventurer_guild_IO
+			this = international_organization:DvT_adventurer_guild_IO
+		}
 	}
 
 	potential = {
@@ -146,9 +158,9 @@ AG_create_character = {
 	}
 }
 AG_create_pop = {
-	type = internationalorganization
-	show_in_gui_list = no
+	type = internationalorganization
 	show_message = no
+	icon = AG_create_pop
 
 	automation_tick = never
 	automation_tick_frequency = 12
@@ -161,6 +173,10 @@ AG_create_pop = {
 		target_flag = recipient
 		name = "choose_international_organization"
 		column = { data = name }
+		visible = {
+			exists = international_organization:DvT_adventurer_guild_IO
+			this = international_organization:DvT_adventurer_guild_IO
+		}
 	}
 
 	#cooldown = {
@@ -226,9 +242,9 @@ AG_create_pop = {
 	}
 }
 AG_Primogem_for_golden = {
-	type = internationalorganization
-	show_in_gui_list = no
+	type = internationalorganization
 	show_message = no
+	icon = AG_Primogem_for_golden
 
 	automation_tick = never
 	automation_tick_frequency = 12
@@ -241,6 +257,10 @@ AG_Primogem_for_golden = {
 		target_flag = recipient
 		name = "choose_international_organization"
 		column = { data = name }
+		visible = {
+			exists = international_organization:DvT_adventurer_guild_IO
+			this = international_organization:DvT_adventurer_guild_IO
+		}
 	}
 
 	potential = {
@@ -267,9 +287,9 @@ AG_Primogem_for_golden = {
 	}
 }
 AG_Convert_to_Archonism = {
-	type = internationalorganization
-	show_in_gui_list = no
+	type = internationalorganization
 	show_message = no
+	icon = AG_Convert_to_Archonism
 
 	automation_tick = never
 	automation_tick_frequency = 12
@@ -283,6 +303,10 @@ AG_Convert_to_Archonism = {
 		target_flag = recipient
 		name = "choose_international_organization"
 		column = { data = name }
+		visible = {
+			exists = international_organization:DvT_adventurer_guild_IO
+			this = international_organization:DvT_adventurer_guild_IO
+		}
 	}
 
 	potential = {
