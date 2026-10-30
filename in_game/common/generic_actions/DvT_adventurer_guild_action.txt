@@ -1,5 +1,5 @@
-﻿AG_Pay_30 = {
-	type = internationalorganization
+AG_Pay_30 = {
+	type = internationalorganization
 	show_message = no
 	icon = AG_Pay_30
 
@@ -8,10 +8,10 @@
 	ai_tick = never
 
 	# 1.4：type = internationalorganization 的动作必须声明 recipient，否则报
-	# "Targetted action ... doesn't specify a recipient"；GUI 按钮会直接传 recipient，
-	# 所以 show_if 保证有 recipient 时跳过选择步骤。
+	# "Targetted action ... doesn't specify a recipient"。GUI 数据列表点击时会直接传 recipient，
+	# 所以这个 select_trigger 不要加 show_if：show_if 会让 GetActions 跳过整个选择阶段，
+	# visible 里的按 IO 过滤失效，结果是所有 IO 面板互相显示对方的行动。
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -64,7 +64,7 @@
 }
 
 AG_Pay_648 = {
-	type = internationalorganization
+	type = internationalorganization
 	show_message = no
 	icon = AG_Pay_648
 
@@ -73,7 +73,6 @@ AG_Pay_648 = {
 	ai_tick = never
 
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -112,7 +111,7 @@ AG_Pay_648 = {
 	}
 }
 AG_create_character = {
-	type = internationalorganization
+	type = internationalorganization
 	show_message = no
 	icon = AG_create_character
 
@@ -121,7 +120,6 @@ AG_create_character = {
 	ai_tick = never
 
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -158,7 +156,7 @@ AG_create_character = {
 	}
 }
 AG_create_pop = {
-	type = internationalorganization
+	type = internationalorganization
 	show_message = no
 	icon = AG_create_pop
 
@@ -167,7 +165,6 @@ AG_create_pop = {
 	ai_tick = never
 
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -242,7 +239,7 @@ AG_create_pop = {
 	}
 }
 AG_Primogem_for_golden = {
-	type = internationalorganization
+	type = internationalorganization
 	show_message = no
 	icon = AG_Primogem_for_golden
 
@@ -251,7 +248,6 @@ AG_Primogem_for_golden = {
 	ai_tick = never
 
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -287,7 +283,7 @@ AG_Primogem_for_golden = {
 	}
 }
 AG_Convert_to_Archonism = {
-	type = internationalorganization
+	type = internationalorganization
 	show_message = no
 	icon = AG_Convert_to_Archonism
 
@@ -297,7 +293,6 @@ AG_Convert_to_Archonism = {
 
 	# 1.4：recipient（= 冒险家协会这个 IO）由 GUI 传入；没有时需要选一个
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
